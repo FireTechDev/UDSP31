@@ -1,0 +1,68 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1180px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "navy",
+          "name": "Navy",
+          "color": "#1f426d"
+        },
+        {
+          "slug": "navy-deep",
+          "name": "Navy Deep",
+          "color": "#17355a"
+        },
+        {
+          "slug": "red",
+          "name": "Red",
+          "color": "#ef233c"
+        },
+        {
+          "slug": "surface",
+          "name": "Surface",
+          "color": "#ffffff"
+        },
+        {
+          "slug": "surface-soft",
+          "name": "Surface Soft",
+          "color": "#f5f7fb"
+        }
+      ]
+    },
+    "spacing": {
+      "units": ["px", "rem", "%", "vw", "vh"]
+    },
+    "typography": {
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "slug": "sans",
+          "name": "Sans",
+          "fontFamily": "\"Segoe UI\", -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", sans-serif"
+        },
+        {
+          "slug": "display",
+          "name": "Display",
+          "fontFamily": "\"Avenir Next\", \"Segoe UI\", -apple-system, BlinkMacSystemFont, sans-serif"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#f5f7fb",
+      "text": "#17365c"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--sans)",
+      "lineHeight": "1.6"
+    }
+  }
+}
