@@ -63,14 +63,17 @@ add_action( 'after_setup_theme', 'udsp31_setup' );
  * @return void
  */
 function udsp31_scripts() {
-	$version = wp_get_theme()->get( 'Version' );
+	$style_path  = get_stylesheet_directory() . '/style.css';
+	$script_path = get_template_directory() . '/assets/js/theme.js';
+	$style_ver   = file_exists( $style_path ) ? (string) filemtime( $style_path ) : wp_get_theme()->get( 'Version' );
+	$script_ver  = file_exists( $script_path ) ? (string) filemtime( $script_path ) : wp_get_theme()->get( 'Version' );
 
-	wp_enqueue_style( 'udsp31-style', get_stylesheet_uri(), array(), $version );
+	wp_enqueue_style( 'udsp31-style', get_stylesheet_uri(), array(), $style_ver );
 	wp_enqueue_script(
 		'udsp31-script',
 		get_template_directory_uri() . '/assets/js/theme.js',
 		array(),
-		$version,
+		$script_ver,
 		true
 	);
 }

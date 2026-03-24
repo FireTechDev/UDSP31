@@ -4,6 +4,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const counters = document.querySelectorAll("[data-counter]");
 
   if (navToggle && navigation) {
+    const closeNavigation = () => {
+      navigation.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+      document.body.classList.remove("has-open-menu");
+    };
+
     navToggle.addEventListener("click", () => {
       const isOpen = navigation.classList.toggle("is-open");
       navToggle.setAttribute("aria-expanded", String(isOpen));
@@ -12,11 +18,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
     navigation.querySelectorAll("a").forEach((link) => {
       link.addEventListener("click", () => {
-        navigation.classList.remove("is-open");
-        navToggle.setAttribute("aria-expanded", "false");
-        document.body.classList.remove("has-open-menu");
+        closeNavigation();
       });
     });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        closeNavigation();
+      }
+    });
+
+    const desktopMedia = window.matchMedia("(min-width: 981px)");
+    const syncNavigationState = (event) => {
+      if (event.matches) {
+        closeNavigation();
+      }
+    };
+
+    syncNavigationState(desktopMedia);
+
+    if ("addEventListener" in desktopMedia) {
+      desktopMedia.addEventListener("change", syncNavigationState);
+    } else if ("addListener" in desktopMedia) {
+      desktopMedia.addListener(syncNavigationState);
+    }
   }
 
   const animateCounter = (node) => {
