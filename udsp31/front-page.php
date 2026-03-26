@@ -110,6 +110,21 @@ $partners = array(
 	'FNSPF',
 );
 
+$hero_slides = array(
+	array(
+		'image' => udsp31_asset_url( 'assets/images/pompiers2.png' ),
+		'label' => __( 'Sapeurs-pompiers en intervention', 'udsp31' ),
+	),
+	array(
+		'image' => udsp31_asset_url( 'assets/images/JSP.png' ),
+		'label' => __( 'Jeunes sapeurs-pompiers en exercice', 'udsp31' ),
+	),
+	array(
+		'image' => trailingslashit( get_template_directory_uri() ) . 'assets/images/' . rawurlencode( 'secourisme 2.png' ),
+		'label' => __( 'Formation aux gestes de premiers secours', 'udsp31' ),
+	),
+);
+
 $hero_badge           = get_theme_mod( 'udsp31_hero_badge', __( 'Union Departementale des Sapeurs-Pompiers de la Haute-Garonne', 'udsp31' ) );
 $hero_title           = get_theme_mod( 'udsp31_hero_title', __( 'Federer, soutenir et representer', 'udsp31' ) );
 $hero_text            = get_theme_mod( 'udsp31_hero_text', __( "L'UDSP 31 accompagne les sapeurs-pompiers et propose des services de formation, prevention et securite pour le grand public, les entreprises et les collectivites.", 'udsp31' ) );
@@ -157,7 +172,30 @@ $fallback_news = array(
 ?>
 
 <main id="primary" class="site-main">
-	<section class="home-hero">
+	<section class="home-hero" data-hero-carousel data-hero-interval="6500">
+		<div class="home-hero__media" aria-hidden="true">
+			<?php foreach ( $hero_slides as $index => $slide ) : ?>
+				<div
+					class="home-hero__slide<?php echo 0 === $index ? ' is-active' : ''; ?>"
+					data-hero-slide
+					data-hero-label="<?php echo esc_attr( $slide['label'] ); ?>"
+					style="background-image: url('<?php echo esc_url( $slide['image'] ); ?>');"
+				></div>
+			<?php endforeach; ?>
+			<div class="home-hero__overlay"></div>
+		</div>
+
+		<?php if ( count( $hero_slides ) > 1 ) : ?>
+			<div class="home-hero__nav-wrap">
+				<button class="home-hero__nav home-hero__nav--prev" type="button" data-hero-prev aria-label="<?php esc_attr_e( 'Visuel precedent', 'udsp31' ); ?>">
+					<span class="home-hero__nav-icon" aria-hidden="true"></span>
+				</button>
+				<button class="home-hero__nav home-hero__nav--next" type="button" data-hero-next aria-label="<?php esc_attr_e( 'Visuel suivant', 'udsp31' ); ?>">
+					<span class="home-hero__nav-icon" aria-hidden="true"></span>
+				</button>
+			</div>
+		<?php endif; ?>
+
 		<div class="container home-hero__inner">
 			<span class="section-kicker"><?php echo esc_html( $hero_badge ); ?></span>
 			<h1><?php echo esc_html( $hero_title ); ?></h1>
@@ -177,6 +215,20 @@ $fallback_news = array(
 					<span><?php echo esc_html( $hero_tertiary_label ); ?></span>
 				</a>
 			</div>
+
+			<?php if ( count( $hero_slides ) > 1 ) : ?>
+				<div class="home-hero__dots" aria-label="<?php esc_attr_e( 'Visuels du hero', 'udsp31' ); ?>">
+					<?php foreach ( $hero_slides as $index => $slide ) : ?>
+						<button
+							class="home-hero__dot<?php echo 0 === $index ? ' is-active' : ''; ?>"
+							type="button"
+							data-hero-dot="<?php echo esc_attr( (string) $index ); ?>"
+							aria-label="<?php echo esc_attr( $slide['label'] ); ?>"
+							aria-pressed="<?php echo 0 === $index ? 'true' : 'false'; ?>"
+						></button>
+					<?php endforeach; ?>
+				</div>
+			<?php endif; ?>
 		</div>
 	</section>
 

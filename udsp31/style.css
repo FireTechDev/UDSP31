@@ -524,37 +524,62 @@ body.admin-bar .site-header {
 
 .home-hero {
   position: relative;
+  min-height: clamp(37rem, 74vh, 48rem);
   overflow: hidden;
   background: linear-gradient(180deg, #21456e 0%, #18355a 100%);
   color: #fff;
 }
 
-.home-hero::before,
-.home-hero::after {
-  content: "";
+.home-hero__media,
+.home-hero__overlay,
+.home-hero__slide {
   position: absolute;
   inset: 0;
 }
 
-.home-hero::before {
-  background-image: url("assets/images/pompiers copie.jpg");
+.home-hero__media {
+  z-index: 0;
+}
+
+.home-hero__slide {
   background-repeat: no-repeat;
   background-position: 72% center;
   background-size: cover;
-  opacity: 0.5;
-  transform: scale(1.03);
+  opacity: 0;
+  transform: scale(1.02);
+  transform-origin: center;
+  will-change: opacity, transform;
+  transition: opacity 1200ms ease;
 }
 
-.home-hero::after {
+.home-hero__slide.is-active {
+  opacity: 1;
+  animation: heroSlideDrift 6.5s ease-in-out both;
+}
+
+.home-hero__slide.is-leaving {
+  opacity: 0;
+  animation: none;
+  transform: scale(1.055) translate3d(1.2%, -0.6%, 0);
+}
+
+.home-hero__overlay {
   background:
-    linear-gradient(90deg, rgba(23, 53, 90, 0.96) 0%, rgba(23, 53, 90, 0.88) 34%, rgba(23, 53, 90, 0.68) 58%, rgba(23, 53, 90, 0.5) 100%),
-    radial-gradient(circle at 82% 14%, rgba(255, 255, 255, 0.1), transparent 24%);
+    linear-gradient(96deg, rgba(15, 31, 64, 0.86) 0%, rgba(18, 36, 71, 0.82) 18%, rgba(20, 40, 77, 0.72) 34%, rgba(22, 44, 82, 0.5) 52%, rgba(25, 48, 88, 0.22) 72%, rgba(25, 48, 88, 0.08) 100%),
+    linear-gradient(180deg, rgba(12, 24, 47, 0.02) 0%, rgba(13, 27, 53, 0.06) 42%, rgba(14, 28, 56, 0.24) 70%, rgba(12, 24, 47, 0.54) 100%),
+    radial-gradient(circle at 79% 18%, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.06) 14%, rgba(255, 255, 255, 0) 29%);
+  pointer-events: none;
 }
 
 .home-hero__inner {
   position: relative;
-  z-index: 1;
-  padding: 6.8rem 0 5.2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: clamp(37rem, 74vh, 48rem);
+  padding: 6.2rem 0 5.25rem;
 }
 
 .section-kicker {
@@ -573,29 +598,34 @@ body.admin-bar .site-header {
 }
 
 .home-hero .section-kicker {
-  min-height: 2.35rem;
-  padding: 0.45rem 1.2rem;
-  font-size: 1rem;
+  max-width: min(100%, 38rem);
+  min-height: 0;
+  margin-bottom: 1.15rem;
+  padding: 0.7rem 1.2rem 0.72rem;
+  border-radius: 1.2rem;
+  font-size: 0.94rem;
   font-weight: 800;
   letter-spacing: 0.01em;
-  line-height: 1.15;
+  line-height: 1.2;
+  text-wrap: pretty;
 }
 
 .home-hero h1,
 .page-hero h1 {
-  max-width: 12ch;
-  margin: 1rem 0 1rem;
+  max-width: 8.6ch;
+  margin: 0;
   font-family: var(--udsp-font-display);
-  font-size: clamp(2.7rem, 6vw, 4.35rem);
-  line-height: 1.02;
+  font-size: clamp(2.85rem, 5.2vw, 4.15rem);
+  line-height: 0.97;
   letter-spacing: -0.04em;
 }
 
 .home-hero__text,
 .page-hero p {
-  max-width: 46rem;
-  margin: 0;
-  font-size: 1.12rem;
+  max-width: 40rem;
+  margin: 1.35rem 0 0;
+  font-size: 1.08rem;
+  line-height: 1.6;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -607,7 +637,115 @@ body.admin-bar .site-header {
   display: flex;
   flex-wrap: wrap;
   gap: 0.9rem;
-  margin-top: 2rem;
+  margin-top: 1.85rem;
+}
+
+.home-hero__nav-wrap {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.home-hero__nav {
+  appearance: none;
+  position: absolute;
+  top: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.2rem;
+  height: 4.2rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--udsp-red);
+  cursor: pointer;
+  pointer-events: auto;
+  transform: translateY(-50%);
+  transition: transform 180ms ease, color 180ms ease, opacity 180ms ease;
+}
+
+.home-hero__nav:hover,
+.home-hero__nav:focus-visible {
+  color: #ff5134;
+}
+
+.home-hero__nav--prev {
+  left: 1rem;
+}
+
+.home-hero__nav--next {
+  right: 1rem;
+}
+
+.home-hero__nav-icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-top: 5px solid currentColor;
+  border-right: 5px solid currentColor;
+}
+
+.home-hero__nav--prev .home-hero__nav-icon {
+  transform: rotate(-135deg);
+}
+
+.home-hero__nav--next .home-hero__nav-icon {
+  transform: rotate(45deg);
+}
+
+.home-hero__dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 1.45rem;
+}
+
+@keyframes heroSlideDrift {
+  0% {
+    transform: scale(1.02) translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: scale(1.055) translate3d(1.2%, -0.6%, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-hero__slide {
+    transition: opacity 220ms ease;
+    transform: none;
+  }
+
+  .home-hero__slide.is-active {
+    animation: none;
+    transform: none;
+  }
+}
+
+.home-hero__dot {
+  appearance: none;
+  width: 0.9rem;
+  height: 0.9rem;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.44);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  cursor: pointer;
+  transition: transform 180ms ease, background-color 180ms ease, border-color 180ms ease, width 180ms ease;
+}
+
+.home-hero__dot:hover,
+.home-hero__dot:focus-visible {
+  transform: scale(1.06);
+  border-color: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.home-hero__dot.is-active {
+  width: 2.1rem;
+  border-color: rgba(255, 255, 255, 0.95);
+  background: #fff;
 }
 
 .section {
@@ -1326,41 +1464,59 @@ body.admin-bar .site-header {
     font-size: 0.94rem;
   }
 
-  .home-hero::before {
+  .home-hero__slide {
     background-position: 68% center;
-    opacity: 0.44;
-    transform: scale(1.05);
   }
 
-  .home-hero::after {
+  .home-hero__slide.is-active {
+    opacity: 1;
+  }
+
+  .home-hero__overlay {
     background:
-      linear-gradient(180deg, rgba(23, 53, 90, 0.82) 0%, rgba(23, 53, 90, 0.86) 44%, rgba(23, 53, 90, 0.72) 100%),
-      linear-gradient(90deg, rgba(23, 53, 90, 0.96) 0%, rgba(23, 53, 90, 0.9) 38%, rgba(23, 53, 90, 0.66) 72%, rgba(23, 53, 90, 0.4) 100%);
+      linear-gradient(180deg, rgba(13, 26, 52, 0.16) 0%, rgba(14, 29, 57, 0.28) 52%, rgba(12, 24, 47, 0.6) 100%),
+      linear-gradient(96deg, rgba(15, 31, 64, 0.86) 0%, rgba(18, 36, 71, 0.78) 28%, rgba(22, 44, 82, 0.54) 58%, rgba(25, 48, 88, 0.2) 100%);
   }
 
   .home-hero__inner {
-    padding: 4.9rem 0 4rem;
+    min-height: clamp(31rem, 66vh, 38rem);
+    padding: 5.2rem 0 4.3rem;
   }
 
   .home-hero .section-kicker {
-    max-width: min(100%, 30rem);
-    font-size: 0.9rem;
-    padding: 0.42rem 1rem;
+    max-width: min(100%, 31rem);
+    margin-bottom: 1rem;
+    font-size: 0.84rem;
+    padding: 0.62rem 1rem 0.66rem;
   }
 
   .home-hero h1 {
-    max-width: 10ch;
-    font-size: clamp(2.45rem, 8vw, 3.65rem);
+    max-width: 8.8ch;
+    font-size: clamp(2.35rem, 7vw, 3.35rem);
   }
 
   .home-hero__text {
-    max-width: 36rem;
-    font-size: 1.02rem;
+    max-width: 34rem;
+    margin-top: 1.15rem;
+    font-size: 0.98rem;
   }
 
   .hero-actions .button {
     flex: 1 1 14rem;
     min-width: min(100%, 14rem);
+  }
+
+  .home-hero__nav {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .home-hero__nav--prev {
+    left: 0.3rem;
+  }
+
+  .home-hero__nav--next {
+    right: 0.3rem;
   }
 
   .section-heading--split {
@@ -1428,10 +1584,12 @@ body.admin-bar .site-header {
     max-height: calc(100vh - 6rem);
   }
 
-  .home-hero::before {
+  .home-hero__slide {
     background-position: 63% center;
-    opacity: 0.38;
-    transform: scale(1.08);
+  }
+
+  .home-hero__slide.is-active {
+    opacity: 1;
   }
 
   .brand--logo-standard .brand__logo img {
@@ -1481,19 +1639,29 @@ body.admin-bar .site-header {
   }
 
   .home-hero__inner {
-    padding: 3.9rem 0 3.4rem;
+    min-height: 30rem;
+    padding: 4.4rem 0 3.7rem;
   }
 
   .home-hero .section-kicker {
     min-height: 0;
-    padding: 0.5rem 0.9rem;
-    font-size: 0.8rem;
+    margin-bottom: 0.9rem;
+    padding: 0.58rem 0.85rem 0.62rem;
+    font-size: 0.78rem;
+  }
+
+  .home-hero__dots {
+    margin-top: 1.2rem;
+  }
+
+  .home-hero__nav {
+    display: none;
   }
 
   .home-hero h1,
   .page-hero h1 {
     max-width: 8.5ch;
-    margin-top: 0.9rem;
+    margin-top: 0;
     font-size: clamp(2rem, 12vw, 2.95rem);
     line-height: 1.04;
   }
@@ -1608,6 +1776,10 @@ body.admin-bar .site-header {
   .home-hero h1,
   .page-hero h1 {
     max-width: none;
+  }
+
+  .home-hero .section-kicker {
+    max-width: min(100%, 24rem);
   }
 
   .section-heading {

@@ -8,7 +8,7 @@
     name="description"
     content="Previsualisation statique locale de la home UDSP31."
   />
-  <link rel="stylesheet" href="../udsp31/style.css?v=20260324-mobile-2" />
+  <link rel="stylesheet" href="../udsp31/style.css?v=20260326-hero-carousel-smooth-v1" />
 </head>
 <body class="home preview-home">
   <header class="site-header" id="top">
@@ -85,7 +85,23 @@
   </header>
 
   <main id="primary" class="site-main">
-    <section class="home-hero">
+    <section class="home-hero" data-hero-carousel data-hero-interval="6500">
+      <div class="home-hero__media" aria-hidden="true">
+        <div class="home-hero__slide is-active" data-hero-slide data-hero-label="Sapeurs-pompiers en intervention" style="background-image: url('../udsp31/assets/images/pompiers2.png');"></div>
+        <div class="home-hero__slide" data-hero-slide data-hero-label="Jeunes sapeurs-pompiers en exercice" style="background-image: url('../udsp31/assets/images/JSP.png');"></div>
+        <div class="home-hero__slide" data-hero-slide data-hero-label="Formation aux gestes de premiers secours" style="background-image: url('../udsp31/assets/images/secourisme%202.png');"></div>
+        <div class="home-hero__overlay"></div>
+      </div>
+
+      <div class="home-hero__nav-wrap">
+        <button class="home-hero__nav home-hero__nav--prev" type="button" data-hero-prev aria-label="Visuel precedent">
+          <span class="home-hero__nav-icon" aria-hidden="true"></span>
+        </button>
+        <button class="home-hero__nav home-hero__nav--next" type="button" data-hero-next aria-label="Visuel suivant">
+          <span class="home-hero__nav-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+
       <div class="container home-hero__inner">
         <span class="section-kicker">Union Departementale des Sapeurs-Pompiers de la Haute-Garonne</span>
         <h1>Federer, soutenir et representer</h1>
@@ -112,6 +128,12 @@
             </span>
             <span>S'informer sur les JSP</span>
           </a>
+        </div>
+
+        <div class="home-hero__dots" aria-label="Visuels du hero">
+          <button class="home-hero__dot is-active" type="button" data-hero-dot="0" aria-label="Sapeurs-pompiers en intervention" aria-pressed="true"></button>
+          <button class="home-hero__dot" type="button" data-hero-dot="1" aria-label="Jeunes sapeurs-pompiers en exercice" aria-pressed="false"></button>
+          <button class="home-hero__dot" type="button" data-hero-dot="2" aria-label="Formation aux gestes de premiers secours" aria-pressed="false"></button>
         </div>
       </div>
     </section>
@@ -463,6 +485,6 @@
     </div>
   </footer>
 
-  <script src="../udsp31/assets/js/theme.js?v=20260324-mobile-2"></script>
+  <script src="../udsp31/assets/js/theme.js?v=20260326-hero-carousel-smooth-v1"></script>
 </body>
 </html>
