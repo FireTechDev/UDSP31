@@ -389,7 +389,7 @@ $fallback_news = array(
 			</div>
 
 			<div class="engagement-media">
-				<img src="<?php echo esc_url( udsp31_asset_url( 'assets/images/recruit-3.jpg' ) ); ?>" alt="<?php esc_attr_e( 'Pompiers en intervention', 'udsp31' ); ?>" />
+				<img src="<?php echo esc_url( udsp31_asset_url( 'assets/images/portrait-sapeuse.png' ) ); ?>" alt="<?php esc_attr_e( "Portrait d'une sapeuse-pompiere", 'udsp31' ); ?>" />
 			</div>
 		</div>
 	</section>
