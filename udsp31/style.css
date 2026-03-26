@@ -1402,6 +1402,7 @@ body.admin-bar .site-header {
     max-height: min(calc(100vh - 6.8rem), 32rem);
     overflow-y: auto;
     overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
     border: 1px solid var(--udsp-line);
     border-radius: 1.25rem;
     background: #fff;
@@ -1608,6 +1609,13 @@ body.admin-bar .site-header {
     flex-direction: column;
   }
 
+  .hero-actions {
+    align-self: stretch;
+    width: 100%;
+    max-width: 26rem;
+    gap: 0.8rem;
+  }
+
   .hero-actions .button,
   .button--ghost {
     width: 100%;
@@ -1619,6 +1627,10 @@ body.admin-bar .site-header {
     padding: 0.95rem 1.15rem;
     border-radius: 1.45rem;
     justify-content: flex-start;
+  }
+
+  .hero-actions .button span:last-child {
+    text-align: left;
   }
 
   .mission-grid,
