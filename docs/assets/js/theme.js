@@ -1,10 +1,21 @@
 document.addEventListener("DOMContentLoaded", () => {
   const navToggle = document.querySelector(".nav-toggle");
   const navigation = document.querySelector(".site-navigation");
+  const siteHeader = document.querySelector(".site-header");
   const heroCarousel = document.querySelector("[data-hero-carousel]");
   const counters = document.querySelectorAll("[data-counter]");
 
   if (navToggle && navigation) {
+    const desktopMedia = window.matchMedia("(min-width: 981px)");
+    const updateMobileNavOffset = () => {
+      if (!siteHeader) {
+        return;
+      }
+
+      const headerBottom = Math.max(0, Math.round(siteHeader.getBoundingClientRect().bottom));
+      document.documentElement.style.setProperty("--udsp-mobile-nav-offset", `${headerBottom + 8}px`);
+    };
+
     const closeNavigation = () => {
       navigation.classList.remove("is-open");
       navToggle.setAttribute("aria-expanded", "false");
@@ -12,9 +23,13 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     navToggle.addEventListener("click", () => {
+      updateMobileNavOffset();
       const isOpen = navigation.classList.toggle("is-open");
       navToggle.setAttribute("aria-expanded", String(isOpen));
       document.body.classList.toggle("has-open-menu", isOpen);
+      if (isOpen) {
+        navigation.scrollTop = 0;
+      }
     });
 
     navigation.querySelectorAll("a").forEach((link) => {
@@ -29,14 +44,15 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
-    const desktopMedia = window.matchMedia("(min-width: 981px)");
     const syncNavigationState = (event) => {
       if (event.matches) {
         closeNavigation();
       }
     };
 
+    updateMobileNavOffset();
     syncNavigationState(desktopMedia);
+    window.addEventListener("resize", updateMobileNavOffset, { passive: true });
 
     if ("addEventListener" in desktopMedia) {
       desktopMedia.addEventListener("change", syncNavigationState);

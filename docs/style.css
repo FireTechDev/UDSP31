@@ -30,6 +30,7 @@ Tags: blog, custom-logo, custom-menu, featured-images, full-width-template, one-
   --udsp-container: 1180px;
   --udsp-font-body: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
   --udsp-font-display: "Avenir Next", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+  --udsp-mobile-nav-offset: 0px;
 }
 
 *,
@@ -1883,15 +1884,23 @@ body.admin-bar .site-header {
 
   .site-navigation {
     position: absolute;
-    top: calc(100% + 0.6rem);
+    top: calc(100% + 0.5rem);
     left: 0.75rem;
     right: 0.75rem;
     margin-left: 0;
-    padding: 1rem;
-    max-height: min(calc(100vh - 6.8rem), 32rem);
+    height: calc(100vh - var(--udsp-mobile-nav-offset) - max(0.75rem, env(safe-area-inset-bottom)));
+    height: calc(100dvh - var(--udsp-mobile-nav-offset) - max(0.75rem, env(safe-area-inset-bottom)));
+    max-height: calc(100vh - var(--udsp-mobile-nav-offset) - max(0.75rem, env(safe-area-inset-bottom)));
+    max-height: calc(100dvh - var(--udsp-mobile-nav-offset) - max(0.75rem, env(safe-area-inset-bottom)));
+    min-height: 0;
+    padding: 1rem 1rem calc(1rem + env(safe-area-inset-bottom));
     overflow-y: auto;
+    overflow-x: hidden;
     overscroll-behavior: contain;
+    overscroll-behavior-y: contain;
     -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
+    scrollbar-gutter: stable both-edges;
     border: 1px solid var(--udsp-line);
     border-radius: 1.25rem;
     background: #fff;
@@ -2078,7 +2087,6 @@ body.admin-bar .site-header {
     left: 0.625rem;
     right: 0.625rem;
     padding: 0.85rem;
-    max-height: calc(100vh - 6rem);
   }
 
   .home-hero__slide {
