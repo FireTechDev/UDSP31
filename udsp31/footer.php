@@ -31,6 +31,17 @@ $social_links   = array_filter(
 		'yt' => get_theme_mod( 'udsp31_youtube_url', '' ),
 	)
 );
+$discover_url   = udsp31_get_discover_url();
+$news_url       = udsp31_get_content_page_url( 'actualites' );
+$agenda_url     = udsp31_get_content_page_url( 'agenda' );
+$directory_url  = udsp31_get_content_page_url( 'annuaire' );
+$contact_url    = udsp31_get_content_page_url( 'contact' );
+$formation_url  = udsp31_get_content_page_url( 'formation-secourisme' );
+$dps_url        = udsp31_get_content_page_url( 'dispositif-previsionnel-de-secours' );
+$jsp_url        = udsp31_get_content_page_url( 'jeunes-sapeurs-pompiers' );
+$legal_url      = udsp31_get_content_page_url( 'mentions-legales' );
+$privacy_url    = udsp31_get_content_page_url( 'politique-de-confidentialite' );
+$cookies_url    = udsp31_get_content_page_url( 'cookies' );
 ?>
 
 <footer class="site-footer" id="site-footer-contact">
@@ -87,11 +98,11 @@ $social_links   = array_filter(
 				?>
 			<?php else : ?>
 				<ul class="footer-links">
-					<li><a href="<?php echo esc_url( udsp31_section_url( 'engagement' ) ); ?>"><?php esc_html_e( "L'UDSP31", 'udsp31' ); ?></a></li>
-					<li><a href="<?php echo esc_url( udsp31_section_url( 'actualites' ) ); ?>"><?php esc_html_e( 'Actualites', 'udsp31' ); ?></a></li>
-					<li><a href="<?php echo esc_url( udsp31_section_url( 'partenaires' ) ); ?>"><?php esc_html_e( 'Agenda', 'udsp31' ); ?></a></li>
-					<li><a href="<?php echo esc_url( udsp31_section_url( 'partenaires' ) ); ?>"><?php esc_html_e( 'Annuaire', 'udsp31' ); ?></a></li>
-					<li><a href="<?php echo esc_url( udsp31_section_url( 'site-footer-contact' ) ); ?>"><?php esc_html_e( 'Contact', 'udsp31' ); ?></a></li>
+					<li><a href="<?php echo esc_url( $discover_url ); ?>"><?php esc_html_e( "L'UDSP31", 'udsp31' ); ?></a></li>
+					<li><a href="<?php echo esc_url( $news_url ); ?>"><?php esc_html_e( 'Actualites', 'udsp31' ); ?></a></li>
+					<li><a href="<?php echo esc_url( $agenda_url ); ?>"><?php esc_html_e( 'Agenda', 'udsp31' ); ?></a></li>
+					<li><a href="<?php echo esc_url( $directory_url ); ?>"><?php esc_html_e( 'Annuaire', 'udsp31' ); ?></a></li>
+					<li><a href="<?php echo esc_url( $contact_url ); ?>"><?php esc_html_e( 'Contact', 'udsp31' ); ?></a></li>
 				</ul>
 			<?php endif; ?>
 		</div>
@@ -99,9 +110,9 @@ $social_links   = array_filter(
 		<div class="footer-column">
 			<h2><?php esc_html_e( 'Nos services', 'udsp31' ); ?></h2>
 			<ul class="footer-links">
-				<li><a href="<?php echo esc_url( udsp31_section_url( 'missions' ) ); ?>"><?php esc_html_e( 'Formation secourisme', 'udsp31' ); ?></a></li>
-				<li><a href="<?php echo esc_url( udsp31_section_url( 'acces-rapides' ) ); ?>"><?php esc_html_e( 'Dispositif previsionnel de secours', 'udsp31' ); ?></a></li>
-				<li><a href="<?php echo esc_url( udsp31_section_url( 'engagement' ) ); ?>"><?php esc_html_e( 'Jeunes Sapeurs-Pompiers', 'udsp31' ); ?></a></li>
+				<li><a href="<?php echo esc_url( $formation_url ); ?>"><?php esc_html_e( 'Formation secourisme', 'udsp31' ); ?></a></li>
+				<li><a href="<?php echo esc_url( $dps_url ); ?>"><?php esc_html_e( 'Dispositif previsionnel de secours', 'udsp31' ); ?></a></li>
+				<li><a href="<?php echo esc_url( $jsp_url ); ?>"><?php esc_html_e( 'Jeunes Sapeurs-Pompiers', 'udsp31' ); ?></a></li>
 			</ul>
 		</div>
 
@@ -136,7 +147,7 @@ $social_links   = array_filter(
 
 	<div class="footer-bottom">
 		<div class="container footer-bottom__inner">
-			<p>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php echo esc_html( $site_title ); ?> - <?php esc_html_e( 'Tous droits reserves', 'udsp31' ); ?></p>
+			<p>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php echo esc_html( $site_title ); ?> - <?php esc_html_e( 'Tous droits reserves', 'udsp31' ); ?> - R&eacute;alisation <a href="https://www.linkedin.com/in/taelpinault/?locale=fr" target="_blank" rel="noreferrer noopener">Tael PINAULT</a></p>
 
 			<?php if ( has_nav_menu( 'legal' ) ) : ?>
 				<?php
@@ -151,9 +162,9 @@ $social_links   = array_filter(
 				?>
 			<?php else : ?>
 				<ul class="legal-links">
-					<li><a href="<?php echo esc_url( home_url( '/mentions-legales/' ) ); ?>"><?php esc_html_e( 'Mentions legales', 'udsp31' ); ?></a></li>
-					<li><a href="<?php echo esc_url( home_url( '/politique-de-confidentialite/' ) ); ?>"><?php esc_html_e( 'Politique de confidentialite', 'udsp31' ); ?></a></li>
-					<li><a href="<?php echo esc_url( home_url( '/cookies/' ) ); ?>"><?php esc_html_e( 'Cookies', 'udsp31' ); ?></a></li>
+					<li><a href="<?php echo esc_url( $legal_url ); ?>"><?php esc_html_e( 'Mentions legales', 'udsp31' ); ?></a></li>
+					<li><a href="<?php echo esc_url( $privacy_url ); ?>"><?php esc_html_e( 'Politique de confidentialite', 'udsp31' ); ?></a></li>
+					<li><a href="<?php echo esc_url( $cookies_url ); ?>"><?php esc_html_e( 'Cookies', 'udsp31' ); ?></a></li>
 				</ul>
 			<?php endif; ?>
 		</div>

@@ -9,6 +9,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+require_once get_template_directory() . '/inc/content-pages.php';
+
 if ( ! function_exists( 'udsp31_setup' ) ) {
 	/**
 	 * Configure theme supports and menus.
@@ -56,6 +58,129 @@ if ( ! function_exists( 'udsp31_setup' ) ) {
 	}
 }
 add_action( 'after_setup_theme', 'udsp31_setup' );
+
+/**
+ * Return the list of pages expected by the theme.
+ *
+ * @return array<string, array<string, string>>
+ */
+function udsp31_get_seed_page_definitions() {
+	$pages = array(
+		'decouvrir-ludsp31'            => array(
+			'title' => __( "Decouvrir l'UDSP 31", 'udsp31' ),
+		),
+		'le-bureau-executif'           => array(
+			'title' => __( 'Le bureau executif', 'udsp31' ),
+		),
+		'devenir-pompier-volontaire'   => array(
+			'title' => __( 'Devenir Pompier volontaire', 'udsp31' ),
+		),
+		'devenir-pompier-professionel' => array(
+			'title' => __( 'Devenir Pompier Professionnel', 'udsp31' ),
+		),
+		'devenir-jeune-sapeur-pompier' => array(
+			'title' => __( 'Devenir Jeune Sapeur-Pompier', 'udsp31' ),
+		),
+	);
+
+	foreach ( udsp31_get_content_pages() as $slug => $definition ) {
+		if ( empty( $definition['title'] ) ) {
+			continue;
+		}
+
+		$pages[ $slug ] = array(
+			'title' => (string) $definition['title'],
+		);
+	}
+
+	ksort( $pages );
+
+	return $pages;
+}
+
+/**
+ * Return a stable hash for the theme page registry.
+ *
+ * @return string
+ */
+function udsp31_get_seed_page_registry_hash() {
+	return md5( (string) wp_json_encode( udsp31_get_seed_page_definitions() ) );
+}
+
+/**
+ * Find an existing page by slug, including trashed items.
+ *
+ * @param string $slug Page slug.
+ * @return int
+ */
+function udsp31_get_existing_page_id_by_slug( $slug ) {
+	$pages = get_posts(
+		array(
+			'name'           => (string) $slug,
+			'post_type'      => 'page',
+			'post_status'    => array( 'publish', 'pending', 'draft', 'future', 'private', 'trash' ),
+			'posts_per_page' => 1,
+			'fields'         => 'ids',
+			'no_found_rows'  => true,
+		)
+	);
+
+	return ! empty( $pages ) ? (int) $pages[0] : 0;
+}
+
+/**
+ * Create the WordPress pages expected by the theme when they are missing.
+ *
+ * @return void
+ */
+function udsp31_sync_seed_pages() {
+	if ( ! post_type_exists( 'page' ) ) {
+		return;
+	}
+
+	foreach ( udsp31_get_seed_page_definitions() as $slug => $page_definition ) {
+		if ( udsp31_get_existing_page_id_by_slug( $slug ) ) {
+			continue;
+		}
+
+		wp_insert_post(
+			wp_slash(
+				array(
+					'post_type'    => 'page',
+					'post_status'  => 'publish',
+					'post_title'   => $page_definition['title'],
+					'post_name'    => $slug,
+					'post_content' => '',
+				)
+			),
+			true
+		);
+	}
+
+	update_option( 'udsp31_seed_page_registry_hash', udsp31_get_seed_page_registry_hash() );
+}
+add_action( 'after_switch_theme', 'udsp31_sync_seed_pages' );
+
+/**
+ * Keep the page registry aligned when new theme pages are added later.
+ *
+ * @return void
+ */
+function udsp31_maybe_sync_seed_pages() {
+	if ( ! is_admin() || wp_doing_ajax() ) {
+		return;
+	}
+
+	$current_hash = (string) get_option( 'udsp31_seed_page_registry_hash', '' );
+	$target_hash  = udsp31_get_seed_page_registry_hash();
+
+	if ( $current_hash === $target_hash ) {
+		return;
+	}
+
+	udsp31_sync_seed_pages();
+}
+add_action( 'admin_init', 'udsp31_maybe_sync_seed_pages' );
 
 /**
  * Enqueue theme assets.
@@ -290,6 +415,52 @@ function udsp31_section_url( $section ) {
 }
 
 /**
+ * Return the discover page URL, with a safe slug fallback.
+ *
+ * @return string
+ */
+function udsp31_get_discover_url() {
+	$page = get_page_by_path( 'decouvrir-ludsp31' );
+
+	if ( $page instanceof WP_Post ) {
+		return get_permalink( $page );
+	}
+
+	return home_url( '/decouvrir-ludsp31/' );
+}
+
+/**
+ * Return the executive board page URL.
+ *
+ * @return string
+ */
+function udsp31_get_executive_url() {
+	$page = get_page_by_path( 'le-bureau-executif' );
+
+	if ( $page instanceof WP_Post ) {
+		return get_permalink( $page );
+	}
+
+	return home_url( '/le-bureau-executif/' );
+}
+
+/**
+ * Return a recruitment page URL by slug.
+ *
+ * @param string $slug Page slug.
+ * @return string
+ */
+function udsp31_get_recruitment_url( $slug ) {
+	$page = get_page_by_path( $slug );
+
+	if ( $page instanceof WP_Post ) {
+		return get_permalink( $page );
+	}
+
+	return home_url( '/' . trim( (string) $slug, '/' ) . '/' );
+}
+
+/**
  * Return inline SVG icons used by the theme.
  *
  * @param string $icon Icon key.
@@ -299,6 +470,7 @@ function udsp31_get_icon( $icon ) {
 	$icons = array(
 		'phone'      => '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 16.2v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 10.2 18a19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 1 3.2 2 2 0 0 1 3 1h3a2 2 0 0 1 2 1.7l.5 3a2 2 0 0 1-.6 1.8L6.6 8.9a16 16 0 0 0 8.5 8.5l1.4-1.3a2 2 0 0 1 1.8-.6l3 .5A2 2 0 0 1 21 16.2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
 		'mail'       => '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m3 7 9 6 9-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+		'launch'     => '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 5h5v5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="m10 14 9-9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M19 14v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
 		'arrow'      => '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="m13 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
 		'heart'      => '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 20-1.4-1.3C5.4 14 2 10.9 2 7.1A4.8 4.8 0 0 1 6.8 2 5.2 5.2 0 0 1 12 5.1 5.2 5.2 0 0 1 17.2 2 4.8 4.8 0 0 1 22 7.1c0 3.8-3.4 6.9-8.6 11.6Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>',
 		'shield'     => '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3 5 6v5c0 4.4 2.8 8.5 7 10 4.2-1.5 7-5.6 7-10V6l-7-3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m12 8 1.2 2.3 2.5.4-1.8 1.8.4 2.5-2.3-1.2-2.3 1.2.4-2.5-1.8-1.8 2.5-.4L12 8Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>',

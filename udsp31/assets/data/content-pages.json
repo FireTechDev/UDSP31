@@ -1,0 +1,2487 @@
+{
+  "les-commissions": {
+    "nav_group": "commissions",
+    "title": "Les commissions",
+    "description": "Les commissions de l'UDSP 31 structurent l'action associative et relaient les besoins du terrain dans toute la Haute-Garonne.",
+    "hero": {
+      "lede": "Les commissions donnent de la profondeur a l'action de l'UDSP 31. Elles permettent de suivre les besoins du terrain, d'animer les sujets de fond et de transformer les priorites associatives en actions utiles.",
+      "primary_cta": {
+        "label": "Explorer les commissions",
+        "target": "anchor:commissions-detail"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "images": [
+        "image_1015423_20260316_ob_73560e_1-president-et-vices.jpg",
+        "image_1015423_20260316_ob_d472c5_3-les-membres.jpg",
+        "JSP.png"
+      ]
+    },
+    "story": {
+      "title": "Une organisation qui transforme les besoins du terrain en actions",
+      "paragraphs": [
+        "Les commissions de l'UDSP 31 rassemblent des femmes et des hommes qui connaissent les realites du terrain, les pratiques associatives et les attentes des sapeurs-pompiers du departement.",
+        "Elles permettent de traiter chaque sujet avec davantage de precision, de suivre les dossiers dans le temps et de faire remonter les besoins des centres, des amicales, des sections JSP et des anciens.",
+        "Cette organisation donne de la lisibilite a l'action de l'Union Departementale et permet d'articuler representation, accompagnement, formation et solidarite dans un meme cadre associatif."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Des relais concrets au service du collectif",
+        "text": "Chaque commission apporte une expertise, une capacite d'animation et un suivi dans la duree sur son domaine d'action.",
+        "items": [
+          {
+            "label": "Observer",
+            "text": "Identifier les attentes, les besoins et les points de vigilance."
+          },
+          {
+            "label": "Animer",
+            "text": "Faire travailler ensemble les acteurs associatifs et les relais territoriaux."
+          },
+          {
+            "label": "Agir",
+            "text": "Transformer les sujets suivis en projets, outils et accompagnements."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "commissions-detail",
+      "title": "Des domaines d'action complementaires",
+      "intro": "L'UDSP 31 s'appuie sur plusieurs commissions pour couvrir les grands enjeux de la vie associative, de la formation et de l'accompagnement des sapeurs-pompiers.",
+      "cards": [
+        {
+          "icon": "graduation",
+          "title": "Secourisme",
+          "text": "Structurer l'offre de formation et diffuser les gestes qui sauvent aupres du public."
+        },
+        {
+          "icon": "graduation",
+          "title": "Jeunes Sapeurs-Pompiers",
+          "text": "Accompagner les sections JSP et valoriser leur parcours d'engagement."
+        },
+        {
+          "icon": "users",
+          "title": "Sapeurs-Pompiers volontaires",
+          "text": "Relayer les sujets du volontariat et soutenir la vie associative des centres."
+        },
+        {
+          "icon": "shield",
+          "title": "Sapeurs-Pompiers professionnels",
+          "text": "Porter les enjeux lies a l'exercice professionnel et au dialogue associatif."
+        },
+        {
+          "icon": "heart",
+          "title": "Service de sante et de secours medical",
+          "text": "Faire le lien entre prevention, sante et accompagnement des personnels."
+        },
+        {
+          "icon": "document",
+          "title": "Dispositif previsionnel de secours",
+          "text": "Encadrer l'organisation des DPS et la securisation des evenements."
+        },
+        {
+          "icon": "handshake",
+          "title": "Social",
+          "text": "Soutenir les membres et leurs familles dans les moments importants."
+        },
+        {
+          "icon": "users",
+          "title": "Sport",
+          "text": "Entretenir la preparation physique, la cohesion et le depassement de soi."
+        },
+        {
+          "icon": "handshake",
+          "title": "Anciens Sapeurs-Pompiers",
+          "text": "Faire vivre le lien entre les generations et la memoire associative."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "commissions-fonctionnement",
+      "title": "Comment une commission agit concretement",
+      "intro": "Le travail des commissions s'inscrit dans la duree et suit un cycle simple, utile et lisible pour l'ensemble du reseau associatif.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Ecouter le terrain",
+          "text": "Recueillir les besoins, partager les retours d'experience et identifier les sujets prioritaires."
+        },
+        {
+          "step": "02",
+          "title": "Structurer les reponses",
+          "text": "Definir des axes de travail, preparer des outils et proposer un cadre d'action adapte."
+        },
+        {
+          "step": "03",
+          "title": "Mobiliser le reseau",
+          "text": "Associer les relais territoriaux, les amicales et les partenaires autour d'objectifs communs."
+        },
+        {
+          "step": "04",
+          "title": "Suivre les effets",
+          "text": "Mesurer l'avancement, ajuster les actions et maintenir un accompagnement dans le temps."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Une dynamique collective",
+      "title": "Faire avancer chaque sujet avec plus de clarte",
+      "paragraphs": [
+        "Les commissions donnent a l'UDSP 31 une capacite d'action plus fine, plus concrete et plus proche des besoins reels du departement.",
+        "Elles permettent de faire vivre une association utile, structuree et capable d'accompagner durablement les sapeurs-pompiers, leurs familles et leurs projets."
+      ],
+      "primary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "secondary_cta": {
+        "label": "Retour a l'accueil",
+        "target": "home"
+      },
+      "gallery": [
+        "image_1015423_20260316_ob_0d633c_2-secretaires-tresoriers.jpg",
+        "JSP fille.png",
+        "secourisme 2.png"
+      ]
+    }
+  },
+  "secourisme": {
+    "nav_group": "commissions",
+    "title": "Secourisme",
+    "description": "La commission secourisme de l'UDSP 31 organise, structure et valorise les formations aux gestes qui sauvent en Haute-Garonne.",
+    "hero": {
+      "lede": "Le secourisme fait partie des missions les plus visibles de l'UDSP 31. Cette commission organise les formations, soutient les equipes pedagogiques et participe a diffuser une vraie culture du secours dans tout le departement.",
+      "primary_cta": {
+        "label": "Voir les axes d'action",
+        "target": "anchor:secourisme-actions"
+      },
+      "secondary_cta": {
+        "label": "Decouvrir les formations",
+        "target": "page:formation-secourisme"
+      },
+      "images": [
+        "secourisme 2.png",
+        "portrait-sapeuse.png",
+        "news-1.jpg"
+      ]
+    },
+    "story": {
+      "title": "Former, structurer et diffuser les gestes qui sauvent",
+      "paragraphs": [
+        "La commission secourisme accompagne le developpement des actions de formation de l'UDSP 31 aupres du grand public, des associations, des entreprises et des collectivites.",
+        "Elle veille a la qualite des contenus, au bon deroulement des sessions et au maintien d'un cadre pedagogique exigeant pour les equipes qui interviennent sur le terrain.",
+        "A travers cette mission, l'UDSP 31 contribue a faire progresser les reflexes de prevention et de secours dans l'ensemble de la Haute-Garonne."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Une commission au coeur de la transmission",
+        "text": "Le secourisme associe pedagogie, organisation et culture de la prevention.",
+        "items": [
+          {
+            "label": "Former",
+            "text": "Construire des parcours accessibles, utiles et rigoureux."
+          },
+          {
+            "label": "Certifier",
+            "text": "Garantir un cadre clair pour les sessions et les intervenants."
+          },
+          {
+            "label": "Diffuser",
+            "text": "Faire progresser la culture des gestes qui sauvent sur le territoire."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "secourisme-actions",
+      "title": "Les grands leviers de la commission secourisme",
+      "intro": "La commission secourisme ne se limite pas a l'organisation de stages. Elle structure un ensemble d'actions utiles pour les habitants comme pour les partenaires.",
+      "cards": [
+        {
+          "icon": "graduation",
+          "title": "Former le grand public",
+          "text": "Rendre les gestes qui sauvent plus accessibles et plus visibles dans tout le departement."
+        },
+        {
+          "icon": "document",
+          "title": "Accompagner les partenaires",
+          "text": "Proposer des solutions adaptees aux entreprises, associations et collectivites."
+        },
+        {
+          "icon": "shield",
+          "title": "Maintenir l'exigence pedagogique",
+          "text": "Veiller a la qualite des contenus, des pratiques et de l'encadrement."
+        },
+        {
+          "icon": "heart",
+          "title": "Developper la prevention",
+          "text": "Inscrire le secourisme dans une demarche plus large de sensibilisation et de responsabilisation."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "secourisme-fonctionnement",
+      "title": "Comment les actions sont mises en place",
+      "intro": "Le secourisme repose sur une organisation precise, depuis l'identification des besoins jusqu'a la realisation des formations.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Qualifier la demande",
+          "text": "Analyser le public, le niveau attendu et les objectifs de formation."
+        },
+        {
+          "step": "02",
+          "title": "Organiser la session",
+          "text": "Mobiliser les intervenants, planifier les moyens et preparer le cadre pedagogique."
+        },
+        {
+          "step": "03",
+          "title": "Former en situation",
+          "text": "Transmettre des gestes clairs, utiles et applicables dans la vie reelle."
+        },
+        {
+          "step": "04",
+          "title": "Faire progresser",
+          "text": "Evaluer, certifier et encourager la poursuite de l'engagement dans la prevention."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Une culture du secours qui se transmet",
+      "title": "Mettre les bons gestes entre les bonnes mains",
+      "paragraphs": [
+        "Former au secourisme, c'est donner a chacun la capacite d'agir utilement avant l'arrivee des secours.",
+        "La commission secourisme de l'UDSP 31 porte cette ambition avec exigence, proximite et sens du service."
+      ],
+      "primary_cta": {
+        "label": "Se former",
+        "target": "page:formation-secourisme"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "gallery": [
+        "secourisme 2.png",
+        "portrait-sapeuse.png",
+        "news-1.jpg"
+      ]
+    }
+  },
+  "jeunes-sapeurs-pompiers": {
+    "nav_group": "commissions",
+    "title": "Jeunes Sapeurs-Pompiers",
+    "description": "La commission JSP de l'UDSP 31 accompagne les sections, transmet les valeurs de l'engagement et prepare l'avenir des sapeurs-pompiers.",
+    "hero": {
+      "lede": "Les Jeunes Sapeurs-Pompiers incarnent la releve, mais aussi une ecole d'engagement, de discipline et de citoyennete. L'UDSP 31 accompagne leurs sections, leurs encadrants et leurs parcours de progression.",
+      "primary_cta": {
+        "label": "Voir le role de la commission",
+        "target": "anchor:jsp-actions"
+      },
+      "secondary_cta": {
+        "label": "Devenir JSP",
+        "target": "page:devenir-jeune-sapeur-pompier"
+      },
+      "images": [
+        "JSP fille.png",
+        "JSP.png",
+        "hero-3.png"
+      ]
+    },
+    "story": {
+      "title": "Transmettre tres tot le sens de l'engagement",
+      "paragraphs": [
+        "La commission JSP veille a la bonne structuration des sections, au suivi des dynamiques locales et a la qualite du cadre propose aux jeunes qui s'engagent.",
+        "Elle soutient les encadrants, valorise les parcours et participe a faire vivre un apprentissage progressif, exigeant et motivant pour les jeunes du departement.",
+        "Au-dela des savoir-faire, le parcours JSP transmet une culture du collectif, de la responsabilite et du service aux autres."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Un vivier essentiel pour l'avenir",
+        "text": "Les JSP apprennent des gestes, mais aussi une facon d'etre ensemble et de servir.",
+        "items": [
+          {
+            "label": "Apprendre",
+            "text": "Decouvrir les bases du secours, de la prevention et de la vie de centre."
+          },
+          {
+            "label": "Grandir",
+            "text": "Developper discipline, confiance et esprit d'equipe."
+          },
+          {
+            "label": "S'engager",
+            "text": "Se projeter dans une trajectoire utile au territoire et aux autres."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "jsp-actions",
+      "title": "Ce que porte la commission JSP",
+      "intro": "La commission agit autant sur le contenu du parcours que sur l'encadrement, la lisibilite des sections et la valorisation des jeunes.",
+      "cards": [
+        {
+          "icon": "graduation",
+          "title": "Structurer les sections",
+          "text": "Accompagner l'organisation des groupes JSP et soutenir les responsables de section."
+        },
+        {
+          "icon": "users",
+          "title": "Valoriser les jeunes",
+          "text": "Faire connaitre leurs activites, leurs progres et leur implication dans la vie associative."
+        },
+        {
+          "icon": "shield",
+          "title": "Garantir un cadre exigeant",
+          "text": "Veiller a une progression pedagogique claire, serieuse et adaptee."
+        },
+        {
+          "icon": "heart",
+          "title": "Transmettre des valeurs fortes",
+          "text": "Faire vivre la citoyennete, la solidarite et le sens du collectif."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "jsp-fonctionnement",
+      "title": "Le parcours que la commission accompagne",
+      "intro": "Le suivi des JSP repose sur une progression continue, des reperes clairs et une attention portee a l'encadrement comme a l'epanouissement des jeunes.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Accueillir",
+          "text": "Donner aux jeunes un cadre clair, motivant et rassurant pour entrer dans la section."
+        },
+        {
+          "step": "02",
+          "title": "Former",
+          "text": "Apporter des connaissances pratiques, des reflexes et une culture du secours."
+        },
+        {
+          "step": "03",
+          "title": "Encadrer",
+          "text": "Assurer un accompagnement humain, collectif et pedagogique dans la duree."
+        },
+        {
+          "step": "04",
+          "title": "Projeter",
+          "text": "Aider les jeunes a se situer dans une trajectoire d'engagement future."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Former la releve",
+      "title": "Faire grandir une generation engagee",
+      "paragraphs": [
+        "Les JSP representent bien plus qu'une preparation technique. Ils portent une promesse d'avenir pour la communaute sapeur-pompier.",
+        "L'UDSP 31 soutient cette dynamique pour que chaque section reste un lieu d'apprentissage, d'exigence et d'epanouissement."
+      ],
+      "primary_cta": {
+        "label": "Devenir Jeune Sapeur-Pompier",
+        "target": "page:devenir-jeune-sapeur-pompier"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "gallery": [
+        "JSP fille.png",
+        "JSP.png",
+        "hero-3.png"
+      ]
+    }
+  },
+  "sapeurs-pompiers-volontaires": {
+    "nav_group": "commissions",
+    "title": "Sapeurs-Pompiers volontaires",
+    "description": "La commission SPV de l'UDSP 31 relaie les enjeux du volontariat et soutient la vie associative des centres en Haute-Garonne.",
+    "hero": {
+      "lede": "Le volontariat constitue l'un des piliers du maillage des secours. Cette commission suit les enjeux du terrain, accompagne la vie associative des centres et porte la voix des sapeurs-pompiers volontaires du departement.",
+      "primary_cta": {
+        "label": "Voir les axes de travail",
+        "target": "anchor:spv-actions"
+      },
+      "secondary_cta": {
+        "label": "Devenir volontaire",
+        "target": "page:devenir-pompier-volontaire"
+      },
+      "images": [
+        "pompiers2.png",
+        "recruit-1.png",
+        "image_1015423_20260316_ob_73560e_1-president-et-vices.jpg"
+      ]
+    },
+    "story": {
+      "title": "Porter les enjeux du volontariat avec clarte",
+      "paragraphs": [
+        "La commission SPV suit les sujets qui touchent directement l'engagement volontaire: disponibilite, integration dans les centres, vie associative, parcours et reconnaissance.",
+        "Elle contribue a faire remonter les besoins, a maintenir une lecture fine du terrain et a nourrir le dialogue associatif autour du volontariat.",
+        "Son role est aussi de soutenir les centres et les amicales pour que l'engagement reste lisible, attractif et durable."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Une commission ancree dans la realite des centres",
+        "text": "Le volontariat se comprend au plus pres du terrain, des equipes et des rythmes locaux.",
+        "items": [
+          {
+            "label": "Relayer",
+            "text": "Faire remonter les besoins et les attentes des volontaires."
+          },
+          {
+            "label": "Soutenir",
+            "text": "Appuyer la vie associative et les dynamiques locales."
+          },
+          {
+            "label": "Valoriser",
+            "text": "Defendre un engagement utile, exigeant et essentiel au territoire."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "spv-actions",
+      "title": "Les priorites de la commission SPV",
+      "intro": "La commission agit sur les sujets qui structurent le quotidien de l'engagement volontaire et la capacite des centres a le faire vivre dans la duree.",
+      "cards": [
+        {
+          "icon": "users",
+          "title": "Relayer les attentes du terrain",
+          "text": "Suivre les besoins des centres et des volontaires dans leur vie associative."
+        },
+        {
+          "icon": "clock",
+          "title": "Comprendre les contraintes d'engagement",
+          "text": "Prendre en compte la disponibilite et les equilibres de vie lies au volontariat."
+        },
+        {
+          "icon": "handshake",
+          "title": "Soutenir les centres",
+          "text": "Accompagner les dynamiques locales et la cohesion associative."
+        },
+        {
+          "icon": "shield",
+          "title": "Defendre la valeur du volontariat",
+          "text": "Porter une parole claire sur l'utilite et la richesse de cet engagement."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "spv-fonctionnement",
+      "title": "Une action au long cours",
+      "intro": "Le travail de la commission SPV combine ecoute, coordination et suivi pour faire avancer les sujets de fond.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Observer",
+          "text": "Recueillir les retours des centres, des amicales et des volontaires."
+        },
+        {
+          "step": "02",
+          "title": "Prioriser",
+          "text": "Identifier les sujets qui meritent un suivi particulier a l'echelle departementale."
+        },
+        {
+          "step": "03",
+          "title": "Coordonner",
+          "text": "Associer les bons interlocuteurs pour construire des reponses utiles."
+        },
+        {
+          "step": "04",
+          "title": "Faire avancer",
+          "text": "Maintenir une dynamique de suivi et de representation dans la duree."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Faire vivre le volontariat",
+      "title": "Un engagement a soutenir dans le temps",
+      "paragraphs": [
+        "Le volontariat repose sur des femmes et des hommes engages, mais aussi sur un cadre associatif capable de les accompagner et de porter leurs sujets.",
+        "C'est ce role d'appui, de representation et de cohesion que la commission SPV contribue a faire vivre au sein de l'UDSP 31."
+      ],
+      "primary_cta": {
+        "label": "Devenir Pompier volontaire",
+        "target": "page:devenir-pompier-volontaire"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "gallery": [
+        "pompiers2.png",
+        "recruit-1.png",
+        "JSP.png"
+      ]
+    }
+  },
+  "sapeurs-pompiers-professionnels": {
+    "nav_group": "commissions",
+    "title": "Sapeurs-Pompiers professionnels",
+    "description": "La commission SPP de l'UDSP 31 suit les enjeux de l'exercice professionnel et soutient le dialogue associatif au plus pres du terrain.",
+    "hero": {
+      "lede": "La commission des sapeurs-pompiers professionnels porte les sujets lies a l'exercice du metier, a la vie collective et a la representation associative des personnels professionnels du departement.",
+      "primary_cta": {
+        "label": "Voir les sujets suivis",
+        "target": "anchor:spp-actions"
+      },
+      "secondary_cta": {
+        "label": "Decouvrir le parcours",
+        "target": "page:devenir-pompier-professionel"
+      },
+      "images": [
+        "portrait-sapeuse.png",
+        "recruit-4.jpg",
+        "recruit-2.jpg"
+      ]
+    },
+    "story": {
+      "title": "Accompagner les enjeux du quotidien professionnel",
+      "paragraphs": [
+        "Les sapeurs-pompiers professionnels exercent dans un cadre exigeant, structure et en lien direct avec les missions de service public. La commission SPP suit les sujets qui touchent a cette realite.",
+        "Elle participe a la representation associative, entretient le dialogue sur les priorites du terrain et contribue a maintenir un lien solide entre les differentes composantes du monde sapeur-pompier.",
+        "Son action vise a donner de la clarte, du suivi et une parole collective sur les questions qui concernent les personnels professionnels."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Un espace de suivi et de representation",
+        "text": "La commission SPP fait le lien entre les enjeux du metier et la dynamique associative departementale.",
+        "items": [
+          {
+            "label": "Representer",
+            "text": "Porter les sujets professionnels dans le cadre associatif."
+          },
+          {
+            "label": "Dialoguer",
+            "text": "Maintenir une circulation claire de l'information et des priorites."
+          },
+          {
+            "label": "Soutenir",
+            "text": "Contribuer a la cohesion entre les differentes composantes du corps."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "spp-actions",
+      "title": "Les axes de travail de la commission SPP",
+      "intro": "Le travail de la commission SPP repose sur une lecture fine des enjeux du metier et sur un souci constant de coherence associative.",
+      "cards": [
+        {
+          "icon": "shield",
+          "title": "Porter les sujets du terrain",
+          "text": "Suivre les attentes et les questions qui touchent a l'exercice professionnel."
+        },
+        {
+          "icon": "users",
+          "title": "Maintenir le dialogue",
+          "text": "Faire circuler les informations et nourrir une lecture collective des priorites."
+        },
+        {
+          "icon": "handshake",
+          "title": "Favoriser la cohesion",
+          "text": "Faire vivre un cadre associatif qui relie professionnels, volontaires et anciens."
+        },
+        {
+          "icon": "document",
+          "title": "Structurer les dossiers",
+          "text": "Donner du suivi, de la methode et de la lisibilite aux sujets travailles."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "spp-fonctionnement",
+      "title": "Une commission de suivi et d'impulsion",
+      "intro": "La commission ne se substitue pas au cadre operationnel ou administratif. Elle apporte un point d'appui associatif utile, organise et suivi.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Recueillir",
+          "text": "Identifier les attentes, les retours d'experience et les sujets emergents."
+        },
+        {
+          "step": "02",
+          "title": "Analyser",
+          "text": "Qualifier les dossiers et les replacer dans une lecture departementale."
+        },
+        {
+          "step": "03",
+          "title": "Coordonner",
+          "text": "Associer les bons relais pour faire avancer les sujets dans un cadre clair."
+        },
+        {
+          "step": "04",
+          "title": "Suivre",
+          "text": "Maintenir un rythme de travail et une continute dans la representation."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Une parole claire sur les enjeux du metier",
+      "title": "Soutenir le collectif professionnel dans la duree",
+      "paragraphs": [
+        "La commission SPP contribue a inscrire les questions professionnelles dans une dynamique associative utile et constructive.",
+        "Elle participe ainsi a la cohesion du departement et a la qualite du dialogue entre les differents acteurs du monde sapeur-pompier."
+      ],
+      "primary_cta": {
+        "label": "Devenir Pompier Professionnel",
+        "target": "page:devenir-pompier-professionel"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "gallery": [
+        "portrait-sapeuse.png",
+        "recruit-4.jpg",
+        "recruit-2.jpg"
+      ]
+    }
+  },
+  "service-de-sante-et-de-secours-medical": {
+    "nav_group": "commissions",
+    "title": "Service de sante et de secours medical",
+    "description": "Le service de sante et de secours medical relie expertise, prevention et accompagnement des personnels au sein de l'UDSP 31.",
+    "hero": {
+      "lede": "Le service de sante et de secours medical apporte un regard essentiel sur la prevention, la sante, l'accompagnement et les sujets medicaux qui traversent la vie sapeur-pompier.",
+      "primary_cta": {
+        "label": "Comprendre son role",
+        "target": "anchor:sssm-actions"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "images": [
+        "portrait-sapeuse.png",
+        "secourisme 2.png",
+        "mission-firefighter.png"
+      ]
+    },
+    "story": {
+      "title": "Croiser expertise, prevention et soutien",
+      "paragraphs": [
+        "Le service de sante et de secours medical ne se limite pas a une expertise technique. Il participe a une meilleure prise en compte des enjeux de sante dans la vie des sapeurs-pompiers.",
+        "Il contribue a faire circuler une culture de prevention, a appuyer certaines situations humaines sensibles et a donner de la coherence aux sujets medicaux traites dans le cadre associatif.",
+        "Sa place est precieuse pour faire le lien entre les besoins des personnels, les enjeux de terrain et une approche plus globale de la protection des femmes et des hommes engages."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Une expertise au service du collectif",
+        "text": "Le 3SM apporte un point d'appui sur les sujets de sante, de prevention et d'accompagnement.",
+        "items": [
+          {
+            "label": "Prevenir",
+            "text": "Faire progresser les reflexes de sante et de vigilance."
+          },
+          {
+            "label": "Accompagner",
+            "text": "Contribuer a une meilleure prise en compte des situations individuelles."
+          },
+          {
+            "label": "Coordonner",
+            "text": "Relier expertise, terrain et dynamique associative."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "sssm-actions",
+      "title": "Les champs d'action du 3SM",
+      "intro": "Le service de sante et de secours medical intervient sur des sujets qui demandent a la fois expertise, discernement et proximite avec les personnels.",
+      "cards": [
+        {
+          "icon": "heart",
+          "title": "Prevention",
+          "text": "Faire progresser les pratiques de sante et les logiques de vigilance au quotidien."
+        },
+        {
+          "icon": "shield",
+          "title": "Soutien des personnels",
+          "text": "Apporter un point d'appui sur les situations qui demandent une attention particuliere."
+        },
+        {
+          "icon": "document",
+          "title": "Expertise",
+          "text": "Eclairer certains dossiers grace a une lecture medicale et preventive."
+        },
+        {
+          "icon": "users",
+          "title": "Coordination",
+          "text": "Relier les differents acteurs concernes autour d'une meme exigence de protection."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "sssm-fonctionnement",
+      "title": "Une approche structuree et humaine",
+      "intro": "Le 3SM agit avec methode, mais toujours au service de situations concretes et humaines.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Identifier",
+          "text": "Repeter les besoins, les sujets sensibles et les priorites de prevention."
+        },
+        {
+          "step": "02",
+          "title": "Apporter un regard expert",
+          "text": "Eclairer les situations a partir d'une lecture medicale et preventive."
+        },
+        {
+          "step": "03",
+          "title": "Coordonner",
+          "text": "Associer les bons interlocuteurs pour construire une reponse adaptee."
+        },
+        {
+          "step": "04",
+          "title": "Suivre",
+          "text": "Maintenir une attention dans la duree et capitaliser sur l'experience acquise."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Une vigilance qui protege durablement",
+      "title": "Prendre soin du collectif autant que des missions",
+      "paragraphs": [
+        "Le service de sante et de secours medical rappelle qu'une communaute sapeur-pompier solide repose aussi sur la prevention, l'accompagnement et la capacite a prendre soin de ses membres.",
+        "C'est cette exigence que l'UDSP 31 cherche a faire vivre aux cotes des autres commissions et relais du departement."
+      ],
+      "primary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "secondary_cta": {
+        "label": "Retour aux commissions",
+        "target": "page:les-commissions"
+      },
+      "gallery": [
+        "mission-firefighter.png",
+        "secourisme 2.png",
+        "portrait-sapeuse.png"
+      ]
+    }
+  },
+  "dispositif-previsionnel-de-secours": {
+    "nav_group": "services",
+    "title": "Dispositif previsionnel de secours",
+    "description": "L'UDSP 31 organise des dispositifs previsionnels de secours adaptes aux evenements publics, sportifs et associatifs de Haute-Garonne.",
+    "hero": {
+      "lede": "Les dispositifs previsionnels de secours permettent de securiser des evenements et d'anticiper les besoins de prise en charge du public. L'UDSP 31 accompagne leur conception, leur organisation et leur deploiement.",
+      "primary_cta": {
+        "label": "Comprendre le service",
+        "target": "anchor:dps-actions"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "images": [
+        "mission-firefighter.png",
+        "recruit-4.jpg",
+        "hero-2.png"
+      ]
+    },
+    "story": {
+      "title": "Securiser les evenements avec un dispositif adapte",
+      "paragraphs": [
+        "Le DPS consiste a mettre en place un dispositif de secours proportionne a la nature de l'evenement, a sa frequentation et aux risques identifies.",
+        "L'UDSP 31 veille a proposer un cadre clair, professionnel et anticipe pour les organisateurs qui souhaitent proteger leur public et leurs equipes.",
+        "Cette mission repose sur l'analyse, l'organisation, la mobilisation des moyens et une bonne coordination de tous les acteurs concernes."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Un service de prevention et de securisation",
+        "text": "Le DPS ne s'improvise pas. Il se construit en amont pour repondre au plus juste au contexte de l'evenement.",
+        "items": [
+          {
+            "label": "Analyser",
+            "text": "Evaluer le contexte, le public et le niveau de risque."
+          },
+          {
+            "label": "Dimensionner",
+            "text": "Prevoir les moyens humains et materiels adaptes."
+          },
+          {
+            "label": "Coordonner",
+            "text": "Assurer une mise en oeuvre lisible et efficace le jour J."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "dps-actions",
+      "title": "Ce que couvre un dispositif previsionnel de secours",
+      "intro": "Un DPS repond a un besoin de prevention, de securisation et de capacite de reaction sur un evenement temporaire.",
+      "cards": [
+        {
+          "icon": "document",
+          "title": "Analyse de l'evenement",
+          "text": "Prendre en compte le contexte, le nombre de participants et les contraintes du site."
+        },
+        {
+          "icon": "users",
+          "title": "Mobilisation des moyens",
+          "text": "Adapter les effectifs, les equipements et l'organisation au besoin reel."
+        },
+        {
+          "icon": "shield",
+          "title": "Securisation du public",
+          "text": "Offrir un cadre rassurant et reactif pour les participants comme pour les organisateurs."
+        },
+        {
+          "icon": "handshake",
+          "title": "Coordination avec l'organisateur",
+          "text": "Clarifier les responsabilites, les circuits d'information et les points de contact."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "dps-fonctionnement",
+      "title": "Les etapes d'un DPS bien prepare",
+      "intro": "La qualite d'un dispositif previsionnel repose sur une preparation en amont et une execution rigoureuse sur le terrain.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Qualifier le besoin",
+          "text": "Comprendre l'evenement, ses contraintes et les attentes de l'organisateur."
+        },
+        {
+          "step": "02",
+          "title": "Concevoir le dispositif",
+          "text": "Dimensionner les moyens et structurer l'organisation de la securisation."
+        },
+        {
+          "step": "03",
+          "title": "Deployer",
+          "text": "Mettre en place le dispositif, les postes et les circuits d'information prevus."
+        },
+        {
+          "step": "04",
+          "title": "Suivre et cloturer",
+          "text": "Assurer le bilan, capitaliser les enseignements et maintenir une qualite de service."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Un cadre rassurant pour vos evenements",
+      "title": "Construire un dispositif utile, lisible et adapte",
+      "paragraphs": [
+        "Le DPS permet d'aborder un evenement avec davantage de serenite et de clarte sur la gestion des risques.",
+        "L'UDSP 31 peut accompagner cette preparation en proposant un cadre de securisation adapte a la realite de votre manifestation."
+      ],
+      "primary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "secondary_cta": {
+        "label": "Voir nos services",
+        "target": "page:nos-services"
+      },
+      "gallery": [
+        "mission-firefighter.png",
+        "recruit-4.jpg",
+        "hero-2.png"
+      ]
+    }
+  },
+  "social": {
+    "nav_group": "commissions",
+    "title": "Social",
+    "description": "La commission sociale de l'UDSP 31 accompagne les membres et leurs familles dans les moments importants ou plus fragiles.",
+    "hero": {
+      "lede": "La dimension sociale fait partie des missions historiques de l'UDSP 31. Elle traduit concretement la solidarite entre sapeurs-pompiers et l'attention portee a leurs familles.",
+      "primary_cta": {
+        "label": "Voir les formes d'accompagnement",
+        "target": "anchor:social-actions"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "images": [
+        "portrait-sapeuse.png",
+        "image_1015423_20260316_ob_dc6168_4-les-membres.jpg",
+        "JSP fille.png"
+      ]
+    },
+    "story": {
+      "title": "Faire vivre la solidarite au-dela des discours",
+      "paragraphs": [
+        "La commission sociale intervient pour accompagner, orienter et soutenir lorsqu'une situation humaine, familiale ou sociale le rend necessaire.",
+        "Elle agit avec discretion, proximite et sens du collectif pour que les membres de l'association et leurs proches ne restent pas seuls face aux difficultes.",
+        "Cette mission rappelle que la fraternite sapeur-pompier se mesure aussi dans la capacite a prendre soin des siens lorsque les circonstances l'exigent."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Une mission humaine essentielle",
+        "text": "La solidarite associative prend tout son sens quand elle se traduit en accompagnements concrets.",
+        "items": [
+          {
+            "label": "Ecouter",
+            "text": "Accueillir la situation avec attention et respect."
+          },
+          {
+            "label": "Orienter",
+            "text": "Mobiliser les bons relais et les bonnes ressources."
+          },
+          {
+            "label": "Soutenir",
+            "text": "Maintenir une presence et un suivi quand cela est necessaire."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "social-actions",
+      "title": "Les champs d'action de la commission sociale",
+      "intro": "La commission sociale intervient avec mesure et humanite sur des situations qui demandent ecoute, suivi et coordination.",
+      "cards": [
+        {
+          "icon": "heart",
+          "title": "Accompagnement des membres",
+          "text": "Apporter un point d'appui dans les moments personnels ou professionnels sensibles."
+        },
+        {
+          "icon": "users",
+          "title": "Soutien des familles",
+          "text": "Prendre en compte l'entourage et les proches lorsque la situation le demande."
+        },
+        {
+          "icon": "handshake",
+          "title": "Orientation vers les bons relais",
+          "text": "Mettre en lien avec les interlocuteurs les plus pertinents selon le besoin."
+        },
+        {
+          "icon": "shield",
+          "title": "Suivi avec discretion",
+          "text": "Agir avec une grande attention a la confidentialite et a la dignite des personnes."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "social-fonctionnement",
+      "title": "Une logique d'accompagnement dans la duree",
+      "intro": "La commission sociale agit avec tact et methode pour adapter sa reponse aux situations rencontrees.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Recevoir la situation",
+          "text": "Prendre connaissance du besoin et comprendre le contexte humain."
+        },
+        {
+          "step": "02",
+          "title": "Qualifier les besoins",
+          "text": "Identifier le niveau d'urgence, les ressources disponibles et les relais a mobiliser."
+        },
+        {
+          "step": "03",
+          "title": "Mettre en mouvement l'accompagnement",
+          "text": "Assurer une reponse adaptee et coordonnee avec les bons interlocuteurs."
+        },
+        {
+          "step": "04",
+          "title": "Maintenir le lien",
+          "text": "Suivre la situation avec humanite et regularite lorsque cela est utile."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Une solidarite qui agit vraiment",
+      "title": "Prendre soin du collectif dans les moments qui comptent",
+      "paragraphs": [
+        "La commission sociale rappelle que l'engagement sapeur-pompier repose aussi sur la fraternite et la capacite a se soutenir mutuellement.",
+        "Par cette mission, l'UDSP 31 donne une traduction concrete a ses valeurs de solidarite, d'humanite et d'entraide."
+      ],
+      "primary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "secondary_cta": {
+        "label": "Retour aux commissions",
+        "target": "page:les-commissions"
+      },
+      "gallery": [
+        "portrait-sapeuse.png",
+        "JSP fille.png",
+        "image_1015423_20260316_ob_dc6168_4-les-membres.jpg"
+      ]
+    }
+  },
+  "sport": {
+    "nav_group": "commissions",
+    "title": "Sport",
+    "description": "La commission sport de l'UDSP 31 fait vivre la preparation physique, la cohesion et le depassement de soi au sein du reseau associatif.",
+    "hero": {
+      "lede": "Le sport occupe une place forte dans la culture sapeur-pompier. Il prepare physiquement, il rassemble humainement et il nourrit l'esprit d'equipe autant que le gout de l'effort.",
+      "primary_cta": {
+        "label": "Voir les axes de la commission",
+        "target": "anchor:sport-actions"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "images": [
+        "hero-2.png",
+        "hero-3.png",
+        "recruit-4.jpg"
+      ]
+    },
+    "story": {
+      "title": "Faire du sport un levier de cohesion et de progression",
+      "paragraphs": [
+        "La commission sport soutient les dynamiques sportives du reseau associatif, qu'il s'agisse d'entrainement, de rencontres, de competitions ou de temps collectifs.",
+        "Le sport est a la fois un outil de preparation physique, un marqueur fort de la culture sapeur-pompier et un terrain concret de cohesion entre les personnels.",
+        "A travers cette commission, l'UDSP 31 encourage une pratique reguliere, visible et federatrice a l'echelle du departement."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Une culture du collectif par l'effort",
+        "text": "Le sport relie preparation, esprit d'equipe et fierte d'appartenance.",
+        "items": [
+          {
+            "label": "Preparer",
+            "text": "Entretenir des qualites physiques utiles aux missions."
+          },
+          {
+            "label": "Rassembler",
+            "text": "Creer des moments de cohesion et de fraternite."
+          },
+          {
+            "label": "Valoriser",
+            "text": "Donner de la visibilite a l'engagement et au depassement de soi."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "sport-actions",
+      "title": "Ce que porte la commission sport",
+      "intro": "La commission agit a la fois sur l'animation des pratiques, la coordination des rendez-vous et la valorisation des dynamiques sportives.",
+      "cards": [
+        {
+          "icon": "users",
+          "title": "Cohesion",
+          "text": "Faire du sport un espace de rencontre et de lien entre les personnels."
+        },
+        {
+          "icon": "shield",
+          "title": "Preparation physique",
+          "text": "Encourager des pratiques utiles a la tenue dans la duree et a l'exigence du metier."
+        },
+        {
+          "icon": "calendar",
+          "title": "Evenements et rencontres",
+          "text": "Structurer des temps forts qui font vivre l'association a l'echelle departementale."
+        },
+        {
+          "icon": "heart",
+          "title": "Depassement de soi",
+          "text": "Valoriser l'effort, l'engagement et la progression individuelle au service du collectif."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "sport-fonctionnement",
+      "title": "Une dynamique sportive qui se construit",
+      "intro": "Pour etre utile, la dynamique sportive doit etre animee, reliee au terrain et ouverte a toutes les composantes du reseau.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Identifier les dynamiques",
+          "text": "Recenser les pratiques, les besoins et les envies du reseau associatif."
+        },
+        {
+          "step": "02",
+          "title": "Structurer les rendez-vous",
+          "text": "Donner un cadre clair aux entrainements, rencontres et manifestations."
+        },
+        {
+          "step": "03",
+          "title": "Mobiliser les equipes",
+          "text": "Favoriser la participation et la rencontre entre les centres et les composantes du departement."
+        },
+        {
+          "step": "04",
+          "title": "Valoriser l'engagement",
+          "text": "Mettre en avant les initiatives, les performances et les histoires collectives."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Du souffle, du rythme, du lien",
+      "title": "Faire vivre une culture sportive utile et federatrice",
+      "paragraphs": [
+        "Le sport renforce autant les corps que les liens. Il nourrit la cohesion, l'exigence et le plaisir d'agir ensemble.",
+        "C'est pourquoi l'UDSP 31 en fait un axe important de sa dynamique associative et de son rayonnement departemental."
+      ],
+      "primary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "secondary_cta": {
+        "label": "Retour aux commissions",
+        "target": "page:les-commissions"
+      },
+      "gallery": [
+        "hero-2.png",
+        "hero-3.png",
+        "recruit-4.jpg"
+      ]
+    }
+  },
+  "anciens-sapeurs-pompiers": {
+    "nav_group": "commissions",
+    "title": "Anciens Sapeurs-Pompiers",
+    "description": "La commission des anciens sapeurs-pompiers entretient le lien entre les generations et fait vivre la memoire associative de l'UDSP 31.",
+    "hero": {
+      "lede": "Les anciens sapeurs-pompiers gardent une place forte dans la vie associative du departement. Ils transmettent une memoire, une culture et un sens du collectif qui enrichissent toutes les generations.",
+      "primary_cta": {
+        "label": "Voir les missions de la commission",
+        "target": "anchor:asp-actions"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "images": [
+        "image_1015423_20260316_ob_d472c5_3-les-membres.jpg",
+        "pompiers2.png",
+        "JSP.png"
+      ]
+    },
+    "story": {
+      "title": "Maintenir le lien, transmettre et honorer",
+      "paragraphs": [
+        "La commission des anciens sapeurs-pompiers veille a ce que les generations precedentes restent pleinement associees a la vie de l'UDSP 31.",
+        "Elle entretient les liens, accompagne les temps de memoire, soutient la place des anciens dans les moments associatifs et contribue a la transmission d'une culture commune.",
+        "Cette mission rappelle qu'une Union Departementale solide est aussi une association qui sait d'ou elle vient et qui reconnait celles et ceux qui l'ont fait vivre."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "La memoire comme force associative",
+        "text": "Les anciens renforcent la cohesion du departement par leur presence, leur regard et leur fidelite a l'esprit de corps.",
+        "items": [
+          {
+            "label": "Relier",
+            "text": "Faire vivre les relations entre les generations."
+          },
+          {
+            "label": "Transmettre",
+            "text": "Partager une experience, une histoire et des valeurs."
+          },
+          {
+            "label": "Honorer",
+            "text": "Entretenir les temps de memoire et de reconnaissance."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "asp-actions",
+      "title": "Les grands sujets portes par la commission",
+      "intro": "La commission des anciens agit autant sur le lien humain que sur la vie ceremonielle et la transmission associative.",
+      "cards": [
+        {
+          "icon": "handshake",
+          "title": "Maintenir le lien",
+          "text": "Garder les anciens pleinement inscrits dans la vie de l'Union."
+        },
+        {
+          "icon": "users",
+          "title": "Favoriser la transmission",
+          "text": "Partager l'experience, les reperes et la memoire sapeur-pompier."
+        },
+        {
+          "icon": "calendar",
+          "title": "Faire vivre les temps de memoire",
+          "text": "Accompagner ceremonies, hommages et rendez-vous associatifs."
+        },
+        {
+          "icon": "heart",
+          "title": "Soutenir la fraternite",
+          "text": "Entretenir un esprit de corps qui depasse les generations et les statuts."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "asp-fonctionnement",
+      "title": "Une mission de presence dans la duree",
+      "intro": "La commission des anciens agit dans le temps long, avec constance et attention aux liens humains.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Recenser",
+          "text": "Maintenir le contact avec les anciens et identifier les besoins ou projets."
+        },
+        {
+          "step": "02",
+          "title": "Rassembler",
+          "text": "Organiser des temps qui entretiennent la proximite et la reconnaissance."
+        },
+        {
+          "step": "03",
+          "title": "Transmettre",
+          "text": "Favoriser la rencontre avec les generations plus jeunes et les actifs."
+        },
+        {
+          "step": "04",
+          "title": "Faire vivre la memoire",
+          "text": "Inscrire les histoires et les parcours dans une dynamique collective."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Une memoire vivante du departement",
+      "title": "Faire du lien entre les generations une vraie force",
+      "paragraphs": [
+        "Les anciens sapeurs-pompiers donnent a l'UDSP 31 une profondeur humaine, historique et associative irremplacable.",
+        "En maintenant ce lien, l'Union Departementale renforce sa cohesion et sa capacite a transmettre un esprit commun."
+      ],
+      "primary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "secondary_cta": {
+        "label": "Retour aux commissions",
+        "target": "page:les-commissions"
+      },
+      "gallery": [
+        "image_1015423_20260316_ob_d472c5_3-les-membres.jpg",
+        "pompiers2.png",
+        "JSP.png"
+      ]
+    }
+  },
+  "nos-services": {
+    "nav_group": "services",
+    "title": "Nos services",
+    "description": "L'UDSP 31 propose des services de formation secourisme, de dispositifs previsionnels de secours et d'accompagnement des dynamiques JSP.",
+    "hero": {
+      "lede": "Au-dela de sa mission associative, l'UDSP 31 propose des services concrets utiles au grand public, aux organisateurs d'evenements, aux structures locales et aux partenaires du departement.",
+      "primary_cta": {
+        "label": "Voir nos services",
+        "target": "anchor:services-detail"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "images": [
+        "secourisme 2.png",
+        "mission-firefighter.png",
+        "JSP.png"
+      ]
+    },
+    "story": {
+      "title": "Des prestations utiles, lisibles et ancrees dans le terrain",
+      "paragraphs": [
+        "Les services portes par l'UDSP 31 prolongent son engagement associatif par des actions concretes aupres du public, des organisateurs et des partenaires du territoire.",
+        "Ils s'appuient sur l'experience des sapeurs-pompiers, sur une organisation serieuse et sur une culture commune de prevention, de secours et de service.",
+        "Cette offre permet a l'Union Departementale de rester utile au plus pres des besoins locaux tout en faisant rayonner le savoir-faire sapeur-pompier."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Une offre au service du territoire",
+        "text": "Les services proposes par l'UDSP 31 combinent utilite publique, exigence et proximite.",
+        "items": [
+          {
+            "label": "Former",
+            "text": "Transmettre les gestes qui sauvent au plus grand nombre."
+          },
+          {
+            "label": "Securiser",
+            "text": "Accompagner les organisateurs avec des DPS adaptes."
+          },
+          {
+            "label": "Structurer",
+            "text": "Soutenir les parcours et dynamiques utiles a l'avenir du reseau."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "services-detail",
+      "title": "Les services actuellement mis en avant",
+      "intro": "L'UDSP 31 deploye plusieurs offres utiles au territoire, avec une meme exigence de qualite, de clarte et de service.",
+      "cards": [
+        {
+          "icon": "graduation",
+          "title": "Formation secourisme",
+          "text": "Des parcours de formation adaptes au grand public, aux entreprises et aux collectivites."
+        },
+        {
+          "icon": "document",
+          "title": "Dispositif previsionnel de secours",
+          "text": "Des DPS calibres selon la nature, la taille et les risques de votre evenement."
+        },
+        {
+          "icon": "users",
+          "title": "Accompagnement JSP",
+          "text": "Un appui associatif et pedagogique pour faire vivre la dynamique des jeunes sapeurs-pompiers."
+        },
+        {
+          "icon": "heart",
+          "title": "Sensibilisation et prevention",
+          "text": "Des actions pour diffuser une culture du secours et du service dans tout le departement."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "services-fonctionnement",
+      "title": "Comment l'UDSP 31 construit sa reponse",
+      "intro": "Chaque service repose sur une meme logique: comprendre le besoin, proposer une solution juste et assurer un suivi de qualite.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Ecouter la demande",
+          "text": "Prendre en compte le contexte, les objectifs et les contraintes du besoin exprime."
+        },
+        {
+          "step": "02",
+          "title": "Proposer un cadre adapte",
+          "text": "Dimensionner les moyens et definir une reponse claire, utile et realiste."
+        },
+        {
+          "step": "03",
+          "title": "Organiser la mise en oeuvre",
+          "text": "Mobiliser les intervenants, les moyens et les reperes necessaires au bon deroulement."
+        },
+        {
+          "step": "04",
+          "title": "Suivre la qualite de service",
+          "text": "Veiller a la lisibilite, a l'efficacite et a l'experience globale du partenaire ou du public."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Une utilite concrete au service du departement",
+      "title": "Des services alignes avec les valeurs de l'UDSP 31",
+      "paragraphs": [
+        "Chaque service propose par l'UDSP 31 prolonge les valeurs de solidarite, d'engagement et de service qui structurent l'association.",
+        "Cette logique permet d'apporter une reponse utile aux partenaires tout en faisant rayonner le savoir-faire sapeur-pompier en Haute-Garonne."
+      ],
+      "primary_cta": {
+        "label": "Formation secourisme",
+        "target": "page:formation-secourisme"
+      },
+      "secondary_cta": {
+        "label": "Dispositif previsionnel de secours",
+        "target": "page:dispositif-previsionnel-de-secours"
+      },
+      "gallery": [
+        "secourisme 2.png",
+        "mission-firefighter.png",
+        "JSP.png"
+      ]
+    }
+  },
+  "formation-secourisme": {
+    "nav_group": "services",
+    "title": "Formation secourisme",
+    "description": "L'UDSP 31 propose des formations de secourisme adaptees au grand public, aux entreprises et aux collectivites.",
+    "hero": {
+      "lede": "Les formations secourisme de l'UDSP 31 permettent d'apprendre les gestes qui sauvent dans un cadre serieux, accessible et directement relie a l'experience des sapeurs-pompiers.",
+      "primary_cta": {
+        "label": "Voir les formats de formation",
+        "target": "anchor:formation-actions"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "images": [
+        "secourisme 2.png",
+        "portrait-sapeuse.png",
+        "news-1.jpg"
+      ]
+    },
+    "story": {
+      "title": "Transmettre les gestes utiles au plus grand nombre",
+      "paragraphs": [
+        "La formation secourisme permet a chacun de se preparer a reagir face a une situation d'urgence, dans un cadre clair et accompagne.",
+        "L'UDSP 31 propose des formats adaptes aux besoins du grand public, des entreprises, des associations et des collectivites qui souhaitent faire progresser leurs equipes.",
+        "Ces formations s'inscrivent dans une demarche de prevention, de responsabilisation et de diffusion d'une culture du secours a l'echelle du departement."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Une offre accessible et exigeante",
+        "text": "Les formations secourisme allient qualite pedagogique, experience de terrain et adaptation aux publics.",
+        "items": [
+          {
+            "label": "Former",
+            "text": "Donner des reperes simples, utiles et applicables."
+          },
+          {
+            "label": "Adapter",
+            "text": "Construire des formats coherents avec le contexte du public."
+          },
+          {
+            "label": "Certifier",
+            "text": "Garantir un cadre de formation serieux et reconnu."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "formation-actions",
+      "title": "Les publics et besoins couverts",
+      "intro": "L'offre de formation secourisme s'adapte a plusieurs contextes et a plusieurs attentes, avec une meme exigence de clarte et de qualite.",
+      "cards": [
+        {
+          "icon": "users",
+          "title": "Grand public",
+          "text": "Former largement aux gestes qui sauvent et aux bonnes reactions face a l'urgence."
+        },
+        {
+          "icon": "document",
+          "title": "Entreprises",
+          "text": "Accompagner la prevention et la capacite de reaction dans le cadre professionnel."
+        },
+        {
+          "icon": "calendar",
+          "title": "Collectivites et associations",
+          "text": "Proposer des formats adaptes aux besoins des structures locales et de leurs equipes."
+        },
+        {
+          "icon": "shield",
+          "title": "Mises a jour et progression",
+          "text": "Faire vivre les acquis et encourager la montee en competence dans la duree."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "formation-fonctionnement",
+      "title": "Le parcours de mise en place d'une formation",
+      "intro": "Chaque session de formation repose sur une preparation en amont et une pedagogie qui cherche l'efficacite autant que la confiance des participants.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Qualifier le besoin",
+          "text": "Identifier le public concerne, le niveau attendu et le contexte de la demande."
+        },
+        {
+          "step": "02",
+          "title": "Programmer",
+          "text": "Definir le format, les moyens et le calendrier les plus adaptes."
+        },
+        {
+          "step": "03",
+          "title": "Former",
+          "text": "Animer la session dans un cadre pedagogique clair, accessible et concret."
+        },
+        {
+          "step": "04",
+          "title": "Evaluer et certifier",
+          "text": "Valider les acquis et inscrire la formation dans une logique de progression."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Une competence utile a tous",
+      "title": "Faire progresser la culture des gestes qui sauvent",
+      "paragraphs": [
+        "Se former au secourisme, c'est acquerir des reflexes qui peuvent faire la difference dans une situation critique.",
+        "L'UDSP 31 porte cette mission avec une volonte simple: rendre le secours plus present dans les reflexes du quotidien."
+      ],
+      "primary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "secondary_cta": {
+        "label": "Voir nos services",
+        "target": "page:nos-services"
+      },
+      "gallery": [
+        "secourisme 2.png",
+        "portrait-sapeuse.png",
+        "news-1.jpg"
+      ]
+    }
+  },
+  "devenir-pompier": {
+    "nav_group": "recruitment",
+    "title": "Devenir pompier",
+    "description": "L'UDSP 31 presente les differents chemins d'engagement pour devenir pompier en Haute-Garonne: volontariat, professionnalisation ou parcours JSP.",
+    "hero": {
+      "lede": "Devenir pompier peut prendre plusieurs formes selon votre age, votre parcours et votre projet. L'UDSP 31 aide a comprendre les differentes voies d'engagement et a s'orienter vers le bon interlocuteur.",
+      "primary_cta": {
+        "label": "Voir les parcours",
+        "target": "anchor:devenir-parcours"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "images": [
+        "recruit-bg.jpg",
+        "recruit-1.png",
+        "JSP fille.png"
+      ]
+    },
+    "story": {
+      "title": "Trois portes d'entree pour s'engager",
+      "paragraphs": [
+        "Selon votre situation, votre age et votre disponibilite, plusieurs parcours permettent de rejoindre le monde sapeur-pompier en Haute-Garonne.",
+        "Le volontariat permet un engagement local et concret, le parcours professionnel conduit vers un metier de service public exigeant, et la voie JSP offre une premiere immersion structurante pour les plus jeunes.",
+        "L'important est de choisir la voie la plus juste pour votre projet et de prendre le temps de comprendre ce qu'elle implique."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Choisir la bonne porte d'entree",
+        "text": "Chaque parcours repond a une logique differente, mais tous partagent le meme socle de valeurs.",
+        "items": [
+          {
+            "label": "Volontariat",
+            "text": "Servir pres de chez soi dans un engagement compatible avec une autre activite."
+          },
+          {
+            "label": "Professionnalisation",
+            "text": "S'engager dans un metier de secours, de technicite et de service public."
+          },
+          {
+            "label": "JSP",
+            "text": "Decouvrir tres tot l'esprit pompier et apprendre dans un cadre progressif."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "devenir-parcours",
+      "title": "Les parcours proposes",
+      "intro": "L'UDSP 31 aide a mieux comprendre les principales trajectoires d'engagement pour s'orienter avec davantage de clarte.",
+      "cards": [
+        {
+          "icon": "handshake",
+          "title": "Devenir Pompier volontaire",
+          "text": "Pour servir son territoire au sein d'un centre de secours tout en conciliant engagement et vie personnelle."
+        },
+        {
+          "icon": "shield",
+          "title": "Devenir Pompier Professionnel",
+          "text": "Pour s'orienter vers un metier d'engagement, de technicite et de service public."
+        },
+        {
+          "icon": "graduation",
+          "title": "Devenir Jeune Sapeur-Pompier",
+          "text": "Pour commencer plus tot un parcours de formation, de discipline et de citoyennete."
+        },
+        {
+          "icon": "users",
+          "title": "Trouver le bon interlocuteur",
+          "text": "Pour etre oriente vers le parcours le plus adapte a votre situation et a votre territoire."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "devenir-fonctionnement",
+      "title": "Comment s'orienter utilement",
+      "intro": "Avant de s'engager, il est utile de clarifier son projet, de rencontrer les bons interlocuteurs et de comprendre les exigences du parcours vise.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Clarifier son projet",
+          "text": "Identifier la voie qui correspond le mieux a son age, son rythme de vie et son envie d'engagement."
+        },
+        {
+          "step": "02",
+          "title": "Se renseigner",
+          "text": "Prendre contact, poser les bonnes questions et comprendre les conditions d'acces."
+        },
+        {
+          "step": "03",
+          "title": "Se preparer",
+          "text": "Mesurer l'exigence du parcours et s'inscrire dans une logique de progression."
+        },
+        {
+          "step": "04",
+          "title": "S'engager",
+          "text": "Entrer dans un cadre collectif, structure et utile au service des autres."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Un projet a construire avec lucidite",
+      "title": "Choisir le bon chemin d'engagement",
+      "paragraphs": [
+        "Qu'il s'agisse de volontariat, de professionnalisation ou d'un parcours JSP, chaque voie demande de la motivation, de la rigueur et le gout du collectif.",
+        "L'UDSP 31 peut vous aider a comprendre ces parcours et a prendre contact avec les bons relais pour avancer."
+      ],
+      "primary_cta": {
+        "label": "Devenir Pompier volontaire",
+        "target": "page:devenir-pompier-volontaire"
+      },
+      "secondary_cta": {
+        "label": "Devenir Jeune Sapeur-Pompier",
+        "target": "page:devenir-jeune-sapeur-pompier"
+      },
+      "gallery": [
+        "recruit-bg.jpg",
+        "recruit-1.png",
+        "JSP fille.png"
+      ]
+    }
+  },
+  "actualites": {
+    "nav_group": "footer-links",
+    "title": "Actualites",
+    "description": "La page actualites de l'UDSP 31 centralise la vie associative, les informations utiles et les temps forts du departement.",
+    "hero": {
+      "lede": "Les actualites permettent de suivre la vie associative de l'UDSP 31, les temps forts du reseau, les projets en cours et les informations utiles pour les sapeurs-pompiers comme pour les partenaires.",
+      "primary_cta": {
+        "label": "Voir les grands themes",
+        "target": "anchor:actualites-themes"
+      },
+      "secondary_cta": {
+        "label": "Retour a l'accueil",
+        "target": "home"
+      },
+      "images": [
+        "news-1.jpg",
+        "news-2.jpg",
+        "news-3.jpg"
+      ]
+    },
+    "story": {
+      "title": "Donner de la lisibilite a la vie de l'Union",
+      "paragraphs": [
+        "La page actualites a vocation a faire remonter les informations utiles, a valoriser les actions de terrain et a donner de la visibilite a la vie associative de l'UDSP 31.",
+        "Elle peut accueillir des annonces de formation, des retours sur les temps forts, des informations institutionnelles, des portraits ou des projets porteurs pour le departement.",
+        "Cette circulation de l'information participe au lien entre les acteurs du reseau et au rayonnement de l'Union Departementale."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Un espace d'information au service du lien",
+        "text": "Informer, c'est aussi federer et faire comprendre l'action de l'association.",
+        "items": [
+          {
+            "label": "Partager",
+            "text": "Mettre en avant la vie des commissions, des centres et des projets."
+          },
+          {
+            "label": "Informer",
+            "text": "Relayer les annonces utiles et les rendez-vous importants."
+          },
+          {
+            "label": "Valoriser",
+            "text": "Donner de la visibilite aux engagements qui font vivre l'UDSP 31."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "actualites-themes",
+      "title": "Les grands types de contenus attendus",
+      "intro": "Cette page est pensee pour accueillir des contenus editoriaux clairs, utiles et faciles a parcourir.",
+      "cards": [
+        {
+          "icon": "document",
+          "title": "Vie associative",
+          "text": "Assemblies, commissions, projets et temps forts departementaux."
+        },
+        {
+          "icon": "graduation",
+          "title": "Formation et prevention",
+          "text": "Sessions de secourisme, sensibilisation et actions pedagogiques."
+        },
+        {
+          "icon": "calendar",
+          "title": "Evenements",
+          "text": "Manifestations, rendez-vous sportifs, ceremonies et rencontres."
+        },
+        {
+          "icon": "users",
+          "title": "Portraits et initiatives",
+          "text": "Mettre en avant celles et ceux qui font vivre la communaute sapeur-pompier."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "actualites-fonctionnement",
+      "title": "Une actualite utile se construit",
+      "intro": "Pour rester lisible, une page actualites doit privilegier des contenus bien qualifies et une diffusion reguliere.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Identifier l'information",
+          "text": "Selectionner les sujets qui meritent d'etre portes a la connaissance du public ou du reseau."
+        },
+        {
+          "step": "02",
+          "title": "Verifier et clarifier",
+          "text": "S'assurer de la justesse des informations et de leur bonne contextualisation."
+        },
+        {
+          "step": "03",
+          "title": "Publier",
+          "text": "Donner au contenu une forme lisible, attractive et adaptee aux usages du site."
+        },
+        {
+          "step": "04",
+          "title": "Faire vivre",
+          "text": "Maintenir un rythme de publication utile et coherent avec la vie de l'association."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Un futur espace editorial",
+      "title": "Mettre en valeur la vie de l'UDSP 31",
+      "paragraphs": [
+        "Cette page a vocation a devenir l'un des points d'entree pour suivre les projets, les evenements et les actions portees par l'Union Departementale.",
+        "Elle permettra de relier l'actualite du terrain, la vie associative et les enjeux du territoire dans un meme espace editorial."
+      ],
+      "primary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "secondary_cta": {
+        "label": "Retour a l'accueil",
+        "target": "home"
+      },
+      "gallery": [
+        "news-1.jpg",
+        "news-2.jpg",
+        "news-3.jpg"
+      ]
+    }
+  },
+  "agenda": {
+    "nav_group": "footer-links",
+    "title": "Agenda",
+    "description": "L'agenda de l'UDSP 31 a vocation a rassembler les prochains rendez-vous, formations et temps forts du departement.",
+    "hero": {
+      "lede": "L'agenda permet de rendre visibles les rendez-vous utiles du reseau: formations, temps associatifs, competitions, ceremonies et manifestations qui font vivre la communaute sapeur-pompier en Haute-Garonne.",
+      "primary_cta": {
+        "label": "Voir les categories",
+        "target": "anchor:agenda-categories"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "images": [
+        "news-2.jpg",
+        "news-4.jpg",
+        "hero-1.jpg"
+      ]
+    },
+    "story": {
+      "title": "Donner un rythme commun a la vie associative",
+      "paragraphs": [
+        "Un agenda bien structure permet a chacun d'identifier les prochains rendez-vous importants et de mieux se projeter dans la vie de l'association.",
+        "Pour l'UDSP 31, cet espace peut reunir les temps de formation, les rendez-vous institutionnels, les manifestations sportives, les ceremonies et les evenements ouverts au public.",
+        "L'objectif est simple: rendre les informations plus lisibles, favoriser la participation et mieux coordonner le calendrier departemental."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Un outil simple pour mieux se reperer",
+        "text": "L'agenda sert a la fois l'information, l'organisation et la participation aux temps forts de l'UDSP 31.",
+        "items": [
+          {
+            "label": "Annoncer",
+            "text": "Rendre visibles les rendez-vous a venir dans un meme espace."
+          },
+          {
+            "label": "Coordonner",
+            "text": "Donner un cadre commun pour mieux articuler les initiatives."
+          },
+          {
+            "label": "Mobiliser",
+            "text": "Faciliter la participation des centres, des amicales et des partenaires."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "agenda-categories",
+      "title": "Les rendez-vous que l'agenda peut reunir",
+      "intro": "L'agenda a vocation a couvrir les principaux temps forts de l'Union Departementale et de son ecosysteme.",
+      "cards": [
+        {
+          "icon": "graduation",
+          "title": "Formations",
+          "text": "Sessions de secourisme, rendez-vous pedagogiques et temps de sensibilisation."
+        },
+        {
+          "icon": "calendar",
+          "title": "Vie associative",
+          "text": "Instances, reunions, assemblies et rencontres departementales."
+        },
+        {
+          "icon": "users",
+          "title": "Sport et cohesion",
+          "text": "Competitions, rencontres amicales et moments federateurs."
+        },
+        {
+          "icon": "heart",
+          "title": "Ceremonies et commemorations",
+          "text": "Temps officiels, hommages et rendez-vous de memoire."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "agenda-fonctionnement",
+      "title": "Comment bien faire vivre un agenda",
+      "intro": "Un agenda utile demande un suivi simple mais regulier pour rester pertinent et facilement consultable.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Recenser",
+          "text": "Identifier les rendez-vous a venir et les informations indispensables."
+        },
+        {
+          "step": "02",
+          "title": "Structurer",
+          "text": "Classer les evenements par categorie, date et public concerne."
+        },
+        {
+          "step": "03",
+          "title": "Publier",
+          "text": "Diffuser les informations dans une forme claire et facile a consulter."
+        },
+        {
+          "step": "04",
+          "title": "Mettre a jour",
+          "text": "Maintenir la fiabilite de l'agenda a mesure que la vie associative evolue."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Un calendrier lisible pour tous",
+      "title": "Mieux se reperer dans les temps forts de l'UDSP 31",
+      "paragraphs": [
+        "L'agenda est un outil simple, mais precieux, pour donner un rythme commun a la vie de l'association et de ses partenaires.",
+        "Bien tenu, il devient un point d'entree utile pour informer, coordonner et mobiliser tout le reseau departemental."
+      ],
+      "primary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "secondary_cta": {
+        "label": "Retour a l'accueil",
+        "target": "home"
+      },
+      "gallery": [
+        "news-2.jpg",
+        "news-4.jpg",
+        "hero-1.jpg"
+      ]
+    }
+  },
+  "annuaire": {
+    "nav_group": "footer-links",
+    "title": "Annuaire",
+    "description": "L'annuaire de l'UDSP 31 a vocation a faciliter le reperage des contacts, structures et commissions utiles du departement.",
+    "hero": {
+      "lede": "Un annuaire clair permet de retrouver plus vite les bons interlocuteurs, de mieux comprendre l'organisation associative et de gagner en fluidite dans les mises en relation.",
+      "primary_cta": {
+        "label": "Voir les grands reperes",
+        "target": "anchor:annuaire-reperes"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "images": [
+        "image_1015423_20260316_ob_73560e_1-president-et-vices.jpg",
+        "image_1015423_20260316_ob_0d633c_2-secretaires-tresoriers.jpg",
+        "image_1015423_20260316_ob_d472c5_3-les-membres.jpg"
+      ]
+    },
+    "story": {
+      "title": "Mieux se reperer dans l'organisation associative",
+      "paragraphs": [
+        "L'annuaire a vocation a rassembler les principaux reperes utiles pour orienter une demande, identifier une structure ou retrouver un contact pertinent.",
+        "Il peut faciliter les liens entre centres, amicales, commissions, bureau executif, anciens, partenaires ou services de l'Union Departementale.",
+        "Cet outil devient particulierement utile lorsque l'on souhaite gagner du temps, clarifier une organisation ou orienter une demande vers le bon niveau."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Un outil de reperage et d'orientation",
+        "text": "L'annuaire sert autant a mieux comprendre l'organisation qu'a contacter les bons relais.",
+        "items": [
+          {
+            "label": "Identifier",
+            "text": "Retrouver plus rapidement un service, une commission ou un interlocuteur."
+          },
+          {
+            "label": "Orienter",
+            "text": "Diriger une demande vers le bon niveau de responsabilite."
+          },
+          {
+            "label": "Fluidifier",
+            "text": "Simplifier les liens entre les differents acteurs du reseau."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "annuaire-reperes",
+      "title": "Les grandes entrees de l'annuaire",
+      "intro": "L'annuaire pourra etre structure autour de grands reperes clairs pour faciliter la recherche d'information.",
+      "cards": [
+        {
+          "icon": "users",
+          "title": "Commissions",
+          "text": "Identifier les responsables et les domaines d'action associes."
+        },
+        {
+          "icon": "document",
+          "title": "Bureau executif",
+          "text": "Retrouver les fonctions de gouvernance et les relais de coordination."
+        },
+        {
+          "icon": "handshake",
+          "title": "Amicales et reseau",
+          "text": "Mieux comprendre l'ecosysteme associatif departemental."
+        },
+        {
+          "icon": "phone",
+          "title": "Contacts utiles",
+          "text": "Acceder plus facilement aux bons interlocuteurs selon le besoin."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "annuaire-fonctionnement",
+      "title": "Un annuaire utile se construit avec methode",
+      "intro": "Pour rester fiable, un annuaire doit etre simple a maintenir, clair a parcourir et suffisamment structure pour orienter rapidement.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Recenser",
+          "text": "Lister les structures, services et interlocuteurs a faire apparaitre."
+        },
+        {
+          "step": "02",
+          "title": "Classer",
+          "text": "Organiser les entrees de facon logique et facile a comprendre."
+        },
+        {
+          "step": "03",
+          "title": "Publier",
+          "text": "Rendre l'information accessible, lisible et coherente sur le site."
+        },
+        {
+          "step": "04",
+          "title": "Mettre a jour",
+          "text": "Verifier regulierement les donnees pour conserver un annuaire fiable."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Un repere simple pour mieux orienter",
+      "title": "Faciliter l'acces aux bons contacts",
+      "paragraphs": [
+        "Un annuaire bien structure devient un outil de fluidite pour l'ensemble du reseau associatif et de ses partenaires.",
+        "Il permet a l'UDSP 31 de gagner en lisibilite et en efficacite dans l'orientation des demandes."
+      ],
+      "primary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "secondary_cta": {
+        "label": "Retour a l'accueil",
+        "target": "home"
+      },
+      "gallery": [
+        "image_1015423_20260316_ob_73560e_1-president-et-vices.jpg",
+        "image_1015423_20260316_ob_0d633c_2-secretaires-tresoriers.jpg",
+        "image_1015423_20260316_ob_d472c5_3-les-membres.jpg"
+      ]
+    }
+  },
+  "contact": {
+    "nav_group": "footer-links",
+    "title": "Contact",
+    "description": "Contacter l'UDSP 31 a Colomiers pour une demande d'information, de formation ou de dispositif previsionnel de secours.",
+    "hero": {
+      "lede": "Pour une demande d'information, une orientation, une question sur les formations ou un besoin lie a un DPS, l'UDSP 31 peut vous repondre et vous orienter vers le bon interlocuteur.",
+      "primary_cta": {
+        "label": "Voir les coordonnees",
+        "target": "anchor:contact-details"
+      },
+      "secondary_cta": {
+        "label": "Retour a l'accueil",
+        "target": "home"
+      },
+      "images": [
+        "portrait-sapeuse.png",
+        "secourisme 2.png",
+        "pompiers2.png"
+      ]
+    },
+    "story": {
+      "title": "Un point d'entree simple pour toutes les demandes",
+      "paragraphs": [
+        "La page contact permet de centraliser les informations utiles pour joindre l'UDSP 31 selon la nature de votre demande.",
+        "Qu'il s'agisse d'une formation secourisme, d'un dispositif previsionnel de secours, d'une orientation associative ou d'une demande generale, le plus important est de pouvoir vous rediriger rapidement vers le bon niveau.",
+        "L'UDSP 31 privilegie une reponse lisible, directe et adaptee au besoin exprime."
+      ],
+      "summary": {
+        "kicker": "Coordonnees",
+        "title": "Les informations utiles",
+        "text": "Le siege de l'UDSP 31 est situe a Colomiers et reste joignable sur les horaires de jour.",
+        "items": [
+          {
+            "label": "Telephone",
+            "text": "05 62 13 20 22"
+          },
+          {
+            "label": "Email",
+            "text": "udsp31@gmail.com"
+          },
+          {
+            "label": "Horaires",
+            "text": "9h00 a 17h00"
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "contact-details",
+      "title": "Les points de contact principaux",
+      "intro": "Selon votre besoin, plusieurs entrees permettent de vous orienter rapidement vers le bon canal ou le bon interlocuteur.",
+      "cards": [
+        {
+          "icon": "phone",
+          "title": "Telephone",
+          "text": "05 62 13 20 22"
+        },
+        {
+          "icon": "mail",
+          "title": "Email",
+          "text": "udsp31@gmail.com"
+        },
+        {
+          "icon": "location",
+          "title": "Siege",
+          "text": "6 Bd Deodat de Severac, 31770 Colomiers"
+        },
+        {
+          "icon": "clock",
+          "title": "Horaires",
+          "text": "Accueil et reponses du lundi au vendredi de 9h00 a 17h00."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "contact-fonctionnement",
+      "title": "Comment votre demande peut etre orientee",
+      "intro": "Une demande claire des le depart permet de gagner du temps et de vous orienter plus efficacement.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Preciser le besoin",
+          "text": "Formation, DPS, information associative, engagement ou question generale."
+        },
+        {
+          "step": "02",
+          "title": "Transmettre les elements utiles",
+          "text": "Donner le contexte, les dates ou les attentes principales quand c'est possible."
+        },
+        {
+          "step": "03",
+          "title": "Orienter vers le bon relais",
+          "text": "Identifier le service, la commission ou l'interlocuteur le plus pertinent."
+        },
+        {
+          "step": "04",
+          "title": "Repondre",
+          "text": "Apporter un retour utile ou une mise en relation adaptee au besoin."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Un contact simple et utile",
+      "title": "Entrer en relation avec l'UDSP 31",
+      "paragraphs": [
+        "Que votre demande soit institutionnelle, associative, pedagogique ou operationnelle, l'UDSP 31 cherche a apporter une orientation claire et utile.",
+        "N'hesitez pas a prendre contact pour etre dirige vers le bon service ou le bon interlocuteur."
+      ],
+      "primary_cta": {
+        "label": "Envoyer un email",
+        "target": "mailto:udsp31@gmail.com"
+      },
+      "secondary_cta": {
+        "label": "Retour a l'accueil",
+        "target": "home"
+      },
+      "gallery": [
+        "portrait-sapeuse.png",
+        "secourisme 2.png",
+        "pompiers2.png"
+      ]
+    }
+  },
+  "mentions-legales": {
+    "nav_group": "legal",
+    "title": "Mentions legales",
+    "description": "Mentions legales du site UDSP 31. Cette page doit etre completee avec les informations de publication et d'hebergement avant mise en ligne definitive.",
+    "hero": {
+      "lede": "Cette page centralise les informations legales du site. Les elements specifiques a l'editeur, au responsable de publication et a l'hebergeur doivent etre verifies et completes avant une mise en ligne definitive.",
+      "primary_cta": {
+        "label": "Voir les points a completer",
+        "target": "anchor:legal-points"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "images": [
+        "logo-header.png",
+        "footer-bg.jpg",
+        "recruit-bg.jpg"
+      ]
+    },
+    "story": {
+      "title": "Une base a completer avant publication definitive",
+      "paragraphs": [
+        "Les mentions legales doivent identifier clairement l'editeur du site, le responsable de publication, l'hebergeur et certaines informations relatives a la propriete intellectuelle des contenus.",
+        "Le theme peut integrer cette page dans son architecture, mais les informations juridiques precises doivent etre renseignees et verifiees par l'UDSP 31 avant toute mise en production.",
+        "Cette page sert donc de socle editorial et de repere de structure, pas de validation juridique definitive."
+      ],
+      "summary": {
+        "kicker": "Important",
+        "title": "A verifier avant mise en ligne",
+        "text": "Les informations ci-dessous doivent etre remplacees par les donnees exactes de l'editeur et de l'hebergeur.",
+        "items": [
+          {
+            "label": "Editeur",
+            "text": "Nom exact de l'entite, adresse et moyens de contact a confirmer."
+          },
+          {
+            "label": "Publication",
+            "text": "Responsable de publication a identifier nommement."
+          },
+          {
+            "label": "Hebergement",
+            "text": "Nom de l'hebergeur, adresse et contact a renseigner."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "legal-points",
+      "title": "Les blocs a renseigner dans cette page",
+      "intro": "Pour etre exploitable, cette page doit au minimum comporter les informations suivantes avec des donnees exactes et a jour.",
+      "cards": [
+        {
+          "icon": "document",
+          "title": "Editeur du site",
+          "text": "Nom de la structure, forme, adresse du siege et coordonnees de contact."
+        },
+        {
+          "icon": "users",
+          "title": "Responsable de publication",
+          "text": "Nom de la personne ou fonction responsable du contenu publie."
+        },
+        {
+          "icon": "shield",
+          "title": "Hebergeur",
+          "text": "Nom, adresse et contact de la structure qui heberge le site."
+        },
+        {
+          "icon": "heart",
+          "title": "Propriete intellectuelle",
+          "text": "Regles de reutilisation des textes, images, logos et contenus du site."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "legal-fonctionnement",
+      "title": "Les verifications a mener avant publication",
+      "intro": "Les pages legales doivent etre traitees comme un lot a part entiere avant la mise en ligne definitive du site.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Identifier les responsables",
+          "text": "Lister l'editeur, le responsable de publication et l'hebergeur reels du site."
+        },
+        {
+          "step": "02",
+          "title": "Completer les informations",
+          "text": "Renseigner les donnees manquantes avec les informations exactes et a jour."
+        },
+        {
+          "step": "03",
+          "title": "Verifier la coherence",
+          "text": "S'assurer que les textes reflevent bien la realite du site et de son exploitation."
+        },
+        {
+          "step": "04",
+          "title": "Valider avant mise en ligne",
+          "text": "Faire relire cette page par les responsables du projet avant publication."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Une base structurelle, pas une validation juridique",
+      "title": "Finaliser cette page avant la mise en ligne publique",
+      "paragraphs": [
+        "Cette page permet de poser la bonne structure editoriale pour les mentions legales du site UDSP 31.",
+        "Avant publication definitive, elle doit etre completee, verifiee et validee avec les informations juridiques exactes du projet."
+      ],
+      "primary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "secondary_cta": {
+        "label": "Retour a l'accueil",
+        "target": "home"
+      },
+      "gallery": [
+        "logo-header.png",
+        "footer-bg.jpg",
+        "recruit-bg.jpg"
+      ]
+    }
+  },
+  "politique-de-confidentialite": {
+    "nav_group": "legal",
+    "title": "Politique de confidentialite",
+    "description": "Politique de confidentialite du site UDSP 31. Cette page constitue une base a completer avec les traitements de donnees reels avant mise en ligne.",
+    "hero": {
+      "lede": "La politique de confidentialite doit expliquer quelles donnees sont collecte es, pourquoi elles le sont, combien de temps elles sont conservees et quels sont les droits des personnes concernees. Cette base doit etre ajustee a la realite du site avant publication.",
+      "primary_cta": {
+        "label": "Voir les points a couvrir",
+        "target": "anchor:privacy-points"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "images": [
+        "logo-header.png",
+        "secourisme 2.png",
+        "footer-bg.jpg"
+      ]
+    },
+    "story": {
+      "title": "Une page indispensable a adapter au site reel",
+      "paragraphs": [
+        "La politique de confidentialite a pour role d'expliquer de facon claire comment le site traite les donnees personnelles eventuellement recueillies via ses formulaires, outils de mesure ou services integres.",
+        "Le theme peut proposer une structure de lecture et des grands themes, mais les traitements effectifs doivent etre identifies avec precision avant publication definitive.",
+        "Cette page ne doit donc pas etre consideree comme un texte juridique finalise, mais comme une base de travail a renseigner et a verifier."
+      ],
+      "summary": {
+        "kicker": "Important",
+        "title": "Des informations a completer avec precision",
+        "text": "Le contenu final depend des outils reels utilises sur le site et des donnees effectivement collecte es.",
+        "items": [
+          {
+            "label": "Responsable",
+            "text": "Identifier qui traite les donnees et dans quel cadre."
+          },
+          {
+            "label": "Finalites",
+            "text": "Expliquer pourquoi certaines donnees peuvent etre demandees."
+          },
+          {
+            "label": "Droits",
+            "text": "Prevoir les modalites d'exercice des droits des personnes."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "privacy-points",
+      "title": "Les grands blocs a integrer",
+      "intro": "Une politique de confidentialite utile doit couvrir les traitements reels du site avec des formulations claires et des informations verifiables.",
+      "cards": [
+        {
+          "icon": "document",
+          "title": "Responsable du traitement",
+          "text": "Qui collecte les donnees, dans quel cadre et avec quels moyens de contact."
+        },
+        {
+          "icon": "shield",
+          "title": "Finalites et base de collecte",
+          "text": "Pourquoi certaines donnees sont demandees et a quoi elles servent concretement."
+        },
+        {
+          "icon": "clock",
+          "title": "Conservation",
+          "text": "Combien de temps les donnees sont conservees et selon quelles regles."
+        },
+        {
+          "icon": "users",
+          "title": "Droits des personnes",
+          "text": "Comment exercer les droits d'acces, de rectification, d'opposition ou de suppression."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "privacy-fonctionnement",
+      "title": "Une verification a mener avant publication",
+      "intro": "La politique de confidentialite doit etre construite a partir des traitements reels du site et des outils effectivement actifs.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Recenser les donnees collectees",
+          "text": "Identifier tous les formulaires, outils et services susceptibles de recueillir des donnees."
+        },
+        {
+          "step": "02",
+          "title": "Documenter les finalites",
+          "text": "Expliquer clairement pourquoi les donnees sont traitees et par qui."
+        },
+        {
+          "step": "03",
+          "title": "Verifier les droits",
+          "text": "Prevoir les bons points de contact et les modalites de gestion des demandes."
+        },
+        {
+          "step": "04",
+          "title": "Valider le texte final",
+          "text": "Faire relire et approuver la version definitive avant mise en ligne."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Une base a adapter",
+      "title": "Completer cette page avec les traitements reels du site",
+      "paragraphs": [
+        "Cette politique de confidentialite fournit un cadre de presentation, mais son contenu final depend des fonctionnalites effectivement deployees sur le site.",
+        "Avant publication definitive, elle doit etre renseignee avec les informations exactes du projet et verifiee par les responsables du site."
+      ],
+      "primary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "secondary_cta": {
+        "label": "Retour a l'accueil",
+        "target": "home"
+      },
+      "gallery": [
+        "logo-header.png",
+        "secourisme 2.png",
+        "footer-bg.jpg"
+      ]
+    }
+  },
+  "cookies": {
+    "nav_group": "legal",
+    "title": "Cookies",
+    "description": "Page d'information sur les cookies du site UDSP 31. Cette base doit etre ajustee selon les outils reels actifs sur le site.",
+    "hero": {
+      "lede": "La page cookies doit informer clairement les visiteurs sur les traceurs utilises par le site, leur finalite et les modalites de gestion du consentement. Elle doit etre ajustee en fonction des outils reels du projet.",
+      "primary_cta": {
+        "label": "Voir les points a verifier",
+        "target": "anchor:cookies-points"
+      },
+      "secondary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "images": [
+        "logo-header.png",
+        "newsletter-bg.jpg",
+        "footer-bg.jpg"
+      ]
+    },
+    "story": {
+      "title": "Informer simplement sur les traceurs utilises",
+      "paragraphs": [
+        "La page cookies doit expliquer quels traceurs sont eventuellement presents sur le site, a quoi ils servent et comment l'utilisateur peut les accepter, les refuser ou modifier ses choix.",
+        "Comme pour les autres pages legales, le theme peut fournir un cadre editorial, mais les contenus doivent etre relies aux outils effectivement deployes.",
+        "Cette base doit donc etre completee en fonction des cookies reels, des outils d'analyse, des integrations tierces et de la logique de consentement retenue."
+      ],
+      "summary": {
+        "kicker": "Important",
+        "title": "Des contenus a relier aux outils actifs",
+        "text": "Le contenu final depend des cookies reels du site et du bandeau de consentement mis en place.",
+        "items": [
+          {
+            "label": "Identifier",
+            "text": "Lister les cookies essentiels et les services tiers reellement utilises."
+          },
+          {
+            "label": "Expliquer",
+            "text": "Preciser la finalite de chaque categorie de traceurs."
+          },
+          {
+            "label": "Permettre le choix",
+            "text": "Indiquer comment gerer les preferences et le consentement."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "cookies-points",
+      "title": "Les grandes categories a presenter",
+      "intro": "La page cookies doit distinguer clairement les differents usages des traceurs et leurs implications pour l'utilisateur.",
+      "cards": [
+        {
+          "icon": "shield",
+          "title": "Cookies essentiels",
+          "text": "Ceux qui sont necessaires au bon fonctionnement technique du site."
+        },
+        {
+          "icon": "document",
+          "title": "Mesure d'audience",
+          "text": "Les outils de statistiques ou de suivi de navigation eventuellement utilises."
+        },
+        {
+          "icon": "users",
+          "title": "Services tiers",
+          "text": "Les integrations externes susceptibles de deposer leurs propres traceurs."
+        },
+        {
+          "icon": "handshake",
+          "title": "Gestion du consentement",
+          "text": "La facon dont l'utilisateur peut accepter, refuser ou modifier ses choix."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "cookies-fonctionnement",
+      "title": "Une page cookies pertinente suppose un audit simple",
+      "intro": "Pour etre juste, la page cookies doit etre alignee avec les outils actifs et le mecanisme de consentement retenu sur le site.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Lister les traceurs",
+          "text": "Identifier les cookies reels poses par le site et ses services tiers."
+        },
+        {
+          "step": "02",
+          "title": "Classer les usages",
+          "text": "Distinguer les cookies strictement necessaires des autres categories."
+        },
+        {
+          "step": "03",
+          "title": "Documenter le consentement",
+          "text": "Verifier la logique de choix offerte aux visiteurs."
+        },
+        {
+          "step": "04",
+          "title": "Mettre a jour",
+          "text": "Faire evoluer la page en fonction des outils reels utilises sur le site."
+        }
+      ]
+    },
+    "closing": {
+      "kicker": "Une base a finaliser",
+      "title": "Adapter cette page aux cookies reels du projet",
+      "paragraphs": [
+        "Cette page donne un cadre editorial pour presenter la gestion des cookies sur le site UDSP 31.",
+        "Avant publication definitive, elle doit etre ajustee aux traceurs reels, au bandeau de consentement et aux services tiers effectivement utilises."
+      ],
+      "primary_cta": {
+        "label": "Nous contacter",
+        "target": "page:contact"
+      },
+      "secondary_cta": {
+        "label": "Retour a l'accueil",
+        "target": "home"
+      },
+      "gallery": [
+        "logo-header.png",
+        "newsletter-bg.jpg",
+        "footer-bg.jpg"
+      ]
+    }
+  }
+}

@@ -21,6 +21,54 @@ $logo_url        = ! empty( $logo_data['url'] ) ? $logo_data['url'] : '';
 $logo_shape      = ! empty( $logo_data['shape'] ) ? $logo_data['shape'] : 'standard';
 $brand_classes   = 'brand brand--logo-' . sanitize_html_class( $logo_shape );
 $show_identity   = ! has_custom_logo() && ! $logo_url;
+$discover_url    = udsp31_get_discover_url();
+$executive_url   = udsp31_get_executive_url();
+$commissions_url = udsp31_get_content_page_url( 'les-commissions' );
+$secourisme_url  = udsp31_get_content_page_url( 'secourisme' );
+$jsp_commission_url = udsp31_get_content_page_url( 'jeunes-sapeurs-pompiers' );
+$spv_url         = udsp31_get_content_page_url( 'sapeurs-pompiers-volontaires' );
+$spp_url         = udsp31_get_content_page_url( 'sapeurs-pompiers-professionnels' );
+$sssm_url        = udsp31_get_content_page_url( 'service-de-sante-et-de-secours-medical' );
+$dps_url         = udsp31_get_content_page_url( 'dispositif-previsionnel-de-secours' );
+$social_url      = udsp31_get_content_page_url( 'social' );
+$sport_url       = udsp31_get_content_page_url( 'sport' );
+$asp_url         = udsp31_get_content_page_url( 'anciens-sapeurs-pompiers' );
+$services_url    = udsp31_get_content_page_url( 'nos-services' );
+$formation_url   = udsp31_get_content_page_url( 'formation-secourisme' );
+$recruitment_landing_url = udsp31_get_content_page_url( 'devenir-pompier' );
+$volunteer_url   = udsp31_get_recruitment_url( 'devenir-pompier-volontaire' );
+$professional_url = udsp31_get_recruitment_url( 'devenir-pompier-professionel' );
+$jsp_url         = udsp31_get_recruitment_url( 'devenir-jeune-sapeur-pompier' );
+$se_former_url   = $formation_url;
+$is_home         = is_front_page();
+$is_discover     = is_page( 'decouvrir-ludsp31' );
+$is_executive    = is_page( 'le-bureau-executif' );
+$is_commissions  = is_page(
+	array(
+		'les-commissions',
+		'secourisme',
+		'jeunes-sapeurs-pompiers',
+		'sapeurs-pompiers-volontaires',
+		'sapeurs-pompiers-professionnels',
+		'service-de-sante-et-de-secours-medical',
+		'dispositif-previsionnel-de-secours',
+		'social',
+		'sport',
+		'anciens-sapeurs-pompiers',
+	)
+);
+$is_services     = is_page(
+	array(
+		'nos-services',
+		'formation-secourisme',
+		'dispositif-previsionnel-de-secours',
+	)
+);
+$is_recruitment_landing = is_page( 'devenir-pompier' );
+$is_volunteer    = is_page( 'devenir-pompier-volontaire' );
+$is_professional = is_page( 'devenir-pompier-professionel' );
+$is_jsp_page     = is_page( 'devenir-jeune-sapeur-pompier' );
+$is_recruitment  = $is_recruitment_landing || $is_volunteer || $is_professional || $is_jsp_page;
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -97,37 +145,50 @@ $show_identity   = ! has_custom_logo() && ! $logo_url;
 					?>
 				<?php else : ?>
 					<ul class="primary-menu">
-						<li class="current-menu-item"><a href="<?php echo esc_url( udsp31_section_url( 'top' ) ); ?>"><?php esc_html_e( 'Accueil', 'udsp31' ); ?></a></li>
-						<li><a href="<?php echo esc_url( udsp31_section_url( 'engagement' ) ); ?>"><?php esc_html_e( "L'UDSP31", 'udsp31' ); ?></a></li>
-						<li class="menu-item-has-children">
-							<a href="<?php echo esc_url( udsp31_section_url( 'engagement' ) ); ?>"><?php esc_html_e( 'Commissions', 'udsp31' ); ?></a>
+						<li class="<?php echo $is_home ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Accueil', 'udsp31' ); ?></a></li>
+						<li class="menu-item-has-children <?php echo ( $is_discover || $is_executive ) ? 'current-menu-item' : ''; ?>">
+							<a href="<?php echo esc_url( $discover_url ); ?>"><?php esc_html_e( "L'UDSP31", 'udsp31' ); ?></a>
 							<ul class="sub-menu">
-								<li><a href="<?php echo esc_url( udsp31_section_url( 'missions' ) ); ?>"><?php esc_html_e( 'Secourime & formations', 'udsp31' ); ?></a></li>
-								<li><a href="<?php echo esc_url( udsp31_section_url( 'engagement' ) ); ?>"><?php esc_html_e( 'Jeunes Sapeurs Pompiers', 'udsp31' ); ?></a></li>
-								<li><a href="<?php echo esc_url( udsp31_section_url( 'engagement' ) ); ?>"><?php esc_html_e( 'Sapeurs pompiers volontaires', 'udsp31' ); ?></a></li>
-								<li><a href="<?php echo esc_url( udsp31_section_url( 'engagement' ) ); ?>"><?php esc_html_e( 'Sapeurs pompiers professionnels', 'udsp31' ); ?></a></li>
-								<li><a href="<?php echo esc_url( udsp31_section_url( 'engagement' ) ); ?>"><?php esc_html_e( '3SM', 'udsp31' ); ?></a></li>
-								<li><a href="<?php echo esc_url( udsp31_section_url( 'acces-rapides' ) ); ?>"><?php esc_html_e( 'Dispositifs previsionnels de secours', 'udsp31' ); ?></a></li>
-								<li><a href="<?php echo esc_url( udsp31_section_url( 'engagement' ) ); ?>"><?php esc_html_e( 'Social', 'udsp31' ); ?></a></li>
-								<li><a href="<?php echo esc_url( udsp31_section_url( 'engagement' ) ); ?>"><?php esc_html_e( 'Sport', 'udsp31' ); ?></a></li>
-								<li><a href="<?php echo esc_url( udsp31_section_url( 'engagement' ) ); ?>"><?php esc_html_e( 'Anciens sapeurs pompiers', 'udsp31' ); ?></a></li>
+								<li class="<?php echo $is_discover ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $discover_url ); ?>"><?php esc_html_e( "Decouvrir l'UDSP 31", 'udsp31' ); ?></a></li>
+								<li class="<?php echo $is_executive ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $executive_url ); ?>"><?php esc_html_e( 'Le bureau executif', 'udsp31' ); ?></a></li>
 							</ul>
 						</li>
-						<li class="menu-item-has-children">
-							<a href="<?php echo esc_url( udsp31_section_url( 'missions' ) ); ?>"><?php esc_html_e( 'Nos Services', 'udsp31' ); ?></a>
+						<li class="menu-item-has-children <?php echo $is_commissions ? 'current-menu-item' : ''; ?>">
+							<a href="<?php echo esc_url( $commissions_url ); ?>"><?php esc_html_e( 'Les commissions', 'udsp31' ); ?></a>
 							<ul class="sub-menu">
-								<li><a href="<?php echo esc_url( udsp31_section_url( 'missions' ) ); ?>"><?php esc_html_e( 'Formation', 'udsp31' ); ?></a></li>
-								<li><a href="<?php echo esc_url( udsp31_section_url( 'acces-rapides' ) ); ?>"><?php esc_html_e( 'Dispositif Previsionnel de Secours', 'udsp31' ); ?></a></li>
-								<li><a href="<?php echo esc_url( udsp31_section_url( 'engagement' ) ); ?>"><?php esc_html_e( 'Jeunes Sapeurs-Pompiers', 'udsp31' ); ?></a></li>
+								<li class="<?php echo is_page( 'secourisme' ) ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $secourisme_url ); ?>"><?php esc_html_e( 'Secourisme', 'udsp31' ); ?></a></li>
+								<li class="<?php echo is_page( 'jeunes-sapeurs-pompiers' ) ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $jsp_commission_url ); ?>"><?php esc_html_e( 'Jeunes Sapeurs-Pompiers', 'udsp31' ); ?></a></li>
+								<li class="<?php echo is_page( 'sapeurs-pompiers-volontaires' ) ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $spv_url ); ?>"><?php esc_html_e( 'Sapeurs-Pompiers volontaires', 'udsp31' ); ?></a></li>
+								<li class="<?php echo is_page( 'sapeurs-pompiers-professionnels' ) ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $spp_url ); ?>"><?php esc_html_e( 'Sapeurs-Pompiers professionnels', 'udsp31' ); ?></a></li>
+								<li class="<?php echo is_page( 'service-de-sante-et-de-secours-medical' ) ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $sssm_url ); ?>"><?php esc_html_e( 'Service de sante et de secours medical', 'udsp31' ); ?></a></li>
+								<li class="<?php echo is_page( 'dispositif-previsionnel-de-secours' ) ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $dps_url ); ?>"><?php esc_html_e( 'Dispositif previsionnel de secours', 'udsp31' ); ?></a></li>
+								<li class="<?php echo is_page( 'social' ) ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $social_url ); ?>"><?php esc_html_e( 'Social', 'udsp31' ); ?></a></li>
+								<li class="<?php echo is_page( 'sport' ) ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $sport_url ); ?>"><?php esc_html_e( 'Sport', 'udsp31' ); ?></a></li>
+								<li class="<?php echo is_page( 'anciens-sapeurs-pompiers' ) ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $asp_url ); ?>"><?php esc_html_e( 'Anciens Sapeurs-Pompiers', 'udsp31' ); ?></a></li>
 							</ul>
 						</li>
-						<li><a href="<?php echo esc_url( udsp31_section_url( 'engagement' ) ); ?>"><?php esc_html_e( 'Devenir pompier', 'udsp31' ); ?></a></li>
+						<li class="menu-item-has-children <?php echo $is_services ? 'current-menu-item' : ''; ?>">
+							<a href="<?php echo esc_url( $services_url ); ?>"><?php esc_html_e( 'Nos services', 'udsp31' ); ?></a>
+							<ul class="sub-menu">
+								<li class="<?php echo is_page( 'formation-secourisme' ) ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $formation_url ); ?>"><?php esc_html_e( 'Formation', 'udsp31' ); ?></a></li>
+								<li class="<?php echo is_page( 'dispositif-previsionnel-de-secours' ) ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $dps_url ); ?>"><?php esc_html_e( 'Dispositif Previsionnel de Secours', 'udsp31' ); ?></a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children <?php echo $is_recruitment ? 'current-menu-item' : ''; ?>">
+							<a href="<?php echo esc_url( $recruitment_landing_url ); ?>"><?php esc_html_e( 'Devenir pompier', 'udsp31' ); ?></a>
+							<ul class="sub-menu">
+								<li class="<?php echo $is_volunteer ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $volunteer_url ); ?>"><?php esc_html_e( 'Devenir Pompier volontaire', 'udsp31' ); ?></a></li>
+								<li class="<?php echo $is_professional ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $professional_url ); ?>"><?php esc_html_e( 'Devenir Pompier Professionnel', 'udsp31' ); ?></a></li>
+								<li class="<?php echo $is_jsp_page ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $jsp_url ); ?>"><?php esc_html_e( 'Devenir Jeune Sapeur-Pompier', 'udsp31' ); ?></a></li>
+							</ul>
+						</li>
 					</ul>
 				<?php endif; ?>
 			</nav>
 
-			<a class="header-cta" href="<?php echo esc_url( udsp31_section_url( 'site-footer-contact' ) ); ?>">
-				<?php esc_html_e( 'Nous contacter', 'udsp31' ); ?>
+			<a class="header-cta" href="<?php echo esc_url( $se_former_url ); ?>">
+				<span><?php esc_html_e( 'Se former', 'udsp31' ); ?></span>
+				<span class="button__icon" aria-hidden="true"><?php udsp31_the_icon( 'launch' ); ?></span>
 			</a>
 		</div>
 	</div>

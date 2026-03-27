@@ -88,17 +88,17 @@ $values = array(
 	array(
 		'icon'  => 'handshake',
 		'title' => __( 'Solidarite', 'udsp31' ),
-		'text'  => __( 'Soutien aux sapeurs-pompiers et a leurs familles.', 'udsp31' ),
+		'text'  => __( 'Nous defendons les interets moraux des sapeurs-pompiers et accompagnons nos membres ainsi que leurs familles quand ils en ont besoin.', 'udsp31' ),
 	),
 	array(
 		'icon'  => 'shield',
 		'title' => __( 'Excellence', 'udsp31' ),
-		'text'  => __( 'Formation de qualite et innovation constante.', 'udsp31' ),
+		'text'  => __( "Nous developpons la formation, l'entrainement et la transmission des savoir-faire, des JSP au secourisme pour le grand public.", 'udsp31' ),
 	),
 	array(
 		'icon'  => 'heart',
 		'title' => __( 'Humanite', 'udsp31' ),
-		'text'  => __( "Au coeur de nos actions, l'humain avant tout.", 'udsp31' ),
+		'text'  => __( "Nous representons les sapeurs-pompiers, les PATS, les anciens et les JSP de Haute-Garonne, et nous promouvons leur engagement au service de tous.", 'udsp31' ),
 	),
 );
 
@@ -368,7 +368,7 @@ $fallback_news = array(
 			<div class="engagement-copy">
 				<span class="section-kicker"><?php esc_html_e( 'Nos valeurs', 'udsp31' ); ?></span>
 				<h2><?php esc_html_e( 'Un engagement au service de tous', 'udsp31' ); ?></h2>
-				<p><?php esc_html_e( "L'Union Departementale des Sapeurs-Pompiers de Haute-Garonne est une association qui oeuvre depuis plus de 100 ans pour defendre les interets des sapeurs-pompiers, promouvoir leurs valeurs et accompagner les acteurs de la securite civile.", 'udsp31' ); ?></p>
+				<p><?php esc_html_e( "Association loi 1901, l'UDSP 31 rassemble et represente les sapeurs-pompiers, les PATS, les anciens et les JSP de la Haute-Garonne. Elle defend leurs interets, soutient les familles et agit pour la formation, le secourisme et les dispositifs previsionnels de secours.", 'udsp31' ); ?></p>
 
 				<ul class="value-list">
 					<?php foreach ( $values as $value ) : ?>
@@ -382,7 +382,7 @@ $fallback_news = array(
 					<?php endforeach; ?>
 				</ul>
 
-				<a class="button button--primary" href="<?php echo esc_url( udsp31_section_url( 'site-footer-contact' ) ); ?>">
+				<a class="button button--primary" href="<?php echo esc_url( udsp31_get_discover_url() ); ?>">
 					<span><?php esc_html_e( "Decouvrir l'UDSP 31", 'udsp31' ); ?></span>
 					<span class="button__icon"><?php udsp31_the_icon( 'arrow' ); ?></span>
 				</a>
