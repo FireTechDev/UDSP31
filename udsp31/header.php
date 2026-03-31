@@ -39,7 +39,7 @@ $recruitment_landing_url = udsp31_get_content_page_url( 'devenir-pompier' );
 $volunteer_url   = udsp31_get_recruitment_url( 'devenir-pompier-volontaire' );
 $professional_url = udsp31_get_recruitment_url( 'devenir-pompier-professionel' );
 $jsp_url         = udsp31_get_recruitment_url( 'devenir-jeune-sapeur-pompier' );
-$se_former_url   = $formation_url;
+$se_former_url   = 'https://unions-pompiers.fr/Views/inscription_formation.php?departement=31';
 $is_home         = is_front_page();
 $is_discover     = is_page( 'decouvrir-ludsp31' );
 $is_executive    = is_page( 'le-bureau-executif' );
@@ -147,14 +147,14 @@ $is_recruitment  = $is_recruitment_landing || $is_volunteer || $is_professional 
 					<ul class="primary-menu">
 						<li class="<?php echo $is_home ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Accueil', 'udsp31' ); ?></a></li>
 						<li class="menu-item-has-children <?php echo ( $is_discover || $is_executive ) ? 'current-menu-item' : ''; ?>">
-							<a href="<?php echo esc_url( $discover_url ); ?>"><?php esc_html_e( "L'UDSP31", 'udsp31' ); ?></a>
+							<button class="menu-parent-label" type="button"><?php esc_html_e( "L'UDSP31", 'udsp31' ); ?></button>
 							<ul class="sub-menu">
 								<li class="<?php echo $is_discover ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $discover_url ); ?>"><?php esc_html_e( "Decouvrir l'UDSP 31", 'udsp31' ); ?></a></li>
 								<li class="<?php echo $is_executive ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $executive_url ); ?>"><?php esc_html_e( 'Le bureau executif', 'udsp31' ); ?></a></li>
 							</ul>
 						</li>
 						<li class="menu-item-has-children <?php echo $is_commissions ? 'current-menu-item' : ''; ?>">
-							<a href="<?php echo esc_url( $commissions_url ); ?>"><?php esc_html_e( 'Les commissions', 'udsp31' ); ?></a>
+							<button class="menu-parent-label" type="button"><?php esc_html_e( 'Les commissions', 'udsp31' ); ?></button>
 							<ul class="sub-menu">
 								<li class="<?php echo is_page( 'secourisme' ) ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $secourisme_url ); ?>"><?php esc_html_e( 'Secourisme', 'udsp31' ); ?></a></li>
 								<li class="<?php echo is_page( 'jeunes-sapeurs-pompiers' ) ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $jsp_commission_url ); ?>"><?php esc_html_e( 'Jeunes Sapeurs-Pompiers', 'udsp31' ); ?></a></li>
@@ -168,14 +168,14 @@ $is_recruitment  = $is_recruitment_landing || $is_volunteer || $is_professional 
 							</ul>
 						</li>
 						<li class="menu-item-has-children <?php echo $is_services ? 'current-menu-item' : ''; ?>">
-							<a href="<?php echo esc_url( $services_url ); ?>"><?php esc_html_e( 'Nos services', 'udsp31' ); ?></a>
+							<button class="menu-parent-label" type="button"><?php esc_html_e( 'Nos services', 'udsp31' ); ?></button>
 							<ul class="sub-menu">
 								<li class="<?php echo is_page( 'formation-secourisme' ) ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $formation_url ); ?>"><?php esc_html_e( 'Formation', 'udsp31' ); ?></a></li>
 								<li class="<?php echo is_page( 'dispositif-previsionnel-de-secours' ) ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $dps_url ); ?>"><?php esc_html_e( 'Dispositif Previsionnel de Secours', 'udsp31' ); ?></a></li>
 							</ul>
 						</li>
 						<li class="menu-item-has-children <?php echo $is_recruitment ? 'current-menu-item' : ''; ?>">
-							<a href="<?php echo esc_url( $recruitment_landing_url ); ?>"><?php esc_html_e( 'Devenir pompier', 'udsp31' ); ?></a>
+							<button class="menu-parent-label" type="button"><?php esc_html_e( 'Devenir pompier', 'udsp31' ); ?></button>
 							<ul class="sub-menu">
 								<li class="<?php echo $is_volunteer ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $volunteer_url ); ?>"><?php esc_html_e( 'Devenir Pompier volontaire', 'udsp31' ); ?></a></li>
 								<li class="<?php echo $is_professional ? 'current-menu-item' : ''; ?>"><a href="<?php echo esc_url( $professional_url ); ?>"><?php esc_html_e( 'Devenir Pompier Professionnel', 'udsp31' ); ?></a></li>

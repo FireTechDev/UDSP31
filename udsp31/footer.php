@@ -23,24 +23,14 @@ $logo_url       = ! empty( $logo_data['url'] ) ? $logo_data['url'] : '';
 $logo_shape     = ! empty( $logo_data['shape'] ) ? $logo_data['shape'] : 'standard';
 $brand_classes  = 'brand brand--footer brand--logo-' . sanitize_html_class( $logo_shape );
 $show_identity  = ! has_custom_logo() && ! $logo_url;
-$social_links   = array_filter(
-	array(
-		'fb' => get_theme_mod( 'udsp31_facebook_url', '' ),
-		'ig' => get_theme_mod( 'udsp31_instagram_url', '' ),
-		'in' => get_theme_mod( 'udsp31_linkedin_url', '' ),
-		'yt' => get_theme_mod( 'udsp31_youtube_url', '' ),
-	)
-);
+$facebook_url   = get_theme_mod( 'udsp31_facebook_url', 'https://www.facebook.com/UDSP31' );
 $discover_url   = udsp31_get_discover_url();
-$news_url       = udsp31_get_content_page_url( 'actualites' );
-$agenda_url     = udsp31_get_content_page_url( 'agenda' );
-$directory_url  = udsp31_get_content_page_url( 'annuaire' );
+$news_url       = udsp31_get_news_archive_url();
 $contact_url    = udsp31_get_content_page_url( 'contact' );
 $formation_url  = udsp31_get_content_page_url( 'formation-secourisme' );
 $dps_url        = udsp31_get_content_page_url( 'dispositif-previsionnel-de-secours' );
 $jsp_url        = udsp31_get_content_page_url( 'jeunes-sapeurs-pompiers' );
 $legal_url      = udsp31_get_content_page_url( 'mentions-legales' );
-$privacy_url    = udsp31_get_content_page_url( 'politique-de-confidentialite' );
 $cookies_url    = udsp31_get_content_page_url( 'cookies' );
 ?>
 
@@ -70,17 +60,6 @@ $cookies_url    = udsp31_get_content_page_url( 'cookies' );
 				<?php esc_html_e( 'Union Departementale des Sapeurs-Pompiers de Haute-Garonne, au service de la population et des sapeurs-pompiers du departement.', 'udsp31' ); ?>
 			</p>
 
-			<?php if ( $social_links ) : ?>
-				<ul class="social-links" aria-label="<?php esc_attr_e( 'Reseaux sociaux', 'udsp31' ); ?>">
-					<?php foreach ( $social_links as $label => $url ) : ?>
-						<li>
-							<a href="<?php echo esc_url( $url ); ?>" target="_blank" rel="noreferrer noopener">
-								<?php echo esc_html( strtoupper( $label ) ); ?>
-							</a>
-						</li>
-					<?php endforeach; ?>
-				</ul>
-			<?php endif; ?>
 		</div>
 
 		<div class="footer-column">
@@ -100,9 +79,10 @@ $cookies_url    = udsp31_get_content_page_url( 'cookies' );
 				<ul class="footer-links">
 					<li><a href="<?php echo esc_url( $discover_url ); ?>"><?php esc_html_e( "L'UDSP31", 'udsp31' ); ?></a></li>
 					<li><a href="<?php echo esc_url( $news_url ); ?>"><?php esc_html_e( 'Actualites', 'udsp31' ); ?></a></li>
-					<li><a href="<?php echo esc_url( $agenda_url ); ?>"><?php esc_html_e( 'Agenda', 'udsp31' ); ?></a></li>
-					<li><a href="<?php echo esc_url( $directory_url ); ?>"><?php esc_html_e( 'Annuaire', 'udsp31' ); ?></a></li>
 					<li><a href="<?php echo esc_url( $contact_url ); ?>"><?php esc_html_e( 'Contact', 'udsp31' ); ?></a></li>
+					<?php if ( $facebook_url ) : ?>
+						<li><a href="<?php echo esc_url( $facebook_url ); ?>" target="_blank" rel="noreferrer noopener"><?php esc_html_e( 'Nous suivre sur Facebook', 'udsp31' ); ?></a></li>
+					<?php endif; ?>
 				</ul>
 			<?php endif; ?>
 		</div>
@@ -147,7 +127,7 @@ $cookies_url    = udsp31_get_content_page_url( 'cookies' );
 
 	<div class="footer-bottom">
 		<div class="container footer-bottom__inner">
-			<p>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php echo esc_html( $site_title ); ?> - <?php esc_html_e( 'Tous droits reserves', 'udsp31' ); ?> - R&eacute;alisation <a href="https://www.linkedin.com/in/taelpinault/?locale=fr" target="_blank" rel="noreferrer noopener">Tael PINAULT</a></p>
+			<p>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> UDSP 31 - R&eacute;alisation <a href="https://www.linkedin.com/in/taelpinault/?locale=fr" target="_blank" rel="noreferrer noopener">Tael PINAULT</a></p>
 
 			<?php if ( has_nav_menu( 'legal' ) ) : ?>
 				<?php
@@ -163,7 +143,6 @@ $cookies_url    = udsp31_get_content_page_url( 'cookies' );
 			<?php else : ?>
 				<ul class="legal-links">
 					<li><a href="<?php echo esc_url( $legal_url ); ?>"><?php esc_html_e( 'Mentions legales', 'udsp31' ); ?></a></li>
-					<li><a href="<?php echo esc_url( $privacy_url ); ?>"><?php esc_html_e( 'Politique de confidentialite', 'udsp31' ); ?></a></li>
 					<li><a href="<?php echo esc_url( $cookies_url ); ?>"><?php esc_html_e( 'Cookies', 'udsp31' ); ?></a></li>
 				</ul>
 			<?php endif; ?>

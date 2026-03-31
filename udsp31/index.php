@@ -29,7 +29,7 @@ get_header();
 					the_post();
 					$categories = get_the_category();
 					$category   = ! empty( $categories ) ? $categories[0]->name : __( 'Actualite', 'udsp31' );
-					$image_url  = has_post_thumbnail() ? get_the_post_thumbnail_url( get_the_ID(), 'large' ) : udsp31_asset_url( 'assets/images/news-2.jpg' );
+					$image_url  = has_post_thumbnail() ? get_the_post_thumbnail_url( get_the_ID(), 'large' ) : udsp31_asset_url( 'assets/images/hero.jpg' );
 					?>
 					<article <?php post_class( 'news-card' ); ?>>
 						<a class="news-card__image" href="<?php the_permalink(); ?>">

@@ -16,7 +16,7 @@
       "images": [
         "image_1015423_20260316_ob_73560e_1-president-et-vices.jpg",
         "image_1015423_20260316_ob_d472c5_3-les-membres.jpg",
-        "JSP.png"
+        "jsp-drapeau.png"
       ]
     },
     "story": {
@@ -142,8 +142,8 @@
       },
       "gallery": [
         "image_1015423_20260316_ob_0d633c_2-secretaires-tresoriers.jpg",
-        "JSP fille.png",
-        "secourisme 2.png"
+        "jsp-fille.png",
+        "secourisme-formation-2.png"
       ]
     }
   },
@@ -152,101 +152,148 @@
     "title": "Secourisme",
     "description": "La commission secourisme de l'UDSP 31 organise, structure et valorise les formations aux gestes qui sauvent en Haute-Garonne.",
     "hero": {
-      "lede": "Le secourisme fait partie des missions les plus visibles de l'UDSP 31. Cette commission organise les formations, soutient les equipes pedagogiques et participe a diffuser une vraie culture du secours dans tout le departement.",
+      "lede": "La commission secourisme de l'UDSP 31 deploie des formations fiables, concretes et encadrees par des professionnels de l'urgence pour le grand public, les entreprises, les associations et les collectivites.",
       "primary_cta": {
-        "label": "Voir les axes d'action",
-        "target": "anchor:secourisme-actions"
+        "label": "S'inscrire a une formation",
+        "target": "https://unions-pompiers.fr/Views/inscription_formation.php?departement=31"
       },
       "secondary_cta": {
-        "label": "Decouvrir les formations",
-        "target": "page:formation-secourisme"
+        "label": "Voir les formations proposees",
+        "target": "anchor:secourisme-actions"
       },
       "images": [
-        "secourisme 2.png",
-        "portrait-sapeuse.png",
-        "news-1.jpg"
+        "formation - rcp.jpg",
+        "secourisme-formation-2.png",
+        "secourisme-rcp.png"
       ]
     },
     "story": {
-      "title": "Former, structurer et diffuser les gestes qui sauvent",
+      "title": "Des formations secourisme utiles, actuelles et adaptees",
       "paragraphs": [
-        "La commission secourisme accompagne le developpement des actions de formation de l'UDSP 31 aupres du grand public, des associations, des entreprises et des collectivites.",
-        "Elle veille a la qualite des contenus, au bon deroulement des sessions et au maintien d'un cadre pedagogique exigeant pour les equipes qui interviennent sur le terrain.",
-        "A travers cette mission, l'UDSP 31 contribue a faire progresser les reflexes de prevention et de secours dans l'ensemble de la Haute-Garonne."
+        "Ayez l'assurance d'apprendre les bons gestes avec des professionnels de l'urgence. L'UDSP 31 propose des formations secourisme concues pour etre directement utiles dans la vie quotidienne, dans le cadre associatif ou en milieu professionnel.",
+        "La formation PSC1 evolue et devient desormais le PSC, pour Premiers Secours Citoyen. Cette appellation renforce l'idee d'un secourisme accessible, concret et utile a tous, au service d'une culture partagee des gestes qui sauvent.",
+        "Les sessions sont proposees pour le grand public, mais aussi pour les entreprises, associations et collectivites qui souhaitent former leurs equipes dans un cadre serieux, clair et adapte a leurs besoins."
       ],
       "summary": {
-        "kicker": "Repere",
-        "title": "Une commission au coeur de la transmission",
-        "text": "Le secourisme associe pedagogie, organisation et culture de la prevention.",
+        "kicker": "Formations proposees",
+        "title": "Une offre complete de secourisme",
+        "text": "Les formateurs secourisme de l'UDSP 31 interviennent sur plusieurs parcours, du premier niveau citoyen aux formations plus professionnalisantes.",
         "items": [
           {
-            "label": "Former",
-            "text": "Construire des parcours accessibles, utiles et rigoureux."
+            "label": "Premiers secours",
+            "text": "PSC - Premiers Secours Citoyen."
           },
           {
-            "label": "Certifier",
-            "text": "Garantir un cadre clair pour les sessions et les intervenants."
+            "label": "Equipes secouristes",
+            "text": "PSE 1 et PSE 2."
           },
           {
-            "label": "Diffuser",
-            "text": "Faire progresser la culture des gestes qui sauvent sur le territoire."
+            "label": "Milieu professionnel",
+            "text": "SST, MAC SST et MAC FO SST."
           }
         ]
       }
     },
     "cards_section": {
       "id": "secourisme-actions",
-      "title": "Les grands leviers de la commission secourisme",
-      "intro": "La commission secourisme ne se limite pas a l'organisation de stages. Elle structure un ensemble d'actions utiles pour les habitants comme pour les partenaires.",
+      "title": "Les formations et modalites proposees",
+      "intro": "Selon les publics et les objectifs, la commission secourisme de l'UDSP 31 propose plusieurs formats de formation et d'accompagnement.",
       "cards": [
         {
           "icon": "graduation",
-          "title": "Former le grand public",
-          "text": "Rendre les gestes qui sauvent plus accessibles et plus visibles dans tout le departement."
+          "title": "PSC - Premiers Secours Citoyen",
+          "text": "La formation citoyenne de reference pour apprendre les gestes essentiels et savoir reagir face a une urgence du quotidien."
         },
         {
           "icon": "document",
-          "title": "Accompagner les partenaires",
-          "text": "Proposer des solutions adaptees aux entreprises, associations et collectivites."
+          "title": "PSE 1 et PSE 2",
+          "text": "Des formations plus avancees pour les equipiers secouristes qui doivent intervenir dans un cadre organise et exigeant."
         },
         {
           "icon": "shield",
-          "title": "Maintenir l'exigence pedagogique",
-          "text": "Veiller a la qualite des contenus, des pratiques et de l'encadrement."
+          "title": "SST et recyclages",
+          "text": "SST, MAC SST et MAC FO SST pour les entreprises et structures qui souhaitent former ou maintenir les competences de leurs equipes."
         },
         {
           "icon": "heart",
-          "title": "Developper la prevention",
-          "text": "Inscrire le secourisme dans une demarche plus large de sensibilisation et de responsabilisation."
+          "title": "Inscriptions et demandes",
+          "text": "Les dates de formation et les inscriptions sont accessibles via la plateforme unions-pompiers pour simplifier les demarches."
+        }
+      ]
+    },
+    "feature_section": {
+      "id": "secourisme-modalites",
+      "title": "Des formats adaptes aux realites du terrain",
+      "intro": "La commission secourisme veille a proposer des parcours souples, accessibles et compatibles avec les contraintes des participants comme des structures.",
+      "paragraphs": [
+        "Les formations peuvent etre proposees en presentiel classique, mais aussi en FOAD lorsque le dispositif le permet. Cette modalite apporte les apports theoriques en ligne et reduit la duree de presence sur site, par exemple 4 heures au lieu de 7 pour certaines sessions PSC.",
+        "La FOAD permet a chacun d'avancer a son rythme, avec un contenu structure, accessible depuis un support connecte a internet, avant de retrouver le formateur pour les mises en situation pratiques.",
+        "Les formations secourisme sont egalement pensees pour accueillir les personnes en situation de handicap. Les gestes peuvent etre realises ou faire l'objet d'une mise en oeuvre adaptee selon les capacites du participant. Les locaux de Colomiers sont accessibles aux personnes a mobilite reduite et l'equipe peut organiser avec vous les modalites d'accueil les plus pertinentes."
+      ],
+      "features": [
+        {
+          "icon": "document",
+          "title": "FOAD",
+          "text": "Une formule qui transmet la theorie en ligne pour alleger le temps de presentiel et rendre la formation plus souple."
+        },
+        {
+          "icon": "users",
+          "title": "Entreprises et collectivites",
+          "text": "Des solutions adaptees aux besoins des employeurs, des associations et des structures qui veulent former leurs equipes."
+        },
+        {
+          "icon": "heart",
+          "title": "Accessibilite handicap",
+          "text": "Un accueil adapte a chaque participant, avec une approche personnalisee et des locaux accessibles a Colomiers."
+        },
+        {
+          "icon": "shield",
+          "title": "Encadrement professionnel",
+          "text": "Des contenus rigoureux, une pedagogie claire et un accompagnement porte par des professionnels de l'urgence."
         }
       ]
     },
     "flow_section": {
-      "id": "secourisme-fonctionnement",
-      "title": "Comment les actions sont mises en place",
-      "intro": "Le secourisme repose sur une organisation precise, depuis l'identification des besoins jusqu'a la realisation des formations.",
+      "id": "secourisme-resultats",
+      "title": "Performance et accomplissement",
+      "intro": "Les retours d'enquete montrent un haut niveau de satisfaction sur l'ensemble des formations, avec une reussite constante aux evaluations.",
       "steps": [
         {
-          "step": "01",
-          "title": "Qualifier la demande",
-          "text": "Analyser le public, le niveau attendu et les objectifs de formation."
+          "step": "2020",
+          "title": "Satisfaction et reussite",
+          "text": "4.66 sur 5 et 100 pour cent de reussite aux evaluations."
         },
         {
-          "step": "02",
-          "title": "Organiser la session",
-          "text": "Mobiliser les intervenants, planifier les moyens et preparer le cadre pedagogique."
+          "step": "2021",
+          "title": "Satisfaction et reussite",
+          "text": "4.61 sur 5 et 100 pour cent de reussite aux evaluations."
         },
         {
-          "step": "03",
-          "title": "Former en situation",
-          "text": "Transmettre des gestes clairs, utiles et applicables dans la vie reelle."
+          "step": "2022",
+          "title": "Satisfaction et reussite",
+          "text": "4.82 sur 5 et 100 pour cent de reussite aux evaluations."
         },
         {
-          "step": "04",
-          "title": "Faire progresser",
-          "text": "Evaluer, certifier et encourager la poursuite de l'engagement dans la prevention."
+          "step": "2023",
+          "title": "Satisfaction et reussite",
+          "text": "4.83 sur 5 et 100 pour cent de reussite aux evaluations."
+        },
+        {
+          "step": "2024",
+          "title": "Satisfaction et reussite",
+          "text": "4.87 sur 5 et 100 pour cent de reussite aux evaluations."
         }
       ]
+    },
+    "logo_section": {
+      "id": "secourisme-qualiopi",
+      "title": "Certification Qualiopi",
+      "caption": "",
+      "image": "secourisme-logo_qualiopi.png",
+      "link": {
+        "label": "Voir le certificat Qualiopi délivré",
+        "target": "https://www.udsp31.fr/wp-content/uploads/2026/03/certificat-qualiopi.jpg"
+      }
     },
     "closing": {
       "kicker": "Une culture du secours qui se transmet",
@@ -264,9 +311,9 @@
         "target": "page:contact"
       },
       "gallery": [
-        "secourisme 2.png",
-        "portrait-sapeuse.png",
-        "news-1.jpg"
+        "formation - rcp.jpg",
+        "secourisme-formation-2.png",
+        "secourisme-rcp.png"
       ]
     }
   },
@@ -277,17 +324,17 @@
     "hero": {
       "lede": "Les Jeunes Sapeurs-Pompiers incarnent la releve, mais aussi une ecole d'engagement, de discipline et de citoyennete. L'UDSP 31 accompagne leurs sections, leurs encadrants et leurs parcours de progression.",
       "primary_cta": {
+        "label": "Devenir Jeune Sapeur-Pompier",
+        "target": "page:devenir-jeune-sapeur-pompier"
+      },
+      "secondary_cta": {
         "label": "Voir le role de la commission",
         "target": "anchor:jsp-actions"
       },
-      "secondary_cta": {
-        "label": "Devenir JSP",
-        "target": "page:devenir-jeune-sapeur-pompier"
-      },
       "images": [
-        "JSP fille.png",
-        "JSP.png",
-        "hero-3.png"
+        "jsp-fille.png",
+        "jsp-Lance.png",
+        "jsp.png"
       ]
     },
     "story": {
@@ -387,9 +434,9 @@
         "target": "page:contact"
       },
       "gallery": [
-        "JSP fille.png",
-        "JSP.png",
-        "hero-3.png"
+        "jsp-fille.png",
+        "jsp-Lance.png",
+        "jsp.png"
       ]
     }
   },
@@ -408,9 +455,9 @@
         "target": "page:devenir-pompier-volontaire"
       },
       "images": [
-        "pompiers2.png",
-        "recruit-1.png",
-        "image_1015423_20260316_ob_73560e_1-president-et-vices.jpg"
+        "spv-feu-vl.png",
+        "spv-camion-photo.jpg",
+        "spv-equipe.jpg"
       ]
     },
     "story": {
@@ -510,9 +557,9 @@
         "target": "page:contact"
       },
       "gallery": [
-        "pompiers2.png",
-        "recruit-1.png",
-        "JSP.png"
+        "spv-pompier volontaires.png",
+        "spv-camion-photo.jpg",
+        "spv-equipe.jpg"
       ]
     }
   },
@@ -531,9 +578,9 @@
         "target": "page:devenir-pompier-professionel"
       },
       "images": [
-        "portrait-sapeuse.png",
-        "recruit-4.jpg",
-        "recruit-2.jpg"
+        "spp-professionnel.png",
+        "spp-camion.png",
+        "spp-maneouvre.png"
       ]
     },
     "story": {
@@ -633,9 +680,9 @@
         "target": "page:contact"
       },
       "gallery": [
-        "portrait-sapeuse.png",
-        "recruit-4.jpg",
-        "recruit-2.jpg"
+        "spp-professionnel.png",
+        "spp-camion.png",
+        "spp-maneouvre.png"
       ]
     }
   },
@@ -654,9 +701,9 @@
         "target": "page:contact"
       },
       "images": [
-        "portrait-sapeuse.png",
-        "secourisme 2.png",
-        "mission-firefighter.png"
+        "sp-portrait-sapeuse.png",
+        "secourisme-formation-2.png",
+        "secourisme-rcp.png"
       ]
     },
     "story": {
@@ -756,9 +803,9 @@
         "target": "page:les-commissions"
       },
       "gallery": [
-        "mission-firefighter.png",
-        "secourisme 2.png",
-        "portrait-sapeuse.png"
+        "secourisme-rcp.png",
+        "secourisme-formation-2.png",
+        "sp-portrait-sapeuse.png"
       ]
     }
   },
@@ -769,17 +816,17 @@
     "hero": {
       "lede": "Les dispositifs previsionnels de secours permettent de securiser des evenements et d'anticiper les besoins de prise en charge du public. L'UDSP 31 accompagne leur conception, leur organisation et leur deploiement.",
       "primary_cta": {
-        "label": "Comprendre le service",
-        "target": "anchor:dps-actions"
+        "label": "Demander un devis",
+        "target": "https://unions-pompiers.fr/Views/demande_dps.php?departement=31"
       },
       "secondary_cta": {
         "label": "Nous contacter",
         "target": "page:contact"
       },
       "images": [
-        "mission-firefighter.png",
-        "recruit-4.jpg",
-        "hero-2.png"
+        "DPS-Stade-1.png",
+        "DPS-Stade-2.jpg",
+        "DPS-Zenith.png"
       ]
     },
     "story": {
@@ -871,17 +918,17 @@
         "L'UDSP 31 peut accompagner cette preparation en proposant un cadre de securisation adapte a la realite de votre manifestation."
       ],
       "primary_cta": {
-        "label": "Nous contacter",
-        "target": "page:contact"
+        "label": "Demander un devis",
+        "target": "https://unions-pompiers.fr/Views/demande_dps.php?departement=31"
       },
       "secondary_cta": {
-        "label": "Voir nos services",
-        "target": "page:nos-services"
+        "label": "",
+        "target": ""
       },
       "gallery": [
-        "mission-firefighter.png",
-        "recruit-4.jpg",
-        "hero-2.png"
+        "DPS-Stade-1.png",
+        "DPS-Stade-2.jpg",
+        "DPS-Zenith.png"
       ]
     }
   },
@@ -900,9 +947,9 @@
         "target": "page:contact"
       },
       "images": [
-        "portrait-sapeuse.png",
-        "image_1015423_20260316_ob_dc6168_4-les-membres.jpg",
-        "JSP fille.png"
+        "Social-stade enfants.png",
+        "social-enfant.png",
+        "spv-pompier volontaires.png"
       ]
     },
     "story": {
@@ -1002,8 +1049,8 @@
         "target": "page:les-commissions"
       },
       "gallery": [
-        "portrait-sapeuse.png",
-        "JSP fille.png",
+        "Social-stade enfants.png",
+        "jsp-fille.png",
         "image_1015423_20260316_ob_dc6168_4-les-membres.jpg"
       ]
     }
@@ -1023,9 +1070,9 @@
         "target": "page:contact"
       },
       "images": [
-        "hero-2.png",
-        "hero-3.png",
-        "recruit-4.jpg"
+        "sport-parcours.png",
+        "sport-parcours-2.png",
+        "sport-running.png"
       ]
     },
     "story": {
@@ -1125,9 +1172,9 @@
         "target": "page:les-commissions"
       },
       "gallery": [
-        "hero-2.png",
-        "hero-3.png",
-        "recruit-4.jpg"
+        "sport-parcours.png",
+        "sport-parcours-2.png",
+        "sport-running.png"
       ]
     }
   },
@@ -1146,9 +1193,9 @@
         "target": "page:contact"
       },
       "images": [
-        "image_1015423_20260316_ob_d472c5_3-les-membres.jpg",
-        "pompiers2.png",
-        "JSP.png"
+        "ancien-sp.png",
+        "anciens-casque.png",
+        "anciens-camion.png"
       ]
     },
     "story": {
@@ -1159,6 +1206,7 @@
         "Cette mission rappelle qu'une Union Departementale solide est aussi une association qui sait d'ou elle vient et qui reconnait celles et ceux qui l'ont fait vivre."
       ],
       "summary": {
+        "photo": "anciens-casque.png",
         "kicker": "Repere",
         "title": "La memoire comme force associative",
         "text": "Les anciens renforcent la cohesion du departement par leur presence, leur regard et leur fidelite a l'esprit de corps.",
@@ -1249,8 +1297,8 @@
       },
       "gallery": [
         "image_1015423_20260316_ob_d472c5_3-les-membres.jpg",
-        "pompiers2.png",
-        "JSP.png"
+        "hero-pompiers2.png",
+        "jsp-drapeau.png"
       ]
     }
   },
@@ -1269,9 +1317,9 @@
         "target": "page:contact"
       },
       "images": [
-        "secourisme 2.png",
-        "mission-firefighter.png",
-        "JSP.png"
+        "secourisme-formation-2.png",
+        "hero.jpg",
+        "jsp-drapeau.png"
       ]
     },
     "story": {
@@ -1371,9 +1419,9 @@
         "target": "page:dispositif-previsionnel-de-secours"
       },
       "gallery": [
-        "secourisme 2.png",
-        "mission-firefighter.png",
-        "JSP.png"
+        "secourisme-formation-2.png",
+        "hero.jpg",
+        "jsp-drapeau.png"
       ]
     }
   },
@@ -1392,9 +1440,9 @@
         "target": "page:contact"
       },
       "images": [
-        "secourisme 2.png",
-        "portrait-sapeuse.png",
-        "news-1.jpg"
+        "secourisme-formation-2.png",
+        "sp-portrait-sapeuse.png",
+        "secourisme-rcp.png"
       ]
     },
     "story": {
@@ -1494,9 +1542,9 @@
         "target": "page:nos-services"
       },
       "gallery": [
-        "secourisme 2.png",
-        "portrait-sapeuse.png",
-        "news-1.jpg"
+        "secourisme-formation-2.png",
+        "sp-portrait-sapeuse.png",
+        "secourisme-rcp.png"
       ]
     }
   },
@@ -1515,9 +1563,9 @@
         "target": "page:contact"
       },
       "images": [
-        "recruit-bg.jpg",
-        "recruit-1.png",
-        "JSP fille.png"
+        "hero-pompiers2.png",
+        "sp-portrait-sapeuse.png",
+        "jsp-fille.png"
       ]
     },
     "story": {
@@ -1617,9 +1665,9 @@
         "target": "page:devenir-jeune-sapeur-pompier"
       },
       "gallery": [
-        "recruit-bg.jpg",
-        "recruit-1.png",
-        "JSP fille.png"
+        "hero-pompiers2.png",
+        "sp-portrait-sapeuse.png",
+        "jsp-fille.png"
       ]
     }
   },
@@ -1638,9 +1686,9 @@
         "target": "home"
       },
       "images": [
-        "news-1.jpg",
-        "news-2.jpg",
-        "news-3.jpg"
+        "secourisme-formation.png",
+        "hero.jpg",
+        "jsp-drapeau.png"
       ]
     },
     "story": {
@@ -1740,9 +1788,9 @@
         "target": "home"
       },
       "gallery": [
-        "news-1.jpg",
-        "news-2.jpg",
-        "news-3.jpg"
+        "secourisme-formation.png",
+        "hero.jpg",
+        "jsp-drapeau.png"
       ]
     }
   },
@@ -1761,9 +1809,9 @@
         "target": "page:contact"
       },
       "images": [
-        "news-2.jpg",
-        "news-4.jpg",
-        "hero-1.jpg"
+        "secourisme-formation.png",
+        "anciens-camion.png",
+        "hero.jpg"
       ]
     },
     "story": {
@@ -1863,9 +1911,9 @@
         "target": "home"
       },
       "gallery": [
-        "news-2.jpg",
-        "news-4.jpg",
-        "hero-1.jpg"
+        "secourisme-formation.png",
+        "anciens-camion.png",
+        "hero.jpg"
       ]
     }
   },
@@ -2007,17 +2055,17 @@
         "target": "home"
       },
       "images": [
-        "portrait-sapeuse.png",
-        "secourisme 2.png",
-        "pompiers2.png"
+        "sp-portrait-sapeuse.png",
+        "secourisme-formation-2.png",
+        "hero-pompiers2.png"
       ]
     },
     "story": {
-      "title": "Un point d'entree simple pour toutes les demandes",
+      "title": "Un contact clair pour chaque demande",
       "paragraphs": [
-        "La page contact permet de centraliser les informations utiles pour joindre l'UDSP 31 selon la nature de votre demande.",
-        "Qu'il s'agisse d'une formation secourisme, d'un dispositif previsionnel de secours, d'une orientation associative ou d'une demande generale, le plus important est de pouvoir vous rediriger rapidement vers le bon niveau.",
-        "L'UDSP 31 privilegie une reponse lisible, directe et adaptee au besoin exprime."
+        "Besoin d'une formation secourisme grand public, d'une formation en entreprise, d'un dispositif previsionnel de secours ou d'une information sur l'UDSP 31 ? Vous trouverez ici les coordonnees utiles pour joindre rapidement le bon interlocuteur.",
+        "L'Union departementale accompagne aussi bien les particuliers, associations, collectivites que les entreprises qui souhaitent organiser une formation aux gestes qui sauvent, une session de secourisme ou adresser une demande specifique.",
+        "L'objectif est simple : apporter une reponse rapide, claire et adaptee a votre besoin, sans multiplier les interlocuteurs."
       ],
       "summary": {
         "kicker": "Coordonnees",
@@ -2109,9 +2157,9 @@
         "target": "home"
       },
       "gallery": [
-        "portrait-sapeuse.png",
-        "secourisme 2.png",
-        "pompiers2.png"
+        "sp-portrait-sapeuse.png",
+        "secourisme-formation-2.png",
+        "hero-pompiers2.png"
       ]
     }
   },
@@ -2130,9 +2178,9 @@
         "target": "page:contact"
       },
       "images": [
-        "logo-header.png",
-        "footer-bg.jpg",
-        "recruit-bg.jpg"
+        "Logo_UDSP31_blue.png",
+        "secourisme-formation.png",
+        "hero.jpg"
       ]
     },
     "story": {
@@ -2232,9 +2280,9 @@
         "target": "home"
       },
       "gallery": [
-        "logo-header.png",
-        "footer-bg.jpg",
-        "recruit-bg.jpg"
+        "Logo_UDSP31_blue.png",
+        "secourisme-formation.png",
+        "hero.jpg"
       ]
     }
   },
@@ -2253,9 +2301,9 @@
         "target": "page:contact"
       },
       "images": [
-        "logo-header.png",
-        "secourisme 2.png",
-        "footer-bg.jpg"
+        "Logo_UDSP31_blue.png",
+        "secourisme-formation-2.png",
+        "hero.jpg"
       ]
     },
     "story": {
@@ -2355,9 +2403,9 @@
         "target": "home"
       },
       "gallery": [
-        "logo-header.png",
-        "secourisme 2.png",
-        "footer-bg.jpg"
+        "Logo_UDSP31_blue.png",
+        "secourisme-formation-2.png",
+        "hero.jpg"
       ]
     }
   },
@@ -2376,9 +2424,9 @@
         "target": "page:contact"
       },
       "images": [
-        "logo-header.png",
-        "newsletter-bg.jpg",
-        "footer-bg.jpg"
+        "Logo_UDSP31_blue.png",
+        "secourisme-formation.png",
+        "hero.jpg"
       ]
     },
     "story": {
@@ -2478,9 +2526,663 @@
         "target": "home"
       },
       "gallery": [
-        "logo-header.png",
-        "newsletter-bg.jpg",
-        "footer-bg.jpg"
+        "Logo_UDSP31_blue.png",
+        "secourisme-formation.png",
+        "hero.jpg"
+      ]
+    }
+  },
+  "decouvrir-ludsp31": {
+    "nav_group": "udsp",
+    "title": "Decouvrir l'UDSP 31",
+    "description": "Presentation de l'Union Departementale des Sapeurs-Pompiers de la Haute-Garonne, de ses missions et de son organisation.",
+    "hero": {
+      "lede": "Association loi 1901, l'UDSP 31 represente, defend et accompagne l'ensemble des sapeurs-pompiers de la Haute-Garonne, tout en faisant vivre les valeurs de solidarite, d'engagement et de service.",
+      "primary_cta": {
+        "label": "Explorer nos missions",
+        "target": "anchor:missions-udsp"
+      },
+      "secondary_cta": {
+        "label": "Comprendre l'organisation",
+        "target": "anchor:organisation-udsp"
+      },
+      "images": [
+        "sp-portrait-sapeuse.png",
+        "hero-pompiers2.png",
+        "jsp-drapeau.png"
+      ]
+    },
+    "story": {
+      "title": "L'UDSP 31, au coeur de la communaute sapeur-pompier",
+      "paragraphs": [
+        "L'Union Departementale des Sapeurs-Pompiers de la Haute-Garonne, ou UDSP 31, est une association regie par la loi de 1901. Elle represente, defend et accompagne les sapeurs-pompiers du departement, dans un esprit de solidarite, d'engagement et de service.",
+        "Elle rassemble les sapeurs-pompiers volontaires, professionnels, les jeunes sapeurs-pompiers et les anciens. A ce titre, elle joue un role de lien, de soutien et de cohesion entre les differentes composantes du monde sapeur-pompier en Haute-Garonne.",
+        "Au-dela de sa mission de representation, l'UDSP 31 veille aux interets moraux de ses membres, encourage l'entraide, accompagne les familles lorsque cela est necessaire et joue egalement un role cle dans la formation au secourisme aupres du grand public."
+      ],
+      "summary": {
+        "photo": "jsp-fille.png"
+      }
+    },
+    "cards_section": {
+      "id": "commissions",
+      "title": "Une organisation au service des sapeurs-pompiers",
+      "intro": "Pour agir concretement sur le terrain, l'UDSP 31 s'appuie sur plusieurs commissions et domaines d'action qui repondent aux besoins reels du departement.",
+      "cards": [
+        {
+          "icon": "users",
+          "title": "Sapeurs-pompiers volontaires",
+          "text": "Accompagner l'engagement volontaire, relayer les besoins du terrain et soutenir les centres dans leur vie associative."
+        },
+        {
+          "icon": "shield",
+          "title": "Sapeurs-pompiers professionnels",
+          "text": "Porter les sujets lies a l'exercice professionnel et renforcer le dialogue entre les acteurs de la communaute sapeur-pompier."
+        },
+        {
+          "icon": "graduation",
+          "title": "Jeunes Sapeurs-Pompiers",
+          "text": "Structurer les sections JSP, valoriser leurs activites et transmettre les valeurs d'engagement, de discipline et de citoyennete."
+        },
+        {
+          "icon": "handshake",
+          "title": "Anciens sapeurs-pompiers",
+          "text": "Maintenir le lien entre les generations et faire vivre la memoire associative et l esprit de corps."
+        },
+        {
+          "icon": "document",
+          "title": "Formations de secourisme",
+          "text": "Developper les formations au secourisme et diffuser les gestes qui sauvent aupres du grand public."
+        },
+        {
+          "icon": "document",
+          "title": "Dispositifs previsionnels de secours",
+          "text": "Organiser et encadrer les DPS afin d assurer la prevention et la securite sur les evenements du territoire."
+        },
+        {
+          "icon": "heart",
+          "title": "Social",
+          "text": "Accompagner les membres et leurs familles dans les moments importants ou plus fragiles de leur parcours."
+        },
+        {
+          "icon": "users",
+          "title": "Sport",
+          "text": "Favoriser la preparation physique, la cohesion et le depassement de soi a travers les pratiques sportives."
+        },
+        {
+          "icon": "shield",
+          "title": "Medical et 3SM",
+          "text": "Relier l'expertise medicale, la prevention et les enjeux de sante au service de la communaute sapeur-pompier."
+        }
+      ]
+    },
+    "feature_section": {
+      "id": "missions-udsp",
+      "title": "Des missions au service des sapeurs-pompiers et de la population",
+      "intro": "L'UDSP 31 defend d'abord les interets des sapeurs-pompiers et contribue a preserver leurs valeurs. Elle renforce aussi les liens entre les personnels, en creant des espaces d'echange, de soutien et de fraternite.",
+      "paragraphs": [
+        "Elle joue un role fort dans la transmission et la formation, avec l'enseignement du secourisme pour le grand public, le soutien au developpement des JSP et l'accompagnement des activites physiques et sportives qui nourrissent la cohesion et le depassement de soi.",
+        "Sur le plan humain, elle peut venir en aide a ses membres et a leurs familles. Par ses actions de terrain, sa communication et ses evenements, elle participe aussi au rayonnement des sapeurs-pompiers aupres du public."
+      ],
+      "features": [
+        {
+          "icon": "shield",
+          "title": "Defendre et representer",
+          "text": "Porter la voix des sapeurs-pompiers, des PATS, des anciens et des JSP a l echelle departementale."
+        },
+        {
+          "icon": "handshake",
+          "title": "Soutenir et federer",
+          "text": "Entretenir les liens, le mutuel appui et la fraternite entre les femmes et les hommes engages au service des autres."
+        },
+        {
+          "icon": "graduation",
+          "title": "Transmettre et former",
+          "text": "Contribuer a la formation des JSP et au developpement du secourisme pour le grand public."
+        },
+        {
+          "icon": "heart",
+          "title": "Accompagner les familles",
+          "text": "Venir en aide a ses membres et a leurs proches lorsque la situation humaine ou sociale l exige."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "organisation-udsp",
+      "title": "L'UDSP 31 dans l'organisation sapeur-pompier",
+      "intro": "L'action operationnelle releve du SDIS et des CIS. En parallele, l'UDSP 31 structure la vie associative, relie les amicales et s'inscrit dans un reseau regional et national plus large.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "CIS et SDIS",
+          "text": "Les Centres d'Incendie et de Secours relevent du SDIS pour tout ce qui concerne l'activite operationnelle, les interventions, les moyens et l'organisation du service."
+        },
+        {
+          "step": "02",
+          "title": "Amicales",
+          "text": "Dans les CIS, les amicales portent la vie associative locale: ceremonies, sports, anciens, loisirs, JSP et moments de cohesion."
+        },
+        {
+          "step": "03",
+          "title": "UDSP 31",
+          "text": "L'Union Departementale rassemble ces energies a l'echelle de la Haute-Garonne et offre un cadre associatif structure aux activites menees en service ou hors service."
+        },
+        {
+          "step": "04",
+          "title": "Reseau national",
+          "text": "Les unions departementales s inscrivent ensuite dans un reseau regional puis national avec la FNSPF, pour porter la voix des sapeurs-pompiers a tous les niveaux."
+        }
+      ]
+    }
+  },
+  "le-bureau-executif": {
+    "nav_group": "udsp",
+    "title": "Le bureau executif",
+    "description": "Presentation du bureau executif de l'UDSP 31, de ses missions de pilotage et de son fonctionnement.",
+    "hero": {
+      "lede": "Le bureau executif anime la gouvernance associative de l'UDSP 31, coordonne les priorites et veille a la coherence des actions engagees au service des sapeurs-pompiers de la Haute-Garonne.",
+      "primary_cta": {
+        "label": "Voir les missions du bureau",
+        "target": "anchor:missions-bureau"
+      },
+      "secondary_cta": {
+        "label": "Retour a l'UDSP 31",
+        "target": "page:decouvrir-ludsp31"
+      },
+      "images": [
+        "sp-portrait-sapeuse.png",
+        "jsp-fille.png",
+        "secourisme-formation-2.png"
+      ]
+    },
+    "story": {
+      "title": "Une instance de pilotage au service de l'association",
+      "paragraphs": [
+        "Le bureau executif assure l'impulsion, le suivi et la coordination des grandes orientations de l'UDSP 31. Il veille a ce que les decisions prises servent utilement les sapeurs-pompiers, les amicales et l'ensemble de la vie associative departementale.",
+        "Son role est de garder une ligne claire, de faire avancer les dossiers structurants et de garantir que chaque action trouve sa place dans une vision collective: soutenir les personnels, accompagner les projets et faire vivre les valeurs de l'Union.",
+        "Entre representation, organisation et arbitrage, le bureau executif constitue un point d'appui essentiel pour donner du rythme, de la lisibilite et de la continuite a l'action associative."
+      ],
+      "summary": {
+        "kicker": "Repere",
+        "title": "Un collectif de decision et de coordination",
+        "text": "Le bureau executif met en mouvement les priorites de l'UDSP 31 et transforme les orientations associatives en actions concretes et suivies.",
+        "items": [
+          {
+            "label": "Piloter",
+            "text": "Fixer un cap, prioriser et donner de la coherence aux sujets de fond."
+          },
+          {
+            "label": "Animer",
+            "text": "Faire travailler ensemble les responsables, les commissions et les relais associatifs."
+          },
+          {
+            "label": "Suivre",
+            "text": "Verifier l'avancement des projets et maintenir un niveau d'exigence dans leur execution."
+          }
+        ]
+      }
+    },
+    "gallery_section": {
+      "id": "composition-bureau",
+      "title": "Le bureau executif en images",
+      "intro": "Retrouvez la composition du bureau executif 2026 avec la presidence, les secretaires et tresoriers, puis les autres membres engages aux cotes de l'UDSP 31.",
+      "gallery_items": [
+        {
+          "title": "Presidence et vice-presidences",
+          "caption": "Le president et les vice-presidents ouvrent la presentation du bureau executif.",
+          "image": "image_1015423_20260316_ob_73560e_1-president-et-vices.jpg"
+        },
+        {
+          "title": "Secretaires et tresoriers",
+          "caption": "Les fonctions de secretariat et de tresorerie assurent le suivi quotidien et l'equilibre de l'association.",
+          "image": "image_1015423_20260316_ob_0d633c_2-secretaires-tresoriers.jpg"
+        },
+        {
+          "title": "Les membres du bureau executif",
+          "caption": "Une premiere partie des membres qui accompagnent les dossiers et la vie associative departementale.",
+          "image": "image_1015423_20260316_ob_d472c5_3-les-membres.jpg"
+        },
+        {
+          "title": "Les membres du bureau executif",
+          "caption": "Une seconde partie des membres impliques dans le fonctionnement collectif du bureau executif.",
+          "image": "image_1015423_20260316_ob_dc6168_4-les-membres.jpg"
+        }
+      ]
+    },
+    "cards_section": {
+      "id": "missions-bureau",
+      "title": "Les grandes responsabilites du bureau executif",
+      "intro": "Le bureau executif s'organise autour de fonctions complementaires pour garantir une gouvernance utile, lisible et capable de repondre aux enjeux du departement.",
+      "cards": [
+        {
+          "icon": "shield",
+          "title": "Presidence",
+          "text": "Porter la vision de l'association, representer l'UDSP 31 et arbitrer les priorites en lien avec les besoins du terrain."
+        },
+        {
+          "icon": "document",
+          "title": "Secretariat general",
+          "text": "Assurer le suivi des decisions, preparer les instances et coordonner la circulation de l'information entre les commissions et les amicales."
+        },
+        {
+          "icon": "heart",
+          "title": "Tresorerie",
+          "text": "Piloter les equilibres financiers, accompagner les projets et garantir une gestion rigoureuse au service des actions associatives."
+        },
+        {
+          "icon": "users",
+          "title": "Delegations et vice-presidences",
+          "text": "Relier les sujets operationnels, sociaux, sportifs ou de formation afin que chaque dossier avance avec une responsabilite clairement portee."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "fonctionnement-bureau",
+      "title": "Un fonctionnement collectif et rythme",
+      "intro": "Le bureau executif ne se limite pas a une fonction statutaire. Il travaille dans la duree, suit les projets et assure le lien entre l'ambition associative et sa mise en oeuvre quotidienne.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Preparer",
+          "text": "Le bureau rassemble les informations utiles, identifie les priorites et structure les dossiers avant leur presentation aux instances de l'association."
+        },
+        {
+          "step": "02",
+          "title": "Coordonner",
+          "text": "Il fait le lien entre les commissions, les amicales, les partenaires et les responsables associatifs pour assurer une action lisible et coherente."
+        },
+        {
+          "step": "03",
+          "title": "Decider",
+          "text": "Le bureau executif arbitre, suit les engagements pris et veille a ce que les projets servent effectivement les sapeurs-pompiers du departement."
+        },
+        {
+          "step": "04",
+          "title": "Rendre compte",
+          "text": "Il inscrit son action dans un cadre transparent, partage les orientations et garantit la continuite de la vie associative."
+        }
+      ]
+    }
+  },
+  "devenir-pompier-volontaire": {
+    "nav_group": "recruitment",
+    "title": "Devenir Pompier volontaire",
+    "description": "Presentation du volontariat sapeur-pompier, des conditions d'engagement et du parcours de candidature.",
+    "hero": {
+      "lede": "Chaque jour, des femmes et des hommes s'engagent comme sapeurs-pompiers volontaires pour proteger et secourir la population, en parallele de leur metier, de leurs etudes ou de leur vie de famille.",
+      "primary_cta": {
+        "label": "Voir les conditions",
+        "target": "anchor:conditions-volontaire"
+      },
+      "secondary_cta": {
+        "label": "Comment candidater ?",
+        "target": "anchor:candidater-volontaire"
+      },
+      "images": [
+        "spv-feu-vl.png",
+        "spv-camion-photo.jpg",
+        "spv-equipe.jpg"
+      ]
+    },
+    "story": {
+      "title": "Un engagement accessible et utile",
+      "paragraphs": [
+        "Etudiant, salarie, artisan, demandeur d'emploi ou parent au foyer: chacun peut trouver sa place parmi les sapeurs-pompiers volontaires.",
+        "Si vous souhaitez vous rendre utile, vivre une experience humaine forte et rejoindre une equipe engagee, le volontariat permet de servir votre territoire tout en poursuivant votre vie personnelle, professionnelle ou vos etudes.",
+        "Le volontariat repose sur un cadre exigeant, mais il est accessible a celles et ceux qui veulent s'investir durablement au service de la population."
+      ],
+      "summary": {
+        "kicker": "Conditions a remplir",
+        "title": "Les prerequis pour s engager",
+        "text": "L'engagement est pris pour une duree de 5 ans, renouvelable. Certains statuts ou metiers peuvent relever de dispositions particulieres, notamment les militaires, infirmiers ou personnels de securite.",
+        "items": [
+          {
+            "label": "Age",
+            "text": "Avoir au moins 18 ans, ou 17 ans pour les jeunes sapeurs-pompiers titulaires du brevet."
+          },
+          {
+            "label": "Ancrage local",
+            "text": "Habiter a proximite d'un centre d'incendie et de secours."
+          },
+          {
+            "label": "Aptitude",
+            "text": "Avoir un casier judiciaire vierge et remplir les conditions d aptitude medicale et physique."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "profils-volontaire",
+      "title": "Les profils recherches",
+      "intro": "Nous recherchons des femmes et des hommes prets a s'investir utilement, avec serieux, motivation et disponibilite.",
+      "cards": [
+        {
+          "icon": "handshake",
+          "title": "Le sens du collectif",
+          "text": "Nous recherchons des femmes et des hommes motives par l'envie d'aider, le sens du service et le gout du travail en equipe."
+        },
+        {
+          "icon": "users",
+          "title": "Des profils varies",
+          "text": "Etudiant, salarie, artisan, demandeur d emploi ou parent au foyer: chacun peut trouver sa place dans un centre de secours."
+        },
+        {
+          "icon": "graduation",
+          "title": "Une condition physique adaptee",
+          "text": "Il n'est pas necessaire d'etre sportif de haut niveau, mais il faut disposer d'une condition physique compatible avec l'engagement."
+        },
+        {
+          "icon": "clock",
+          "title": "Une disponibilite reelle",
+          "text": "Les candidats doivent pouvoir assurer des gardes et des astreintes, y compris en journee selon les besoins du centre."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "candidater-volontaire",
+      "title": "Comment candidater ?",
+      "intro": "La demarche se fait aupres du centre d'incendie et de secours le plus proche de votre domicile, avec un accompagnement progressif a chaque etape.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Prendre contact",
+          "text": "La demarche commence aupres du centre d'incendie et de secours le plus proche de votre domicile, avec un premier echange avec le chef de centre."
+        },
+        {
+          "step": "02",
+          "title": "Constituer son dossier",
+          "text": "Le candidat est accompagne pour reunir les pieces necessaires et formaliser sa candidature dans de bonnes conditions."
+        },
+        {
+          "step": "03",
+          "title": "Valider les tests",
+          "text": "Le parcours comprend les tests physiques, les examens medicaux demandes et la visite medicale d'aptitude."
+        },
+        {
+          "step": "04",
+          "title": "Debuter son engagement",
+          "text": "Une fois les etapes validees, le futur sapeur-pompier volontaire recoit son equipement et peut debuter sa formation."
+        }
+      ]
+    }
+  },
+  "devenir-pompier-professionel": {
+    "nav_group": "recruitment",
+    "title": "Devenir Pompier Professionnel",
+    "description": "Presentation du recrutement des sapeurs-pompiers professionnels, des concours et des etapes apres reussite.",
+    "hero": {
+      "lede": "Les sapeurs-pompiers professionnels sont des agents de la fonction publique territoriale. Pour exercer, il faut reussir un concours de la filiere des sapeurs-pompiers professionnels.",
+      "primary_cta": {
+        "label": "Voir les conditions",
+        "target": "anchor:conditions-professionnel"
+      },
+      "secondary_cta": {
+        "label": "Apres le concours",
+        "target": "anchor:apres-concours"
+      },
+      "images": [
+        "spp-professionnel.png",
+        "spp-camion.png",
+        "spp-maneouvre.png"
+      ]
+    },
+    "story": {
+      "title": "Un recrutement par concours",
+      "paragraphs": [
+        "Les sapeurs-pompiers professionnels sont des agents de la fonction publique territoriale. Pour exercer, il faut reussir un concours de la filiere des sapeurs-pompiers professionnels.",
+        "Selon le grade vise, les conditions de diplome et les epreuves different.",
+        "Le concours constitue donc la premiere etape d'un parcours exigeant, avant le recrutement effectif, la formation d'integration et la prise de poste."
+      ],
+      "summary": {
+        "kicker": "Conditions generales",
+        "title": "Les conditions a remplir",
+        "text": "Pour se presenter au concours, il faut notamment :",
+        "items": [
+          {
+            "label": "Age",
+            "text": "Avoir au moins 18 ans."
+          },
+          {
+            "label": "Nationalite",
+            "text": "Etre de nationalite francaise, ou ressortissant d'un Etat de l'Union europeenne ou de l'Espace economique europeen."
+          },
+          {
+            "label": "Situation administrative",
+            "text": "Jouir de ses droits civiques et etre en regle au regard des obligations de service national."
+          },
+          {
+            "label": "Casier judiciaire",
+            "text": "Ne pas avoir de condamnation incompatible avec les fonctions exercees."
+          },
+          {
+            "label": "Aptitude physique",
+            "text": "Remplir les conditions d aptitude physique requises."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "id": "concours-professionnel",
+      "title": "Les principaux concours",
+      "intro": "Selon le grade vise, les conditions de diplome et les epreuves different.",
+      "cards": [
+        {
+          "icon": "shield",
+          "title": "Caporal",
+          "text": "Accessible selon plusieurs voies, notamment avec un diplome de niveau 3, ou pour certains profils deja engages dans la securite civile ou le volontariat."
+        },
+        {
+          "icon": "document",
+          "title": "Lieutenant 1re classe",
+          "text": "Accessible avec un diplome de niveau 5, soit bac +2."
+        },
+        {
+          "icon": "graduation",
+          "title": "Capitaine",
+          "text": "Accessible avec un diplome de niveau 6, soit bac +3."
+        },
+        {
+          "icon": "users",
+          "title": "Selon le grade vise",
+          "text": "Les conditions de diplome et les epreuves different selon le concours et le niveau de responsabilite recherche."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "apres-concours",
+      "title": "Apres la reussite au concours",
+      "intro": "La reussite au concours permet d'etre inscrit sur une liste d'aptitude valable au niveau national. Cette etape est indispensable, mais elle ne vaut pas recrutement.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Etre inscrit sur liste d'aptitude",
+          "text": "La reussite au concours permet d'etre inscrit sur une liste d'aptitude valable au niveau national. Cette inscription a une duree limitee et doit, selon les cas, etre renouvelee."
+        },
+        {
+          "step": "02",
+          "title": "Postuler apres le concours",
+          "text": "L'inscription sur liste d'aptitude ne vaut pas recrutement. Le candidat doit ensuite postuler aupres des structures qui recrutent."
+        },
+        {
+          "step": "03",
+          "title": "Suivre la formation d'integration",
+          "text": "Apres recrutement, une formation d'integration et de professionnalisation est suivie. Sa duree varie selon le concours obtenu."
+        },
+        {
+          "step": "04",
+          "title": "Valider son engagement",
+          "text": "A son issue, et sous reserve de reussite, un engagement de service de plusieurs annees est demande."
+        }
+      ]
+    }
+  },
+  "devenir-jeune-sapeur-pompier": {
+    "nav_group": "recruitment",
+    "title": "Devenir Jeune Sapeur-Pompier",
+    "description": "Presentation du parcours JSP, des sections et de l'organisation de la formation en Haute-Garonne.",
+    "hero": {
+      "lede": "Vous avez envie de vivre une aventure humaine forte et une experience unique ? Devenez jeune sapeur-pompier. Vous decouvrirez l'esprit d'equipe, l'engagement collectif et les gestes qui sauvent.",
+      "primary_cta": {
+        "label": "Voir le recrutement 2026",
+        "target": "anchor:candidatures-jsp-2026"
+      },
+      "secondary_cta": {
+        "label": "Decouvrir la formation",
+        "target": "anchor:parcours-jsp"
+      },
+      "images": [
+        "jsp-fille.png",
+        "jsp-Lance.png",
+        "jsp echelle.jpg"
+      ]
+    },
+    "story": {
+      "title": "Un parcours formateur et engageant",
+      "paragraphs": [
+        "La formation JSP permet d'apprendre les gestes qui sauvent, de progresser en equipe et de grandir dans un cadre sportif, exigeant et citoyen. En Haute-Garonne, plusieurs sections accueillent les jeunes au plus pres de chez eux, avec un encadrement assure par des animateurs engages."
+      ],
+      "summary": {
+        "kicker": "En Haute-Garonne",
+        "title": "Un cadre de formation progressif",
+        "text": "Les sections JSP accueillent les jeunes dans un parcours structure, encadre et suivi sur plusieurs annees.",
+        "items": [
+          {
+            "label": "Encadrement",
+            "text": "Des animateurs accompagnent les jeunes tout au long de la formation."
+          },
+          {
+            "label": "Rythme",
+            "text": "Les seances se deroulent selon les sections, en periode scolaire."
+          },
+          {
+            "label": "Objectif",
+            "text": "Apprendre, progresser et grandir dans un esprit d'equipe."
+          }
+        ]
+      }
+    },
+    "cards_section": {
+      "_udsp31_enabled": false,
+      "id": "formation-jsp",
+      "title": "Une formation progressive en quatre cycles",
+      "intro": "Le parcours JSP se construit pas a pas, de la decouverte initiale jusqu'a la preparation du brevet national.",
+      "cards": [
+        {
+          "icon": "graduation",
+          "title": "JSP1",
+          "text": "Le premier cycle permet de decouvrir les materiels, les comportements qui sauvent et les premieres notions liees a l'engagement citoyen."
+        },
+        {
+          "icon": "users",
+          "title": "JSP2",
+          "text": "Le deuxieme cycle approfondit l'apprentissage des materiels, des procedures et du travail en equipe dans un cadre de progression reguliere."
+        },
+        {
+          "icon": "heart",
+          "title": "JSP3",
+          "text": "Le troisieme cycle consolide les manoeuvres, les activites sportives, l'entraide et les reflexes collectifs utiles a la vie de section."
+        },
+        {
+          "icon": "shield",
+          "title": "JSP4",
+          "text": "Le quatrieme cycle prepare a des mises en situation plus concretes, proches de la realite operationnelle, avant le brevet national."
+        }
+      ]
+    },
+    "feature_section": {
+      "id": "candidatures-jsp-2026",
+      "title": "Recrutement JSP 2026",
+      "intro": "Retrouvez ici le calendrier, les conditions utiles et l'acces aux formulaires de candidature selon la section choisie.",
+      "paragraphs": [],
+      "features": [
+        {
+          "icon": "document",
+          "title": "Ouverture des candidatures",
+          "text": "Lundi 2 mars 2026."
+        },
+        {
+          "icon": "clock",
+          "title": "Cloture des inscriptions",
+          "text": "Vendredi 24 avril 2026. Une seule section JSP peut etre choisie par candidat."
+        },
+        {
+          "icon": "shield",
+          "title": "Tests departementaux",
+          "text": "Samedi 9 mai 2026 au SDIS 31 a Colomiers, sur convocation transmise uniquement par mail."
+        },
+        {
+          "icon": "users",
+          "title": "Entretiens de motivation",
+          "text": "En juin 2026, avec les candidats retenus et leurs parents dans les casernes respectives, selon le planning de chaque section."
+        },
+        {
+          "icon": "graduation",
+          "title": "Debut des cours",
+          "text": "En septembre 2026. Le planning detaille sera communique par chaque section."
+        },
+        {
+          "icon": "heart",
+          "title": "Admission finale",
+          "text": "Le choix final des candidats admis reste de la responsabilite de chaque section, apres les epreuves et les entretiens."
+        },
+        {
+          "icon": "graduation",
+          "title": "Format des epreuves",
+          "text": "Une epreuve ecrite de niveau 5e en francais, mathematiques et culture citoyenne orientee pompier, puis des tests sportifs : Luc Leger, Killy et gainage planche."
+        }
+      ]
+    },
+    "flow_section": {
+      "id": "parcours-jsp",
+      "title": "Ce que le parcours JSP apporte",
+      "intro": "Au-dela du recrutement, le parcours JSP permet de progresser, de se structurer et de se preparer a la suite de l'engagement.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Duree et rythme",
+          "text": "La formation est assuree par des sapeurs-pompiers. Elle dure trois ou quatre ans et se deroule le mercredi ou le samedi pendant la periode scolaire, selon les sections."
+        },
+        {
+          "step": "02",
+          "title": "Contenus de formation",
+          "text": "Elle associe enseignements theoriques et pratiques, activites sportives, decouverte des missions des sapeurs-pompiers, manoeuvres, rencontres sportives, ceremonies et evenements."
+        },
+        {
+          "step": "03",
+          "title": "Brevet national JSP",
+          "text": "A l'issue de la formation, il est possible de presenter le brevet national de jeune sapeur-pompier en reussissant des epreuves theoriques, pratiques et sportives."
+        },
+        {
+          "step": "04",
+          "title": "Un atout pour la suite",
+          "text": "Ce brevet constitue un veritable atout pour devenir ensuite sapeur-pompier volontaire ou professionnel. Meme sans poursuivre dans cette voie, l'experience apporte des competences et des valeurs utiles toute la vie."
+        }
+      ]
+    },
+    "links_section": {
+      "id": "postuler-jsp",
+      "title": "Choisir une section",
+      "intro": "Date limite d'inscription : 24 avril 2026.",
+      "links": [
+        {
+          "label": "JSP Aussonne",
+          "target": "https://aussonne.jsp31.fr/postuler.php"
+        },
+        {
+          "label": "JSP Grenade / Saint-Jory",
+          "target": "https://www.grenade-saint-jory.jsp31.fr/postuler.php"
+        },
+        {
+          "label": "JSP Volvestre",
+          "target": "https://volvestre.jsp31.fr/postuler.php"
+        },
+        {
+          "label": "JSP Toulouse-Lougnon",
+          "target": "https://toulouse-lougnon.jsp31.fr/postuler.php"
+        },
+        {
+          "label": "JSP Villefranche-de-Lauragais",
+          "target": "https://villefranche-de-lauragais.jsp31.fr/postuler.php"
+        }
       ]
     }
   }

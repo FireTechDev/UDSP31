@@ -11,8 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header();
 
-$posts_page_id    = (int) get_option( 'page_for_posts' );
-$news_archive_url = $posts_page_id ? get_permalink( $posts_page_id ) : home_url( '/blog/' );
+$news_archive_url = udsp31_get_news_archive_url();
 ?>
 
 <main id="primary" class="site-main site-main--page">

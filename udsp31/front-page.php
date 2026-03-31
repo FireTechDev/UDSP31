@@ -65,22 +65,22 @@ $quick_links = array(
 	array(
 		'icon'  => 'document',
 		'label' => __( 'Demander un devis DPS', 'udsp31' ),
-		'url'   => udsp31_section_url( 'site-footer-contact' ),
+		'url'   => 'https://unions-pompiers.fr/Views/demande_dps.php?departement=31',
 	),
 	array(
 		'icon'  => 'graduation',
 		'label' => __( "S'inscrire a une formation", 'udsp31' ),
-		'url'   => udsp31_section_url( 'missions' ),
+		'url'   => 'https://unions-pompiers.fr/Views/inscription_formation.php?departement=31',
 	),
 	array(
 		'icon'  => 'users',
 		'label' => __( 'Rejoindre les JSP', 'udsp31' ),
-		'url'   => udsp31_section_url( 'engagement' ),
+		'url'   => home_url( '/index.php/devenir-jeune-sapeur-pompier/' ),
 	),
 	array(
 		'icon'  => 'phone',
 		'label' => __( 'Nous contacter', 'udsp31' ),
-		'url'   => udsp31_section_url( 'site-footer-contact' ),
+		'url'   => home_url( '/index.php/contact/' ),
 	),
 );
 
@@ -103,24 +103,27 @@ $values = array(
 );
 
 $partners = array(
-	'SDIS 31',
-	__( 'Prefecture de Haute-Garonne', 'udsp31' ),
-	__( 'Conseil Departemental 31', 'udsp31' ),
-	__( 'Toulouse Metropole', 'udsp31' ),
-	'FNSPF',
+	array(
+		'label' => 'SDIS31',
+		'url'   => 'https://www.sdis31.fr/',
+	),
+	array(
+		'label' => 'FNSPF',
+		'url'   => 'https://www.pompiers.fr/federation/',
+	),
 );
 
 $hero_slides = array(
 	array(
-		'image' => udsp31_asset_url( 'assets/images/pompiers2.png' ),
+		'image' => udsp31_asset_url( 'assets/images/hero-pompiers2.png' ),
 		'label' => __( 'Sapeurs-pompiers en intervention', 'udsp31' ),
 	),
 	array(
-		'image' => udsp31_asset_url( 'assets/images/JSP.png' ),
+		'image' => udsp31_asset_url( 'assets/images/jsp-Lance.png' ),
 		'label' => __( 'Jeunes sapeurs-pompiers en exercice', 'udsp31' ),
 	),
 	array(
-		'image' => trailingslashit( get_template_directory_uri() ) . 'assets/images/' . rawurlencode( 'secourisme 2.png' ),
+		'image' => udsp31_asset_url( 'assets/images/secourisme-formation-2.png' ),
 		'label' => __( 'Formation aux gestes de premiers secours', 'udsp31' ),
 	),
 );
@@ -129,13 +132,12 @@ $hero_badge           = get_theme_mod( 'udsp31_hero_badge', __( 'Union Departeme
 $hero_title           = get_theme_mod( 'udsp31_hero_title', __( 'Federer, soutenir et representer', 'udsp31' ) );
 $hero_text            = get_theme_mod( 'udsp31_hero_text', __( "L'UDSP 31 accompagne les sapeurs-pompiers et propose des services de formation, prevention et securite pour le grand public, les entreprises et les collectivites.", 'udsp31' ) );
 $hero_primary_label   = get_theme_mod( 'udsp31_hero_primary_label', __( 'Demander une formation', 'udsp31' ) );
-$hero_primary_url     = get_theme_mod( 'udsp31_hero_primary_url', udsp31_section_url( 'acces-rapides' ) );
+$hero_primary_url     = get_theme_mod( 'udsp31_hero_primary_url', 'https://unions-pompiers.fr/Views/inscription_formation.php?departement=31' );
 $hero_secondary_label = get_theme_mod( 'udsp31_hero_secondary_label', __( 'Demander un DPS', 'udsp31' ) );
-$hero_secondary_url   = get_theme_mod( 'udsp31_hero_secondary_url', udsp31_section_url( 'acces-rapides' ) );
+$hero_secondary_url   = get_theme_mod( 'udsp31_hero_secondary_url', 'https://unions-pompiers.fr/Views/demande_dps.php?departement=31' );
 $hero_tertiary_label  = get_theme_mod( 'udsp31_hero_tertiary_label', __( "S'informer sur les JSP", 'udsp31' ) );
-$hero_tertiary_url    = get_theme_mod( 'udsp31_hero_tertiary_url', udsp31_section_url( 'engagement' ) );
-$posts_page_id        = (int) get_option( 'page_for_posts' );
-$news_archive_url     = $posts_page_id ? get_permalink( $posts_page_id ) : home_url( '/blog/' );
+$hero_tertiary_url    = get_theme_mod( 'udsp31_hero_tertiary_url', udsp31_get_recruitment_url( 'devenir-jeune-sapeur-pompier' ) );
+$news_archive_url     = udsp31_get_news_archive_url();
 
 $news_query = new WP_Query(
 	array(
@@ -152,21 +154,21 @@ $fallback_news = array(
 		'date'     => __( '15 Mars 2026', 'udsp31' ),
 		'title'    => __( 'Nouvelle session de formation secourisme en avril', 'udsp31' ),
 		'text'     => __( 'Inscrivez-vous des maintenant a notre prochaine session PSC1 destinee au grand public et aux entreprises.', 'udsp31' ),
-		'image'    => udsp31_asset_url( 'assets/images/news-1.jpg' ),
+		'image'    => udsp31_asset_url( 'assets/images/secourisme-rcp.png' ),
 	),
 	array(
 		'category' => __( 'Evenement', 'udsp31' ),
 		'date'     => __( '12 Mars 2026', 'udsp31' ),
 		'title'    => __( 'Assemblee generale 2026 : un succes collectif', 'udsp31' ),
 		'text'     => __( "Retour sur l'assemblee generale annuelle qui a reuni plus de 200 participants autour des enjeux de demain.", 'udsp31' ),
-		'image'    => udsp31_asset_url( 'assets/images/news-3.jpg' ),
+		'image'    => udsp31_asset_url( 'assets/images/hero.jpg' ),
 	),
 	array(
 		'category' => 'JSP',
 		'date'     => __( '8 Mars 2026', 'udsp31' ),
 		'title'    => __( 'Recrutement JSP : portes ouvertes le 30 mars', 'udsp31' ),
 		'text'     => __( 'Venez decouvrir les sections de Jeunes Sapeurs-Pompiers lors de notre journee portes ouvertes.', 'udsp31' ),
-		'image'    => udsp31_asset_url( 'assets/images/news-4.jpg' ),
+		'image'    => udsp31_asset_url( 'assets/images/jsp echelle.jpg' ),
 	),
 );
 ?>
@@ -292,7 +294,7 @@ $fallback_news = array(
 						$news_query->the_post();
 						$categories = get_the_category();
 						$category   = ! empty( $categories ) ? $categories[0]->name : __( 'Actualite', 'udsp31' );
-						$image_url  = has_post_thumbnail() ? get_the_post_thumbnail_url( get_the_ID(), 'large' ) : udsp31_asset_url( 'assets/images/news-2.jpg' );
+						$image_url  = has_post_thumbnail() ? get_the_post_thumbnail_url( get_the_ID(), 'large' ) : udsp31_asset_url( 'assets/images/hero.jpg' );
 						$excerpt    = get_the_excerpt();
 
 						if ( ! $excerpt ) {
@@ -389,7 +391,7 @@ $fallback_news = array(
 			</div>
 
 			<div class="engagement-media">
-				<img src="<?php echo esc_url( udsp31_asset_url( 'assets/images/portrait-sapeuse.png' ) ); ?>" alt="<?php esc_attr_e( "Portrait d'une sapeuse-pompiere", 'udsp31' ); ?>" />
+				<img src="<?php echo esc_url( udsp31_asset_url( 'assets/images/sp-portrait-sapeuse.png' ) ); ?>" alt="<?php esc_attr_e( "Portrait d'une sapeuse-pompiere", 'udsp31' ); ?>" />
 			</div>
 		</div>
 	</section>
@@ -403,7 +405,10 @@ $fallback_news = array(
 
 			<div class="partner-grid">
 				<?php foreach ( $partners as $partner ) : ?>
-					<div class="partner-card"><?php echo esc_html( $partner ); ?></div>
+					<a class="partner-card" href="<?php echo esc_url( $partner['url'] ); ?>" target="_blank" rel="noreferrer noopener">
+						<span><?php echo esc_html( $partner['label'] ); ?></span>
+						<span class="button__icon" aria-hidden="true"><?php udsp31_the_icon( 'launch' ); ?></span>
+					</a>
 				<?php endforeach; ?>
 			</div>
 		</div>
